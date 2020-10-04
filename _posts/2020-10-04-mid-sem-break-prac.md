@@ -53,123 +53,117 @@ From observations, we have discovered that Blender has a default limit of 50 und
 
 1. Create a UV Sphere
 
-![Create a UV Sphere]({{site.baseurl}}/assets/images/mid-sem-break-prac/image30.png)
+   ![Create a UV Sphere]({{site.baseurl}}/assets/images/mid-sem-break-prac/image30.png)
 
 2. You can optionally check Face Orientation in the Viewport Overlays.
 
 3. Go to Top View
 
-![Go to Top View]({{site.baseurl}}/assets/images/mid-sem-break-prac/image8.png)
+   ![Go to Top View]({{site.baseurl}}/assets/images/mid-sem-break-prac/image8.png)
 
 4. Go into Edit Mode
 
-![Go into Edit Mode]({{site.baseurl}}/assets/images/mid-sem-break-prac/image43.png)
+   ![Go into Edit Mode]({{site.baseurl}}/assets/images/mid-sem-break-prac/image43.png)
 
 5. We want to select the edges that run down the sphere and are opposite of each other. We can do so by selecting **Edges** and while holding `ALT`, clicking an edge. This selects an **edge loop**.
 
-![Edge loop 1]({{site.baseurl}}/assets/images/mid-sem-break-prac/image89.png)
-![Edge loop 2]({{site.baseurl}}/assets/images/mid-sem-break-prac/image70.png)
-![Edge loop 3]({{site.baseurl}}/assets/images/mid-sem-break-prac/image101.png)
+   ![Edge loop 1]({{site.baseurl}}/assets/images/mid-sem-break-prac/image89.png)
 
 6. We want to select the edge loop that is opposite of this. To do this we need to add on to our current selection, we do this by holding `SHIFT + ALT` then selecting the edge.
 
-![Edge loop 4]({{site.baseurl}}/assets/images/mid-sem-break-prac/image104.png)
+   ![Edge loop 4]({{site.baseurl}}/assets/images/mid-sem-break-prac/image104.png)
 
 7. Repeat this until you get a pattern you desire, this is an example:
 
-![Edge loop Pattern 1]({{site.baseurl}}/assets/images/mid-sem-break-prac/image119.png)
-![Edge loop Pattern 2]({{site.baseurl}}/assets/images/mid-sem-break-prac/image93.png)
+   ![Edge loop Pattern 2]({{site.baseurl}}/assets/images/mid-sem-break-prac/image93.png)
 
 8. Scale in the selected edges, but not so much they intersect each other.
 
-![Scale 1]({{site.baseurl}}/assets/images/mid-sem-break-prac/image83.png)
-![Scale 2]({{site.baseurl}}/assets/images/mid-sem-break-prac/image118.png)
-![Scale 3]({{site.baseurl}}/assets/images/mid-sem-break-prac/image87.png)
+   ![Scale 2]({{site.baseurl}}/assets/images/mid-sem-break-prac/image118.png)
+   ![Scale 3]({{site.baseurl}}/assets/images/mid-sem-break-prac/image87.png)
 
 9. Switch to vertex mode and select the bottom vertex. We want to make this vertex on the same level as its outer ring vertices so it becomes flat for a better 3D print.
 
-![Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image55.png)
+   ![Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image55.png)
 
 10. With the bottom vertex selected go into the Front View. Move the vertex down until it is flush with the other vertices.
 
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image85.png)
+    ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image85.png)
 
 11. For less support material to be created during the 3D print process, you can repeat the last two steps but for any other vertices that are not flush with its sibling vertices (Only the bottom ring is necessary).
 
-![Other vertices]({{site.baseurl}}/assets/images/mid-sem-break-prac/image17.png)
+    ![Other vertices]({{site.baseurl}}/assets/images/mid-sem-break-prac/image17.png)
 
 12. Select the top vertex.
 
-![Other vertices]({{site.baseurl}}/assets/images/mid-sem-break-prac/image82.png)
+    ![Other vertices]({{site.baseurl}}/assets/images/mid-sem-break-prac/image82.png)
 
 13. With the top vertex selected go into the Font View. Move the vertex up until it is flush with the other vertices. You can perform step 11 on this top’s vertex outer ring of vertices.
 
-![Other vertices]({{site.baseurl}}/assets/images/mid-sem-break-prac/image37.png)
-![Other vertices]({{site.baseurl}}/assets/images/mid-sem-break-prac/image5.png)
+    ![Other vertices]({{site.baseurl}}/assets/images/mid-sem-break-prac/image37.png)
+    ![Other vertices]({{site.baseurl}}/assets/images/mid-sem-break-prac/image5.png)
 
 ## Step 3 - Pumpkin Lid
 
 1. Go into Top View and ensure faces are selected. Box select all the top faces.
 
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image57.png)
+   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image57.png)
 
 2. Extrude upwards and scale inwards.
 
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image72.png)
+   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image72.png)
 
 3. Complete the stem! It is up to you how you want to rotate and position it.
 
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image72.png)
+   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image72.png)
 
 4. Go into Front View, Edit Mode, Toggle X-Ray mode on and ensure faces are selected. Now box select the top of the pumpkin including the stem created.
 
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image85.png)
+   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image47.png)
 
 5. Separate the lid from the pumpkin by right clicking -> Separate -> Selection.
 
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image85.png)
+   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image106.png)
 
 6. Rename the separated objects now to “Lid” and “Pumpkin” respectively.
 
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image85.png)
+   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image42.png)
 
 7. Select the lid and move it upwards. We now need to create a cylinder to support the closing and opening of the lid as the lid on itself with the step can be weak and not hold in place. You can also scale down the lid slightly to make it a snug fit, ensuring that the scale is between 0.990 to 1
 
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image85.png)
+   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image34.png)
 
 ## Step 4 - Pumpkin Lid Support
 
 1. Add a cylinder.
 
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image85.png)
+   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image74.png)
 
 2. Move the cylinder up to the lid, so that it is slightly intersecting it.
 
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image85.png)
+   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image79.png)
 
-3. Solidify the lid with a thickness of 1.8mm. NOT the cylinder.
+3. Solidify the **lid** with a thickness of 1.8mm. NOT the cylinder.
 
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image85.png)
+   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image126.png)
 
 4. If the cylinder is too long, you can go into Edit mode with faces selected, select the bottom face and move it up. Additionally if you want a more loose fit, you can scale down the cylinder.
 
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image85.png)
+   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image114.png)
 
 5. Move the cylinder so that it is intersecting within the lid itself, X-Ray will help with this.
 
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image85.png)
+    ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image15.png)
 
 6. Select both the lid and cylinder. Union them!
 
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image85.png)
+    ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image48.png)
 
 7. Move the combined lid down and re-scale accordingly such that it is slightly larger than the pumpkin.
 
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image85.png)
+    ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image75.png)
 
-8. Ensure the object is renamed to “Lid” and hide.
-
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image85.png)
+8. Ensure the object is renamed to “Lid” and hide it.
 
 ## Step 5 - Carving the Pumpkin
 
@@ -257,7 +251,6 @@ The space that each model occupies in the print bed is not just the model itself
 
 ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image85.png)
 
-
 So you would need to accommodate for this as well when arranging your models.
 A method to arrange models nicely is to use the Arrange All Models feature in Cura.
 Simply right-click on the bed and press “Arrange All Models”
@@ -278,9 +271,7 @@ This would be the recommended distance between the models, roughly ½ of a squar
 
 Don’t send these off to print, this was just an exercise to get you ready for when you 3D print your own devices!
 
-
 Thanks for your time!
-
 
 ![Carlton dance](https://media.giphy.com/media/cyyac9sTiN7ji/giphy.gif)
 
