@@ -9,13 +9,11 @@ email: ""
 author: DECO1008 Team
 copyright: Copyright © 2020
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  DECO1008 Tutorial Guides for the University of Sydney 1st year course in 3D modelling and fabrication, Semester 2 2020.
 
 baseurl: "/deco1008-tutorial-guides" # the subpath of your site, e.g. /blog
 url: "https://johnantonios.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-favicon: "/assets/favicon.ico" # the favicon for your site
+favicon: "assets/favicon.ico" # the favicon for your site
 
 # Yat date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
