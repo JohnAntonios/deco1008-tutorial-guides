@@ -153,15 +153,15 @@ From observations, we have discovered that Blender has a default limit of 50 und
 
 5. Move the cylinder so that it is intersecting within the lid itself, X-Ray will help with this.
 
-    ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image15.png)
+   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image15.png)
 
 6. Select both the lid and cylinder. Union them!
 
-    ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image48.png)
+   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image48.png)
 
 7. Move the combined lid down and re-scale accordingly such that it is slightly larger than the pumpkin.
 
-    ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image75.png)
+   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image75.png)
 
 8. Ensure the object is renamed to “Lid” and hide it.
 
@@ -169,62 +169,78 @@ From observations, we have discovered that Blender has a default limit of 50 und
 
 1. With the Pumpkin selected go into edit mode and ensure vertex mode is on, and go into Front View.
 
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image85.png)
+   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image45.png)
 
 2. We are going to be using a new tool in Edit mode - the knife tool. This lets us cut new topology in the model.
 
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image85.png)
+   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image18.png)
 
 3. Left click on a vertex point and you will see a yellow rectangle with a red line. Think of this as a pen tool.
 
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image85.png)
+   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image14.png)
 
 4. To complete an empty selection press Spacebar.
 
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image85.png)
+   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image80.png)
 
 5. Let’s cut out one of the eyes by making a triangular shape cut, then pressing spacebar to confirm the cut:
 
+   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image76.png)
+
    The red points indicate new vertices that will be created upon confirming the cut. Note that Blender automatically added these as we connected the vertices together.
-   You will also notice that a left-click cut is an opaque rectangular point and a cut that is a result of going beyond that vertex to the new selected cut point is a transparent circle. 6. Repeat the same steps but for the right eye.
 
-6. Cut out the nose now, note that if you try to just connect the left corner to the right corner it won’t make the cut through the indented vertex point. In that case we need to select that point as well.
+   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image94.png)
 
-   Spacebar to confirm the cut.
+   You will also notice that a left-click cut is an opaque rectangular point and a cut that is a result of going beyond that vertex to the new selected cut point is a transparent circle.
 
-7. Now cut out the mouth of the Pumpkin! Using the two techniques shown above.
+6. Repeat the same steps but for the right eye.
 
-   Now press spacebar to confirm.
+   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image86.png)
 
-8. You will notice that the cut faces have been selected. We can now deselect the faces that we do not need to remove. Change to the select tool `(W)` Hold `SHIFT` and left click these faces.
+7. Cut out the nose now, note that if you try to just connect the left corner to the right corner it won’t make the cut through the indented vertex point. In that case we need to select that point as well.
 
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image85.png)
+   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image90.png)
+   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image6.png)
 
-9. Now press Delete on your keyboard -> Faces. Tada!
+8. Now cut out the mouth of the Pumpkin! Using the two techniques shown above.
 
-   We have cut out the faces without even needing to do any Boolean differences. 11. If you don’t like the shape of what has been cut, you can individually move these vertices in edit mode.
+   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image46.png)
 
-10. Once you are happy with the carved face, solidify the pumpkin with a thickness at least 1.8mm.
+9. You will notice that the cut faces have been selected. We can now deselect the faces that we do not need to remove. Change to the select tool `(W)` Hold `SHIFT` and left click these faces.
 
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image85.png)
+   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image61.png)
 
-11. Reposition the lid back to the centre and adjust again if you want.
+10. Now press Delete on your keyboard -> Faces. Tada!
 
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image85.png)
+    ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image13.png)
+
+    We have cut out the faces without even needing to do any Boolean differences.
+
+    ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image21.png)
+
+11. If you don’t like the shape of what has been cut, you can individually move these vertices in edit mode.
+
+    ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image81.png)
+
+12. Once you are happy with the carved face, solidify the pumpkin with a thickness at least 1.8mm.
+
+    ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image91.png)
+
+13. Reposition the lid back to the centre and adjust again if you want.
+
+    ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image71.png)
 
 ## Step 6 - Exporting parts for 3D printing
 
 1. Select only the Lid. Go to File -> Export -> .STL.
 
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image85.png)
+   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image121.png)
 
 2. Name the file “lid”, ensure Selection Only is ticked. Then press Export STL.
 
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image85.png)
+   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image39.png)
 
 3. Repeat the steps for the Pumpkin, ensuring its name is “pumpkin” or “body”. Note that with Apply Modifiers checked, any modifier that hasn’t been applied yet will be applied in the export process.
-
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image85.png)
 
 ## Step 7 - Importing into Cura
 
@@ -232,42 +248,35 @@ From the 3D printing induction, you would have gone through the process of insta
 
 1. Double-click the exported Lid STL file and it will open in Cura. If you are on Mac, you will need to open Cura then drag and drop the Lid STL file.
 
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image85.png)
+   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image117.png)
 
 2. Drag and drop in the body STL file.
 
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image85.png)
+   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image52.png)
 
 3. You will now see both of your parts in Cura!
 
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image85.png)
-
-After modelling the Jack-O-Lantern Pumpkin’s parts, we would want to test out the slicing operation in Cura which you should have learned from the 3D printing induction.
-Cura is a powerful, open-source slicing engine that is free and easy to use. A great choice by the DMaF Lab!
-You would have learned how to import STL files into Cura as shown below.
-
-What you might not have learned is how to arrange your models for efficient printing that is time-saving!
-The space that each model occupies in the print bed is not just the model itself, but the brim that is printed around the model. This is shown by the shadow around an object. A brim is a form of base support that ensures your model is always stuck to the printing bed!
-
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image85.png)
+   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image32.png)
 
 So you would need to accommodate for this as well when arranging your models.
 A method to arrange models nicely is to use the Arrange All Models feature in Cura.
 Simply right-click on the bed and press “Arrange All Models”
 
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image85.png)
+    ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image73.png)
 
-This gap would be the absolute maximum between each model, too close and the nozzle might be bumping into the models while it moves between the two.
+    ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image120.png)
 
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image85.png)
+This gap would be the absolute **minimum** between each model, too close and the brim of the two objects can intersect.
 
-This gap would be the absolute minimum between each model, too further out and the print would take a longer time and the chance of stringing is greater. Stringing occurs when small strings of plastic are left behind. This is typically due to plastic oozing out of the nozzle while the extruder is moving to a new location. They are also quite annoying to remove.
+    ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image10.png)
 
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image85.png)
+This gap would be the absolute minimum between each model, too further out and the print would take a longer time and the chance of **stringing** is greater. **Stringing** occurs when small strings of plastic are left behind. This is typically due to plastic oozing out of the nozzle while the extruder is moving to a new location. They are also quite annoying to remove.
+
+    ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image58.png)
 
 This would be the recommended distance between the models, roughly ½ of a square in Cura.
 
-![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image85.png)
+    ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image20.png)
 
 Don’t send these off to print, this was just an exercise to get you ready for when you 3D print your own devices!
 
