@@ -115,11 +115,11 @@ From observations, we have discovered that Blender has a default limit of 50 und
 
 3. Complete the stem! It is up to you how you want to rotate and position it.
 
-   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image72.png)
+   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image47.png)
 
 4. Go into Front View, Edit Mode, Toggle X-Ray mode on and ensure faces are selected. Now box select the top of the pumpkin including the stem created.
 
-   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image47.png)
+   ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image109.png)
 
 5. Separate the lid from the pumpkin by right clicking -> Separate -> Selection.
 
@@ -262,21 +262,21 @@ So you would need to accommodate for this as well when arranging your models.
 A method to arrange models nicely is to use the Arrange All Models feature in Cura.
 Simply right-click on the bed and press “Arrange All Models”
 
-    ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image73.png)
+![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image73.png)
 
-    ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image120.png)
+![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image120.png)
 
 This gap would be the absolute **minimum** between each model, too close and the brim of the two objects can intersect.
 
-    ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image10.png)
+![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image10.png)
 
 This gap would be the absolute minimum between each model, too further out and the print would take a longer time and the chance of **stringing** is greater. **Stringing** occurs when small strings of plastic are left behind. This is typically due to plastic oozing out of the nozzle while the extruder is moving to a new location. They are also quite annoying to remove.
 
-    ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image58.png)
+![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image58.png)
 
 This would be the recommended distance between the models, roughly ½ of a square in Cura.
 
-    ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image20.png)
+![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image20.png)
 
 Don’t send these off to print, this was just an exercise to get you ready for when you 3D print your own devices!
 
