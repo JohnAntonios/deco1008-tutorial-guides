@@ -6,6 +6,8 @@ subtitle: An optional prac that will teach you about 3D file types and 3D printi
 
 This is an optional practical to help you learn more about 3D modelling file types and creating a 3D-print ready object to be 3D printed!
 
+<!-- ![wieq](https://apse2.nv.instructuremedia.com/fetch/QkFoYkIxc0hhUU40djE1cEExRHpSbXdyQjluSWUxOD0tLTM3MjYzOTQzOGVhNDBmODI5YTY3ZDE4NTg5YzQ5ZjA3YjgzMmY4YzA.mp4) -->
+
 ## File Types for 3D printing.
 
 - **.blend** - this is your Blender file. It is NOT what you import into a slicing program like Cura. This stores data about your Blender scene (models, modifiers, hierarchy etc) and what you edit to produce your model.
