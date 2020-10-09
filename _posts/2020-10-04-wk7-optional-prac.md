@@ -1,12 +1,10 @@
 ---
 layout: post
-title: OPTIONAL Mid semester practical
+title: Week 7 Optional Prac
 subtitle: An optional prac that will teach you about 3D file types and 3D printing.
 ---
 
 This is an optional practical to help you learn more about 3D modelling file types and creating a 3D-print ready object to be 3D printed!
-
-<!-- ![wieq](https://apse2.nv.instructuremedia.com/fetch/QkFoYkIxc0hhUU40djE1cEExRHpSbXdyQjluSWUxOD0tLTM3MjYzOTQzOGVhNDBmODI5YTY3ZDE4NTg5YzQ5ZjA3YjgzMmY4YzA.mp4) -->
 
 ## File Types for 3D printing.
 
@@ -41,7 +39,13 @@ Note the walkthrough will show a different pumpkin design!
 
 ---
 
-## Step 1 - Extending the number of Undos
+## Video
+
+![Assembled pumpkin](https://apse2.nv.instructuremedia.com/fetch/QkFoYkIxc0hhUVBtaVdCcEE5clRSMndyQngwL2dsOD0tLWZhMDQ0YTdlMDA3YTkyMmI4OTE2OWJiNjYxMWY5Zjk2YmUwNDViMTc.mp4)
+
+## Walkthrough
+
+### Step 1 - Extending the number of Undos
 
 From observations, we have discovered that Blender has a default limit of 50 undos. We can increase this to 256 undos by:
 
@@ -51,7 +55,7 @@ From observations, we have discovered that Blender has a default limit of 50 und
 
 ![Extending the number of Undos]({{site.baseurl}}/assets/images/mid-sem-break-prac/image64.png)
 
-## Step 2 - Pumpkin Body
+### Step 2 - Pumpkin Body
 
 1. Create a UV Sphere
 
@@ -105,7 +109,7 @@ From observations, we have discovered that Blender has a default limit of 50 und
     ![Other vertices]({{site.baseurl}}/assets/images/mid-sem-break-prac/image37.png)
     ![Other vertices]({{site.baseurl}}/assets/images/mid-sem-break-prac/image5.png)
 
-## Step 3 - Pumpkin Lid
+### Step 3 - Pumpkin Lid
 
 1. Go into Top View and ensure faces are selected. Box select all the top faces.
 
@@ -135,7 +139,7 @@ From observations, we have discovered that Blender has a default limit of 50 und
 
    ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image34.png)
 
-## Step 4 - Pumpkin Lid Support
+### Step 4 - Pumpkin Lid Support
 
 1. Add a cylinder.
 
@@ -167,7 +171,7 @@ From observations, we have discovered that Blender has a default limit of 50 und
 
 8. Ensure the object is renamed to “Lid” and hide it.
 
-## Step 5 - Carving the Pumpkin
+### Step 5 - Carving the Pumpkin
 
 1. With the Pumpkin selected go into edit mode and ensure vertex mode is on, and go into Front View.
 
@@ -232,7 +236,7 @@ From observations, we have discovered that Blender has a default limit of 50 und
 
     ![Move Bottom vertex]({{site.baseurl}}/assets/images/mid-sem-break-prac/image71.png)
 
-## Step 6 - Exporting parts for 3D printing
+### Step 6 - Exporting parts for 3D printing
 
 1. Select only the Lid. Go to File -> Export -> .STL.
 
@@ -244,7 +248,7 @@ From observations, we have discovered that Blender has a default limit of 50 und
 
 3. Repeat the steps for the Pumpkin, ensuring its name is “pumpkin” or “body”. Note that with Apply Modifiers checked, any modifier that hasn’t been applied yet will be applied in the export process.
 
-## Step 7 - Importing into Cura
+### Step 7 - Importing into Cura
 
 From the 3D printing induction, you would have gone through the process of installing and setting up Cura.
 
