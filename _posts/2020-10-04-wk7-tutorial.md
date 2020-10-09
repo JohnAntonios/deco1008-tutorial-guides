@@ -357,7 +357,7 @@ Great job, you have completed your first animation! Take a break before tackling
 
 ### Video
 
-![Step 5 Video](https://apse2.nv.instructuremedia.com/fetch/QkFoYkIxc0hhUU5TZ1dCcEE4clBSMndyQi9GNGdWOD0tLWU5NDhlYWYyMjQ0YTljODliNjFjNTBhZDhlNDE2OTA1ODZkNGU0ZTA.mp4)
+![Step 5 Video](https://apse2.nv.instructuremedia.com/fetch/QkFoYkIxc0hhUU83aDJCcEE4blNSMndyQnp1MmdWOD0tLTM0ZmIzMjkyMWRmOTMwZDY3ZjgxZGIzNjQ4MjI5OTQ1NjAxYjEzNDI.mp4)
 
 ### Walkthrough
 
