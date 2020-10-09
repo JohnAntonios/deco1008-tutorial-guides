@@ -30,6 +30,12 @@ Catching a Pokemon based on the Omega Ruby and Alpha Sapphire 3DS games.
 
 ## Step 1 - Setting up the Blender file
 
+### Video
+
+![Step 1 Video](https://apse2.nv.instructuremedia.com/fetch/QkFoYkIxc0hhUU9RZldCcEF5N09SMndyQjM1NGdWOD0tLTFmZTc4NTAwYWJmYTYyNWRjNDc4MGMxYzEyMzU3Y2U5ZDBmNWJkM2Q.mp4)
+
+### Walkthrough
+
 1. Locate your A1B Blender File.
 
    ![Step 1 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step1-image1.png)
@@ -43,6 +49,12 @@ Catching a Pokemon based on the Omega Ruby and Alpha Sapphire 3DS games.
    ![Step 1 - Image 3]({{site.baseurl}}/assets/images/wk7-tutorial/step1-image3.png)
 
 ## Step 2 - Introducing the Animation workspace
+
+### Video
+
+![Step 2 Video](https://apse2.nv.instructuremedia.com/fetch/QkFoYkIxc0hhUU5TZ1dCcEE4clBSMndyQi9GNGdWOD0tLWU5NDhlYWYyMjQ0YTljODliNjFjNTBhZDhlNDE2OTA1ODZkNGU0ZTA.mp4)
+
+### Walkthrough
 
 Congratulations! You have made it past the modelling workspace in Blender! 😃
 
