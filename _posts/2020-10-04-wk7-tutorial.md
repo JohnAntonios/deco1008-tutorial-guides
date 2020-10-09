@@ -82,7 +82,7 @@ Congratulations! You have made it past the modelling workspace in Blender! 😃
 
     ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step3-image2.png)
 
-    Our objective for the first animation, the turntable, is to position the camera to have it slightly above the pokeball + stand as we want the top shell to move up.
+    Our objective for the first animation, the turntable, is to position the camera to have it slightly above the Pokeball + stand as we want the top shell to move up.
 
     You will notice that is quite difficult to do so, with just manually adjusting the camera in the right viewport.
 
@@ -102,7 +102,7 @@ Congratulations! You have made it past the modelling workspace in Blender! 😃
 
     ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step3-image6.png)
 
-7.  There is one issue! You will notice that as we zoom out, the pokeball begins to clip. We need to update the clipping start and end, as the camera has different values for clipping compared to the viewport's.
+7.  There is one issue! You will notice that as we zoom out, the Pokeball begins to clip. We need to update the clipping start and end, as the camera has different values for clipping compared to the viewport's.
 
     ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step3-image7.png)
 
@@ -130,7 +130,7 @@ Now we are going to create our first animation! The turntable animation.
 
    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image3.png)
 
-   This will create a keyframe in the timline.
+   This will create a keyframe in the timeline.
 
    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image4.png)
 
@@ -211,7 +211,7 @@ Now we are going to create our first animation! The turntable animation.
 
     You will notice that there is nothing but a single line!
 
-15. Zoom out and pan upwards (the controls are exectly like moving the viewport), you will see your keyframes!
+15. Zoom out and pan upwards (the controls are exactly like moving the viewport), you will see your keyframes!
 
     ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image24.png)
 
@@ -220,13 +220,112 @@ Now we are going to create our first animation! The turntable animation.
 
     ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image25.png)
 
-17. Select the **Top_Shell** and move the playhead to frame **1**.
+17. The transition between two keyframes can be adjusted by changing the **Handle Type**. Select a keyframe, right-click -> Handle Type.
 
-    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image2.png)
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image26.png)
 
-18. Select the **Top_Shell** and move the playhead to frame **1**.
+    - **Free** - gives you control over both control nodes independently, i.e. moving one won't affect the other.
+    - **Aligned** - the standard control, i.e. a bezier curve between the two control nodes.
+    - **Vector** - the opposite of **Aligned**, a linear curve between the two control nodes.
 
-    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image2.png)
+18. The type of easing between at least **two** keyframes can be changed by **interpolation**. Select two keyframes and right-click -> Interpolation Mode -> Choose an interpolation and preview to get a different result. Experiment with these and choose the one that feels best to you. Do this for both sides of the animation (opening the lid and closing the lid).
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image27.png)
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image28.png)
+
+19. Rename the animation by pressing the arrow icon near **Top_Shell** in the scene hierarchy, then pressing the arrow icon near **Animation**. Click on the animation itself, in this case it is called **Top_ShellAction.001** and rename it to "Explode".
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image29.png)
+
+20. We now want to rotate the camera around the exploding Pokeball model. Go to Add -> Empty -> Plain Axes (make sure your 3D cursor is at world origin).
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image30.png)
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image31.png)
+
+    Rename this to **Camera_Rotator**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image32.png)
+
+21. With the **Camera_Rotator** selected, go into its **Object Properties** and press the circle near the **Rotation Z** value.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image33.png)
+
+22. Press the **record** button and move the playhead to the **end keyframe, (frame 250)**. A quick way to do this is by pressing the right arrow with a bar icon at the bottom-centre.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image34.png)
+
+23. Change the **Rotation Z** value to 360.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image35.png)
+
+    Play the animation and you will see the axes spin seamlessly. Press the **record** button to stop recording.
+
+24. Select the **Camera_Rotator**, then select the **Camera**. It is important to select these in this order. A way to know that you have selected these correctly is by the **Camera** being highlighted in a darker shade of orange and blue, compared to the **Camera_Rotator**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image36.png)
+
+25. Right-click -> Parent -> Object. This will parent the **Camera** to the **Camera_Rotator**. Meaning that the **Camera** will inherit the **Camera_Rotator's** animation!
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image37.png)
+
+    Play the animation and you will see the camera spin seamlessly. You will notice that something is a bit weird, the camera slows down towards the end and at the beginning.
+
+26. Switch to **Graph Editor** and select both keyframes (you can do this by either box selecting, or pressing **A** on your keyboard)
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image38.png)
+
+27. Right-click -> Interpolation Mode -> Linear. This will apply a constant rotation to the camera, with no easing mimicking a turntable.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image39.png)
+
+28. The last thing to do is move the **Explode** animation from the beginning of the animation to somewhere in the middle. Select the **Top_Shell** and go into the **Dope Sheet**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image40.png)
+
+29. Select all the keyframes and move these towards the centre.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image41.png)
+
+30. Great! The turntable animation is finished, now we can render it. In the inspector toolbar, click on **Output Properties**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image42.png)
+
+    Ensure:
+
+    - **Resolution %** is 100%.
+    - **Aspect X and Y** are both 1.000.
+    - **Frame Start** is 1, **Frame End** is 250 and **Frame Step** is 1.
+    - **Frame Rate** is either **24** or **23.98**.
+
+31. Press the file button below **Output** and specify a file name for the animation. Use the convention: **DECO1008_A1C_yourUniKey_turntable**. Then press **Accept**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image43.png)
+
+32. Change the file format from **PNG** to **FFmpeg Video**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image44.png)
+
+33. Press on the **Encoding** tab and change the **Container** from **Matroska** to **MPEG-4**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image45.png)
+
+34. In the **Encoding / Video** section, change the **Output Quality** to **High quality**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image46.png)
+
+35. In the **left** viewport, press the hamburger menu -> **View** -> **Viewport Render Animation**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image47.png)
+
+36. The animation will now begin the render. You can see the progress by the cursor updating to the current frame number, it will be complete once it reaches the **end frame** which is **250**. This will take some time depending on your computer's performance.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image48.png)
+
+37. The animation will have saved into the location you specified earlier. Remove the **0001-0250** at the end of the file name, now play!
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image49.png)
+
+Great job, you have completed your first animation! Take a break before tackling the next animation.
 
 ## Step 5 - NLE animations
 
