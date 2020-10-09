@@ -84,6 +84,12 @@ Congratulations! You have made it past the modelling workspace in Blender! 😃
 
 ## Step 3 - Introducing the Camera
 
+### Video
+
+![Step 3 Video](https://apse2.nv.instructuremedia.com/fetch/QkFoYkIxc0hhUU5TZ1dCcEE4clBSMndyQi9GNGdWOD0tLWU5NDhlYWYyMjQ0YTljODliNjFjNTBhZDhlNDE2OTA1ODZkNGU0ZTA.mp4)
+
+### Walkthrough
+
 1.  We have previously stated to not worry about the Camera, well now its time to focus on the Camera in Blender!
     The camera is a second pair of eyes, the first pair of eyes is the viewport which is what we as the user see in Blender.
     The camera acts as an internal camera that can be set up for rendering and animations.
@@ -129,6 +135,12 @@ Congratulations! You have made it past the modelling workspace in Blender! 😃
     ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step3-image9.png)
 
 ## Step 4 - Turntable animation
+
+### Video
+
+![Step 4 Video](https://apse2.nv.instructuremedia.com/fetch/QkFoYkIxc0hhUU9rZzJCcEE4dlFSMndyQjJpWWdWOD0tLTAyZTE3OTQxNjNlNGJkYWFkNjk2MGM2NmY4ZWFkYzg3MWI2YTI5ZmM.mp4)
+
+### Walkthrough
 
 Now we are going to create our first animation! The turntable animation.
 
@@ -343,6 +355,12 @@ Great job, you have completed your first animation! Take a break before tackling
 
 ## Step 5 - NLA
 
+### Video
+
+![Step 5 Video](https://apse2.nv.instructuremedia.com/fetch/QkFoYkIxc0hhUU5TZ1dCcEE4clBSMndyQi9GNGdWOD0tLWU5NDhlYWYyMjQ0YTljODliNjFjNTBhZDhlNDE2OTA1ODZkNGU0ZTA.mp4)
+
+### Walkthrough
+
 **NLA** stands for **N**on**l**inear **A**nimation. They are Blender's way of composing multiple animations in one Blender scene without having to create a Blender file for each animation because that would be inefficient!
 
 If you have ever used a video-editing software like Adobe Premiere Pro or Final Cut Pro, it works in a similar way. There is a **track** for each animation that is tied to an object. You can move these **tracks** around which adjusts when they get played, **mute** tracks that do not need to be edited or used and add new **empty tracks** for another animation applied to an object.
@@ -375,6 +393,12 @@ We can now begin working on our second animation!
 We will be changing a lot of the Pokeball's structure and properties and the camera in the scene hierarchy. If you want to keep the current state of the Pokeball and camera, **copy and paste** these into a **New Collection** and hide it.
 
 ## Step 6 - Bounce, Roll and Open animation
+
+### Video
+
+![Step 6 Video](https://apse2.nv.instructuremedia.com/fetch/QkFoYkIxc0hhUU5TZ1dCcEE4clBSMndyQi9GNGdWOD0tLWU5NDhlYWYyMjQ0YTljODliNjFjNTBhZDhlNDE2OTA1ODZkNGU0ZTA.mp4)
+
+### Walkthrough
 
 1. **Hide** your **Stand** object.
 
