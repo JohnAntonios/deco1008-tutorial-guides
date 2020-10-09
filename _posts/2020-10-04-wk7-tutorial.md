@@ -396,7 +396,7 @@ We will be changing a lot of the Pokeball's structure and properties and the cam
 
 ### Video
 
-![Step 6 Video](https://apse2.nv.instructuremedia.com/fetch/QkFoYkIxc0hhUU5TZ1dCcEE4clBSMndyQi9GNGdWOD0tLWU5NDhlYWYyMjQ0YTljODliNjFjNTBhZDhlNDE2OTA1ODZkNGU0ZTA.mp4)
+![Step 6 Video](https://apse2.nv.instructuremedia.com/fetch/QkFoYkIxc0hhUVBHaDJCcEE4N1NSMndyQncyNGdWOD0tLWY0MDQzZDBlYzI0NGIyZWI1ZDc3NDMzYmUyMzZhMjVhZWYwNzkzZGE.mp4)
 
 ### Walkthrough
 
