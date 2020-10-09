@@ -327,47 +327,58 @@ Now we are going to create our first animation! The turntable animation.
 
 Great job, you have completed your first animation! Take a break before tackling the next animation.
 
-## Step 5 - NLE animations
+## Step 5 - NLA
 
-6. Select the **Top_Shell** and move the playhead to frame **1**.
+**NLA** stands for **N**on**l**inear **A**nimation. They are Blender's way of composing multiple animations in one Blender scene without having to create a Blender file for each animation because that would be inefficient!
 
-   ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image2.png)
+If you have ever used a video-editing software like Adobe Premiere Pro or Final Cut Pro, it works in a similar way. There is a **track** for each animation that is tied to an object. You can move these **tracks** around which adjusts when they get played, **mute** tracks that do not need to be edited or used and add new **empty tracks** for another animation applied to an object.
 
-7. Select the **Top_Shell** and move the playhead to frame **1**.
+1. Change the **Editor Type** to **Nonlinear Animation**.
 
-   ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image2.png)
+   ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step5-image1.png)
 
-8. Select the **Top_Shell** and move the playhead to frame **1**.
+   - On the left are the tracks. They are grouped by the 3D Object. Within these groups are the animation tracks.
+   - The orange bars represent the animation itself and its duration. You have the ability to **move** these around adjusting when they start / finish.
 
-   ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image2.png)
+   ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step5-image2.png)
+
+2. Press the **Push Down Action** button that is located near the **Camera_RotatorAction** animation track.
+
+   ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step5-image3.png)
+
+   You will see that under **Camera_Rotator** there is an **NlaTrack** which is the camera rotation animation and above it is an empty track called **No Action** - Blender is now able to edit the empty track for the **Camera_Rotator** object as it is the top-most one.
+
+   ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step5-image4.png)
+
+3. Repeat the above step, but for the **Top_Shell - Explode** animation track.
+
+   ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step5-image6.png)
+
+We can now begin working on our second animation!
+
+**Note**
+
+We will be changing a lot of the Pokeball's structure and properties and the camera in the scene hierarchy. If you want to keep the current state of the Pokeball and camera, **copy and paste** these into a **New Collection** and hide it.
 
 ## Step 6 - Bounce, Roll and Open animation
 
-6. Select the **Top_Shell** and move the playhead to frame **1**.
+1. **Hide** your **Stand** object. 
 
-   ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image2.png)
+   ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image1.png)
 
-7. Select the **Top_Shell** and move the playhead to frame **1**.
+2. Currently the PokeBall is separated into two parts - the **Top_Shell** and the **Bottom_Shell**. We want to move the PokeBall as a whole, rather than selecting them individually and moving them. 
 
-   ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image2.png)
+Select the **Top_Shell**, in the **right** viewport, go to **Object** -> **Snap** -> **Cursor to Active**
 
-8. Select the **Top_Shell** and move the playhead to frame **1**.
+   ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image2.png)
+
+3. Go to **Add** -> **Empty** -> **Sphere**. We want to create a silhouette of the Pokeball, and the shape that resembles it the most is a Sphere. We have created the sphere in the centre of the PokeBall so when we increase its size, it increases from the centre and not from the bottom.
 
    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image2.png)
 
 ## Extra Step - Catching a Pokemon animation
 
-6. Select the **Top_Shell** and move the playhead to frame **1**.
-
-   ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image2.png)
-
-7. Select the **Top_Shell** and move the playhead to frame **1**.
-
-   ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image2.png)
-
-8. Select the **Top_Shell** and move the playhead to frame **1**.
-
-   ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image2.png)
+TBC
 
 ## Submission
 
