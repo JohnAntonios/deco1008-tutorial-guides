@@ -20,11 +20,7 @@ Your objective is to animate your Assessment 1B PokeBall! You will be **required
 ![PokeBall Roll Animation](https://apse2.nv.instructuremedia.com/fetch/QkFoYkIxc0hhUU9OZDJCcEE4RExSMndyQjFORmdWOD0tLTk1OTcxYzI5N2RlNTUyYTJlNzNlMGVhMjYzNjFmMTljMmQwODMyYjc.mp4)
 <br />
 
-**You may go an extra step and animate**:
-
-Catching a Pokemon based on the Omega Ruby and Alpha Sapphire 3DS games.
-
-![Reference](https://res.cloudinary.com/doiughmcy/video/upload/v1602221662/A1C_Extra_Step_Reference_hswtxh.mp4)
+**You may go an extra step and apply two principles of animation to one of the above!**.
 
 ---
 
@@ -40,13 +36,19 @@ Catching a Pokemon based on the Omega Ruby and Alpha Sapphire 3DS games.
 
    ![Step 1 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step1-image1.png)
 
+---
+
 2. Duplicate this file (copy + paste) and rename it to **DECO1008_A1C_YourUnikey**.
 
    ![Step 1 - Image 2]({{site.baseurl}}/assets/images/wk7-tutorial/step1-image2.png)
 
+---
+
 3. Open this new Blender file.
 
    ![Step 1 - Image 3]({{site.baseurl}}/assets/images/wk7-tutorial/step1-image3.png)
+
+---
 
 ## Step 2 - Introducing the Animation workspace
 
@@ -629,9 +631,9 @@ Great job, you have completed your second required animation! Well done!
 
 The next step is an optional animation, all the best.
 
-## Extra Step - Catching a Pokemon animation
+## Extra Step - 2 Principles of Animation
 
-TBC
+Using either animation, add two principles of animation to it.
 
 ## Submission
 
@@ -642,7 +644,7 @@ You will need to submit a **.ZIP** file, containing:
 
 _Extra_
 
-- DECO1008_A1C_yourUnikey_pokeball_catch.mp4 (or .mov)
+- DECO1008_A1C_yourUnikey_principle_1_principle_2.mp4 (or .mov)
 
 ---
 
