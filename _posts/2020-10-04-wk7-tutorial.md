@@ -10,21 +10,21 @@ This is Week 7's tutorial where you will learn about animation in Blender with y
 
 Your objective is to animate your Assessment 1B PokeBall! You will be **required** to produce two animations:
 
-- Turntable
+**Turntable**
 
-  !()[]
+![PokeBall Turntable Animation](https://apse2.nv.instructuremedia.com/fetch/QkFoYkIxc0hhUU9PZDJCcEE4SExSMndyQi9wRWdWOD0tLTdlOWQ1ODQ2OGZiMWRiNzBhOTdhOTE2YzI3NzkzNDRkOGMwYTViNDg.mp4)
+<br />
 
-- Bounce, Roll and Open
+**Bounce, Roll and Open**
 
-  !()[]
+![PokeBall Roll Animation](https://apse2.nv.instructuremedia.com/fetch/QkFoYkIxc0hhUU9OZDJCcEE4RExSMndyQjFORmdWOD0tLTk1OTcxYzI5N2RlNTUyYTJlNzNlMGVhMjYzNjFmMTljMmQwODMyYjc.mp4)
+<br />
 
-You may go an extra step and animate:
+**You may go an extra step and animate**:
 
-- Catching a Pokemon based on Omega Ruby and Sapphire 3DS games.
+Catching a Pokemon based on the Omega Ruby and Alpha Sapphire 3DS games.
 
-_Refrence_:
-
-!()[]
+![Reference](https://res.cloudinary.com/doiughmcy/video/upload/v1602221662/A1C_Extra_Step_Reference_hswtxh.mp4)
 
 ---
 
@@ -362,19 +362,260 @@ We will be changing a lot of the Pokeball's structure and properties and the cam
 
 ## Step 6 - Bounce, Roll and Open animation
 
-1. **Hide** your **Stand** object. 
+1. **Hide** your **Stand** object.
 
    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image1.png)
 
-2. Currently the PokeBall is separated into two parts - the **Top_Shell** and the **Bottom_Shell**. We want to move the PokeBall as a whole, rather than selecting them individually and moving them. 
-
-Select the **Top_Shell**, in the **right** viewport, go to **Object** -> **Snap** -> **Cursor to Active**
+2. Currently the PokeBall is separated into two parts - the **Top_Shell** and the **Bottom_Shell**. We want to move the PokeBall as a whole, rather than selecting them individually and moving them. Select the **Top_Shell**, in the **right** viewport, go to **Object** -> **Snap** -> **Cursor to Active**
 
    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image2.png)
 
 3. Go to **Add** -> **Empty** -> **Sphere**. We want to create a silhouette of the Pokeball, and the shape that resembles it the most is a Sphere. We have created the sphere in the centre of the PokeBall so when we increase its size, it increases from the centre and not from the bottom.
 
-   ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image2.png)
+   ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image3.png)
+
+4. Change the **radius** to **35.2**mm.
+
+   ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image4.png)
+
+5. Rename the **Empty** sphere to **PokeBall**.
+
+   ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image5.png)
+
+6. Select the **Top_Shell** and **Bottom_Shell** first, then select the **PokeBall**. This order is important.
+
+   ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image6.png)
+
+7. Right-click -> **Parent** -> **Object**. This will parent the **Top_Shell** and **Bottom_Shell** to the **PokeBall**.
+
+   ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image7.png)
+
+   Try to move the **PokeBall** object, you will see that the entire shell is moving in one piece!
+
+   ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image8.png)
+
+8. We need a ground for our PokeBall to land on. Go to **Add** -> **Mesh** -> **Plane** (Ensure the 3D cursor is at world origin).
+
+   ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image9.png)
+
+   Set its size to **2000**mm.
+
+   ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image10.png)
+
+9. In the **left** viewport, adjust the camera to something like this. Where the PokeBall is on an angle and there is more space on the left, than on the right.
+
+   ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image11.png)
+
+10. Go to **Add** -> **Curve** -> **Bezier**. We want to create a path for the PokeBall object to follow, this will make more sense as we progress.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image12.png)
+
+    Set its radius to **50**mm.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image13.png)
+
+    Rename to **PokeBall_Path**
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image14.png)
+
+11. Switch to **Front** view and hide everything but the **PokeBall_Path**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image15.png)
+
+12. Search the Internet for a bouncing ball animation reference, ideally one where it does not show the ball. **Note:** a PokeBall does not adhere to a 'bouncy' ball in the Physics world, meaning Squash and Stretch won't be applied here.
+
+    Here's one you can use.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/Ball_Animation_Reference.png)
+
+13. Add the downloaded reference image into your scene. Here's a quick refresher:
+
+    Create a new collection - call it **References**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image17.png)
+
+    **Add** -> **Image** -> **Reference**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image18.png)
+
+    Select the downloaded file and **uncheck** align to view.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image19.png)
+
+    Rotate the reference image so that it is facing the **front view**, **90** on the **X-axis**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image20.png)
+
+    Increase its size to **670mm**, centre the reference image (by resetting its position and ensuring the **X Offset** and **Y Offset** are **-0.50**) and enable transparency, reducing the opacity to **0.3**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image21.png)
+
+    Rename the reference image to **Ball_Path** and lock it.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image22.png)
+
+14. Trace your Bezier Curve over the reference image. Remember it is **E** to extrude out a new point.
+
+    - Change the **Handle Type** to **Free** for better control for each point.
+    - Change the **Handle Type** to **Aligned** for each bottom point.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image23.png)
+
+15. Select the last point in the path and extrude a new point. Ensure that it is extruding only on the **X-axis**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image24.png)
+
+    Change its **Handle Type** to **Vector** so it becomes a straight line. This is the rolling line of the Ball.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image25.png)
+
+16. Hide the **References** collection.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image26.png)
+
+17. Select the **PokeBall_Path**, go to **Object** -> **Set Origin** -> **Origin to Geometry**
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image27.png)
+
+18. Unhide the objects, and clean the path drawn (i.e. ensuring the Y values for each point are near / at 0, this is especially for the control points).
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image28.png)
+
+19. Zero-out the position of the **PokeBall_Path** and move it slightly above the PokeBall itself. Adjust its scale to around **0.4 - 0.5**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image29.png)
+
+20. Select the **PokeBall**, go to the **Object Constraints** tab in the Inspector.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image30.png)
+
+21. **Add Object Constraint** -> **Follow Path**. We are going to have the **PokeBall** follow the path of the **PokeBall_Path**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image31.png)
+
+22. Select the **Target** as the **PokeBall Path**, press **Animate Path** then check **Fixed Position**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image32.png)
+
+23. Move the playhead to frame **0** (Or 1, no idea why I put it at 0 🤦‍♂️), then press the circle icon near **Offset Factor**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image33.png)
+
+24. Press record at the bottom of the timeline, move the playhead to the end frame **250** and change the **Offset Factor** value to **1**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image34.png)
+
+    Don't forget to stop recording! Play the animation.
+
+25. The animation is quite slow, we can speed this up by moving the keyframe at frame **250** closer, for a faster animation.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image35.png)
+
+26. You'll notice that the PokeBall is inside the plane, we will need to fix this. Find a bottom point as reference, and move the **PokeBall_Path** down until the PokeBall is sitting on the Plane.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image37.png)
+
+27. Continue to refine the path and animation until you are satisfied.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image38.png)
+
+28. We now want to have the PokeBall rotating as it bounces and rolls to its final position. Move to the **first** frame and adjust the **Rotation Y** value of the **PokeBall** to **-121**, then press the circle icon to create the keyframe.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image39.png)
+
+29. Go into **record** mode, move the playhead to when the **PokeBall** is no longer bouncing (mine is at frame **103**, yours may be different) and adjust the **Rotation Y** value to **229**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image40.png)
+
+    Great! We now have the PokeBall bouncing and rolling, now all that is left is to open the lid.
+
+30. Move the playhead to the **last keyframe** (where the Pokeball stops all together), and adjust the **Rotation Y** value to **360**, then turn off **record mode**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image41.png)
+
+31. Move the playhead **10 frames after** the Pokeball has stopped rolling and is at rest.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image42.png)
+
+32. We want to rotate the **Top_Shell** to show the Pokeball lid opening, however if we try to rotate it it's rotating around its centre point which intersects with the bottom shell. Select the **Top_Shell**, go to **Object** -> **Snap** -> **Cursor to Active**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image43.png)
+
+33. Go to **Add** -> **Empty** -> **Cube**. We want to create a pivot point for the **Top_Shell**, so it rotates relative to that object and not to its centre.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image44.png)
+
+34. Turn on **X-Ray Mode** and reduce the **radius** of the **Empty Cube** to **1.6mm**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image45.png)
+
+35. Move the **Empty Cube** up so that it is touching the base of the **Top_Shell**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image46.png)
+
+    Then to the back of the **Top_Shell**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image47.png)
+
+36. Rename the **Empty Cube** to **Lid_Opener**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image48.png)
+
+37. We first want to make the **Lid_Opener** a _child_ of the **PokeBall**. Select the **Lid_Opener** first, then select the **PokeBall**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image49.png)
+
+    Right-click -> **Parent** -> **Object**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image50.png)
+
+38. Now the **Top_Shell** needs to be a _child_ of the **Lid_Opener**. Select the **Lid_Opener** first, then select the **Top_Shell**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image51.png)
+
+    Right-click -> **Parent** -> **Object**. **Ensure that you have ticked KEEP TRANSFORM**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image53.png)
+
+39. Select the **Lid_Opener** and press the icon near **Rotation Y**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image54.png)
+
+40. Turn on **record** mode, move the playhead **20 frames after** (For me this is frame **150**), then adjust the **Rotation Y** value to **-110**. Turn off **record** mode.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image55.png)
+
+41. Refine the opening of the lid however you like!
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image56.png)
+
+42. Rename the animations to **Bounce_and_Roll** and **Lid_Open** respectively.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image57.png)
+
+43. Press the file button below **Output** and specify a file name for the animation. Use the convention: **DECO1008_A1C_yourUniKey_roll_bounce_open**. Then press **Accept**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image58.png)
+
+44. Change the file format from **PNG** to **FFmpeg Video**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image44.png)
+
+45. Press on the **Encoding** tab and change the **Container** from **Matroska** to **MPEG-4**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image45.png)
+
+46. In the **Encoding / Video** section, change the **Output Quality** to **High quality**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image46.png)
+
+47. In the **left** viewport, press the hamburger menu -> **View** -> **Viewport Render Animation**.
+
+    ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image59.png)
+
+Great job, you have completed your second required animation! Well done!
+
+The next step is an optional animation, all the best.
 
 ## Extra Step - Catching a Pokemon animation
 
