@@ -12,13 +12,11 @@ Your objective is to animate your Assessment 1B PokeBall! You will be **required
 
 **Turntable**
 
-![PokeBall Turntable Animation](https://apse2.nv.instructuremedia.com/fetch/QkFoYkIxc0hhUU9PZDJCcEE4SExSMndyQi9wRWdWOD0tLTdlOWQ1ODQ2OGZiMWRiNzBhOTdhOTE2YzI3NzkzNDRkOGMwYTViNDg.mp4)
-<br />
+<iframe width="100%" height="320px" allowfullscreen="true" src="https://sydney.instructuremedia.com/embed/d949bebf-3b9b-4c3b-a59b-3ecac273da99" frameborder="0"></iframe>
 
 **Bounce, Roll and Open**
 
-![PokeBall Roll Animation](https://apse2.nv.instructuremedia.com/fetch/QkFoYkIxc0hhUU9OZDJCcEE4RExSMndyQjFORmdWOD0tLTk1OTcxYzI5N2RlNTUyYTJlNzNlMGVhMjYzNjFmMTljMmQwODMyYjc.mp4)
-<br />
+<iframe width="100%" height="320px" allowfullscreen="true" src="https://sydney.instructuremedia.com/embed/09ed1746-b544-439d-b239-6d77c714a956" frameborder="0"></iframe>
 
 **You may go an extra step and apply two principles of animation to one of the above!**.
 
@@ -28,25 +26,31 @@ Your objective is to animate your Assessment 1B PokeBall! You will be **required
 
 ### Video
 
-![Step 1 Video](https://apse2.nv.instructuremedia.com/fetch/QkFoYkIxc0hhUU9RZldCcEF5N09SMndyQjM1NGdWOD0tLTFmZTc4NTAwYWJmYTYyNWRjNDc4MGMxYzEyMzU3Y2U5ZDBmNWJkM2Q.mp4)
+<iframe width="100%" height="320px" allowfullscreen="true" src="https://sydney.instructuremedia.com/embed/87702c33-c8b3-4f1c-9faf-b88260c8d74c" frameborder="0" class="media"></iframe>
 
-### Walkthrough
+### Walkthrough written steps
+
+<details>
+  
+  <summary>Click here to see the steps.</summary>
+
+<br />
 
 1. Locate your A1B Blender File.
 
-   ![Step 1 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step1-image1.png)
-
----
+   ![Step 1 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step1-image1.png)`
 
 2. Duplicate this file (copy + paste) and rename it to **DECO1008_A1C_YourUnikey**.
 
    ![Step 1 - Image 2]({{site.baseurl}}/assets/images/wk7-tutorial/step1-image2.png)
 
----
-
 3. Open this new Blender file.
 
    ![Step 1 - Image 3]({{site.baseurl}}/assets/images/wk7-tutorial/step1-image3.png)
+
+</details>
+
+<br />
 
 ---
 
@@ -54,9 +58,15 @@ Your objective is to animate your Assessment 1B PokeBall! You will be **required
 
 ### Video
 
-![Step 2 Video](https://apse2.nv.instructuremedia.com/fetch/QkFoYkIxc0hhUU5TZ1dCcEE4clBSMndyQi9GNGdWOD0tLWU5NDhlYWYyMjQ0YTljODliNjFjNTBhZDhlNDE2OTA1ODZkNGU0ZTA.mp4)
+<iframe width="100%" height="320px" allowfullscreen="true" src="https://sydney.instructuremedia.com/embed/ed8bdba6-1529-4e0c-9f62-19f93e3b19a2" frameborder="0"></iframe>
 
-### Walkthrough
+### Walkthrough written steps
+
+<details>
+  
+  <summary>Click here to see the steps.</summary>
+
+<br />
 
 Congratulations! You have made it past the modelling workspace in Blender! 😃
 
@@ -82,13 +92,25 @@ Congratulations! You have made it past the modelling workspace in Blender! 😃
 - The **sheet** which is the area in the centre. This is where your keyframes will be.
 - The **player controls** at the bottom-centre. This is a series of buttons to play, pause, rewind, record and jump to certain points, in the animation.
 
+</details>
+
+<br />
+
+---
+
 ## Step 3 - Introducing the Camera
 
 ### Video
 
-![Step 3 Video](https://apse2.nv.instructuremedia.com/fetch/QkFoYkIxc0hhUU5TZ1dCcEE4clBSMndyQi9GNGdWOD0tLWU5NDhlYWYyMjQ0YTljODliNjFjNTBhZDhlNDE2OTA1ODZkNGU0ZTA.mp4)
+<iframe width="100%" height="320px" allowfullscreen="true" src="https://sydney.instructuremedia.com/embed/065a237c-8d9c-46d7-9976-a2a3a1171330" frameborder="0"></iframe>
 
-### Walkthrough
+### Walkthrough written steps
+
+<details>
+  
+  <summary>Click here to see the steps.</summary>
+
+<br />
 
 1.  We have previously stated to not worry about the Camera, well now its time to focus on the Camera in Blender!
     The camera is a second pair of eyes, the first pair of eyes is the viewport which is what we as the user see in Blender.
@@ -134,13 +156,25 @@ Congratulations! You have made it past the modelling workspace in Blender! 😃
 
     ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step3-image9.png)
 
+</details>
+
+<br />
+
+---
+
 ## Step 4 - Turntable animation
 
 ### Video
 
-![Step 4 Video](https://apse2.nv.instructuremedia.com/fetch/QkFoYkIxc0hhUU9rZzJCcEE4dlFSMndyQjJpWWdWOD0tLTAyZTE3OTQxNjNlNGJkYWFkNjk2MGM2NmY4ZWFkYzg3MWI2YTI5ZmM.mp4)
+<iframe width="100%" height="320px" allowfullscreen="true" src="https://sydney.instructuremedia.com/embed/aaa502d3-74f6-49c6-89b6-a4de3b38cc97" frameborder="0"></iframe>
 
-### Walkthrough
+### Walkthrough written steps
+
+<details>
+  
+  <summary>Click here to see the steps.</summary>
+
+<br />
 
 Now we are going to create our first animation! The turntable animation.
 
@@ -353,13 +387,25 @@ Now we are going to create our first animation! The turntable animation.
 
 Great job, you have completed your first animation! Take a break before tackling the next animation.
 
+</details>
+
+<br />
+
+---
+
 ## Step 5 - NLA
 
 ### Video
 
-![Step 5 Video](https://apse2.nv.instructuremedia.com/fetch/QkFoYkIxc0hhUU83aDJCcEE4blNSMndyQnp1MmdWOD0tLTM0ZmIzMjkyMWRmOTMwZDY3ZjgxZGIzNjQ4MjI5OTQ1NjAxYjEzNDI.mp4)
+<iframe width="100%" height="320px" allowfullscreen="true" src="https://sydney.instructuremedia.com/embed/b467cebe-435a-4bf4-ab83-75705f3e9315" frameborder="0"></iframe>
 
-### Walkthrough
+### Walkthrough written steps
+
+<details>
+  
+  <summary>Click here to see the steps.</summary>
+
+<br />
 
 **NLA** stands for **N**on**l**inear **A**nimation. They are Blender's way of composing multiple animations in one Blender scene without having to create a Blender file for each animation because that would be inefficient!
 
@@ -392,13 +438,25 @@ We can now begin working on our second animation!
 
 We will be changing a lot of the Pokeball's structure and properties and the camera in the scene hierarchy. If you want to keep the current state of the Pokeball and camera, **copy and paste** these into a **New Collection** and hide it.
 
+</details>
+
+<br />
+
+---
+
 ## Step 6 - Bounce, Roll and Open animation
 
 ### Video
 
-![Step 6 Video](https://apse2.nv.instructuremedia.com/fetch/QkFoYkIxc0hhUVBHaDJCcEE4N1NSMndyQncyNGdWOD0tLWY0MDQzZDBlYzI0NGIyZWI1ZDc3NDMzYmUyMzZhMjVhZWYwNzkzZGE.mp4)
+<iframe width="100%" height="320px" allowfullscreen="true" src="https://sydney.instructuremedia.com/embed/70f283b6-1067-407e-902e-9a99431840f4" frameborder="0"></iframe>
 
-### Walkthrough
+### Walkthrough written steps
+
+<details>
+  
+  <summary>Click here to see the steps.</summary>
+
+<br />
 
 1. **Hide** your **Stand** object.
 
@@ -654,6 +712,12 @@ We will be changing a lot of the Pokeball's structure and properties and the cam
 Great job, you have completed your second required animation! Well done!
 
 The next step is an optional animation, all the best.
+
+</details>
+
+<br />
+
+---
 
 ## Extra Step - 2 Principles of Animation
 
