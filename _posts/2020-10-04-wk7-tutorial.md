@@ -14,9 +14,13 @@ Your objective is to animate your Assessment 1B PokeBall! You will be **required
 
 <iframe width="100%" height="320px" allowfullscreen="true" src="https://sydney.instructuremedia.com/embed/d949bebf-3b9b-4c3b-a59b-3ecac273da99" frameborder="0"></iframe>
 
+<br />
+
 **Bounce, Roll and Open**
 
 <iframe width="100%" height="320px" allowfullscreen="true" src="https://sydney.instructuremedia.com/embed/09ed1746-b544-439d-b239-6d77c714a956" frameborder="0"></iframe>
+
+<br />
 
 **You may go an extra step and apply two principles of animation to one of the above!**.
 
@@ -33,21 +37,35 @@ Your objective is to animate your Assessment 1B PokeBall! You will be **required
 
 <details markdown="1">
   
-  <summary>Click here to see the steps.</summary>
+  <summary style="color: #E64626;">Click here to see the steps.</summary>
 
-  <br />
+<br />
+
+<p markdown="1">
 
 1. Locate your A1B Blender File.
 
+<br />
+
 ![Step 1 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step1-image1.png)`
+
+<br />
 
 2. Duplicate this file (copy + paste) and rename it to **DECO1008_A1C_YourUnikey**.
 
+<br />
+
 ![Step 1 - Image 2]({{site.baseurl}}/assets/images/wk7-tutorial/step1-image2.png)
+
+<br />
 
 3. Open this new Blender file.
 
+<br />
+
 ![Step 1 - Image 3]({{site.baseurl}}/assets/images/wk7-tutorial/step1-image3.png)
+
+</p>
 
 </details>
 
@@ -65,7 +83,7 @@ Your objective is to animate your Assessment 1B PokeBall! You will be **required
 
 <details markdown="1">
   
-  <summary>Click here to see the steps.</summary>
+  <summary style="color: #E64626;">Click here to see the steps.</summary>
 
 <br />
 
@@ -109,9 +127,9 @@ Congratulations! You have made it past the modelling workspace in Blender! 😃
 
 <details markdown="1">
   
-  <summary>Click here to see the steps.</summary>
+  <summary style="color: #E64626;">Click here to see the steps.</summary>
 
-<br />
+  <br />
 
 1.  We have previously stated to not worry about the Camera, well now its time to focus on the Camera in Blender!
     The camera is a second pair of eyes, the first pair of eyes is the viewport which is what we as the user see in Blender.
@@ -174,9 +192,9 @@ Congratulations! You have made it past the modelling workspace in Blender! 😃
 
 <details markdown="1">
   
-  <summary>Click here to see the steps.</summary>
+  <summary style="color: #E64626;">Click here to see the steps.</summary>
 
-<br />
+  <br />
 
 Now we are going to create our first animation! The turntable animation.
 
@@ -405,7 +423,7 @@ Great job, you have completed your first animation! Take a break before tackling
 
 <details markdown="1">
   
-  <summary>Click here to see the steps.</summary>
+  <summary style="color: #E64626;">Click here to see the steps.</summary>
 
 <br />
 
@@ -413,26 +431,49 @@ Great job, you have completed your first animation! Take a break before tackling
 
 If you have ever used a video-editing software like Adobe Premiere Pro or Final Cut Pro, it works in a similar way. There is a **track** for each animation that is tied to an object. You can move these **tracks** around which adjusts when they get played, **mute** tracks that do not need to be edited or used and add new **empty tracks** for another animation applied to an object.
 
+<p markdown="1">
+
 1. Change the **Editor Type** to **Nonlinear Animation**.
 
-   ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step5-image1.png)
+<br />
 
-   - On the left are the tracks. They are grouped by the 3D Object. Within these groups are the animation tracks.
-   - The orange bars represent the animation itself and its duration. You have the ability to **move** these around adjusting when they start / finish.
+![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step5-image1.png)
 
-   ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step5-image2.png)
+<br />On the left are the tracks. They are grouped by the 3D Object. Within these groups are the animation tracks.
+<br />The orange bars represent the animation itself and its duration. You have the ability to **move** these around adjusting when they start / finish.</li>
+<br />
+
+<br />
+
+![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step5-image2.png)
+
+<br />
 
 2. Press the **Push Down Action** button that is located near the **Camera_RotatorAction** animation track.
 
-   ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step5-image3.png)
+<br />
 
-   You will see that under **Camera_Rotator** there is an **NlaTrack** which is the camera rotation animation and above it is an empty track called **No Action** - Blender is now able to edit the empty track for the **Camera_Rotator** object as it is the top-most one.
+![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step5-image3.png)
 
-   ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step5-image4.png)
+<br />
+
+You will see that under **Camera_Rotator** there is an **NlaTrack** which is the camera rotation animation and above it is an empty track called **No Action** - Blender is now able to edit the empty track for the **Camera_Rotator** object as it is the top-most one.
+
+<br />
+
+![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step5-image4.png)
+
+<br />
 
 3. Repeat the above step, but for the **Top_Shell - Explode** animation track.
 
-   ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step5-image6.png)
+<br />
+
+![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step5-image6.png)
+
+<br />
+
+</p>
 
 We can now begin working on our second animation!
 
@@ -456,7 +497,7 @@ We will be changing a lot of the Pokeball's structure and properties and the cam
 
 <details markdown="1">
   
-  <summary>Click here to see the steps.</summary>
+  <summary style="color: #E64626;">Click here to see the steps.</summary>
 
 <br />
 
@@ -731,10 +772,6 @@ You will need to submit a **.ZIP** file, containing:
 
 - DECO1008_A1C_yourUnikey_turntable.mp4 (or .mov)
 - DECO1008_A1C_yourUnikey_bounce_roll_open.mp4 (or .mov)
-
-_Extra_
-
-- DECO1008_A1C_yourUnikey_principle_1_principle_2.mp4 (or .mov)
 
 ---
 
