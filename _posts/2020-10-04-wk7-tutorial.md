@@ -26,27 +26,28 @@ Your objective is to animate your Assessment 1B PokeBall! You will be **required
 
 ### Video
 
-<iframe width="100%" height="320px" allowfullscreen="true" src="https://sydney.instructuremedia.com/embed/87702c33-c8b3-4f1c-9faf-b88260c8d74c" frameborder="0" class="media"></iframe>
+<iframe width="100%" height="320px" allowfullscreen="true" src="https://sydney.instructuremedia.com/embed/87702c33-c8b3-4f1c-9faf-b88260c8d74c" frameborder="0" class="media">
+</iframe>
 
 ### Walkthrough written steps
 
-<details>
+<details markdown="1">
   
   <summary>Click here to see the steps.</summary>
 
-<br />
+  <br />
 
 1. Locate your A1B Blender File.
 
-   ![Step 1 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step1-image1.png)`
+![Step 1 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step1-image1.png)`
 
 2. Duplicate this file (copy + paste) and rename it to **DECO1008_A1C_YourUnikey**.
 
-   ![Step 1 - Image 2]({{site.baseurl}}/assets/images/wk7-tutorial/step1-image2.png)
+![Step 1 - Image 2]({{site.baseurl}}/assets/images/wk7-tutorial/step1-image2.png)
 
 3. Open this new Blender file.
 
-   ![Step 1 - Image 3]({{site.baseurl}}/assets/images/wk7-tutorial/step1-image3.png)
+![Step 1 - Image 3]({{site.baseurl}}/assets/images/wk7-tutorial/step1-image3.png)
 
 </details>
 
@@ -62,7 +63,7 @@ Your objective is to animate your Assessment 1B PokeBall! You will be **required
 
 ### Walkthrough written steps
 
-<details>
+<details markdown="1">
   
   <summary>Click here to see the steps.</summary>
 
@@ -106,7 +107,7 @@ Congratulations! You have made it past the modelling workspace in Blender! 😃
 
 ### Walkthrough written steps
 
-<details>
+<details markdown="1">
   
   <summary>Click here to see the steps.</summary>
 
@@ -166,11 +167,12 @@ Congratulations! You have made it past the modelling workspace in Blender! 😃
 
 ### Video
 
-<iframe width="100%" height="320px" allowfullscreen="true" src="https://sydney.instructuremedia.com/embed/aaa502d3-74f6-49c6-89b6-a4de3b38cc97" frameborder="0"></iframe>
+<iframe width="100%" height="320px" allowfullscreen="true" src="https://sydney.instructuremedia.com/embed/aaa502d3-74f6-49c6-89b6-a4de3b38cc97" frameborder="0">
+</iframe>
 
 ### Walkthrough written steps
 
-<details>
+<details markdown="1">
   
   <summary>Click here to see the steps.</summary>
 
@@ -401,7 +403,7 @@ Great job, you have completed your first animation! Take a break before tackling
 
 ### Walkthrough written steps
 
-<details>
+<details markdown="1">
   
   <summary>Click here to see the steps.</summary>
 
@@ -452,7 +454,7 @@ We will be changing a lot of the Pokeball's structure and properties and the cam
 
 ### Walkthrough written steps
 
-<details>
+<details markdown="1">
   
   <summary>Click here to see the steps.</summary>
 
