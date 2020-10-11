@@ -764,7 +764,7 @@ The next step is an optional animation, all the best.
 
 ## Extra Step - 2 Principles of Animation
 
-Using either animation, add two principles of animation to it.
+Using **either** animation, add two **distinct** principles of animation to it.
 
 ## Submission
 
@@ -772,6 +772,10 @@ You will need to submit a **.ZIP** file, containing:
 
 - DECO1008_A1C_yourUnikey_turntable.mp4 (or .mov)
 - DECO1008_A1C_yourUnikey_bounce_roll_open.mp4 (or .mov)
+
+Add a comment in the Canvas submission that states your two principles, for example:
+- Principle of Animation 1: _Principle Name_
+- Principle of Animation 2: _Principle Name_
 
 ---
 
