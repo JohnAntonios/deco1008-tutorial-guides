@@ -638,6 +638,8 @@ We will be changing a lot of the Pokeball's structure and properties and the cam
 
 23. Move the playhead to frame **0** (Or 1, no idea why I put it at 0 🤦‍♂️), then press the circle icon near **Offset Factor**.
 
+    **Note**: If you are using an older version of Blender (<= 2.8), then you would need to right-click on the offset factor and press **Insert Keyframe**.
+
     ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image33.png)
 
 24. Press record at the bottom of the timeline, move the playhead to the end frame **250** and change the **Offset Factor** value to **1**.
@@ -708,7 +710,7 @@ We will be changing a lot of the Pokeball's structure and properties and the cam
 
     ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image50.png)
 
-38. Now the **Top_Shell** needs to be a _child_ of the **Lid_Opener**. Select the **Lid_Opener** first, then select the **Top_Shell**.
+38. Now the **Top_Shell** needs to be a _child_ of the **Lid_Opener**. Select the **Top_Shell** first, then select the **Lid_Opener**.
 
     ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image51.png)
 
