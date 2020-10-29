@@ -41,7 +41,7 @@ Note the walkthrough will show a different pumpkin design!
 
 ## Video
 
-![Assembled pumpkin](https://apse2.nv.instructuremedia.com/fetch/QkFoYkIxc0hhUVBtaVdCcEE5clRSMndyQngwL2dsOD0tLWZhMDQ0YTdlMDA3YTkyMmI4OTE2OWJiNjYxMWY5Zjk2YmUwNDViMTc.mp4)
+<iframe width="100%" height="320px" allowfullscreen="true" src="https://sydney.instructuremedia.com/embed/780a5b37-02a9-464f-b3ff-23b0042326a7" frameborder="0"></iframe>
 
 ## Walkthrough
 
