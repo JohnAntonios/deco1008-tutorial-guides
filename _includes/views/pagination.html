@@ -9,7 +9,7 @@
   <!-- Post list links -->
   <ul class="post-list">
     {%- for post in paginator.posts -%}
-    {%- unless post.title contains '1C' -%}
+    {%- unless post.title contains '1C' or post.title contains '1D' -%}
     <li>
       {%- assign date_format = site.yat.date_format | default: "%b %-d, %Y" -%}
 
