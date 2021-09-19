@@ -44,7 +44,7 @@ sidebar:
     {%- endif -%}
 
     {%- assign result = hidden | where_exp: "item", "item == 'related_posts'" -%}
-    {%- if result.size == 0 -%}
+    {%- if result.size == 0 or page.name contains 'optional' -%}
     <div class="post-related">
       <div>Related Articles</div>
       <ul>
