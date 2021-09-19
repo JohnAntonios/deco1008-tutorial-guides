@@ -51,7 +51,7 @@ Your objective is to animate your Assessment 1B PokeBall! You will be **required
 
 <br />
 
-2. Duplicate this file (copy + paste) and rename it to **DECO1008_A1C_YourUnikey**.
+2. Duplicate this file (copy + paste) and rename it to **DECO2018_A1C_YourUnikey**.
 
 <br />
 
@@ -377,7 +377,7 @@ Now we are going to create our first animation! The turntable animation.
     - **Frame Start** is 1, **Frame End** is 250 and **Frame Step** is 1.
     - **Frame Rate** is either **24** or **23.98**.
 
-31. Press the file button below **Output** and specify a file name for the animation. Use the convention: **DECO1008_A1C_yourUniKey_turntable**. Then press **Accept**.
+31. Press the file button below **Output** and specify a file name for the animation. Use the convention: **DECO2018_A1C_yourUniKey_turntable**. Then press **Accept**.
 
     ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step4-image43.png)
 
@@ -734,7 +734,7 @@ We will be changing a lot of the Pokeball's structure and properties and the cam
 
     ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image57.png)
 
-43. Press the file button below **Output** and specify a file name for the animation. Use the convention: **DECO1008_A1C_yourUniKey_roll_bounce_open**. Then press **Accept**.
+43. Press the file button below **Output** and specify a file name for the animation. Use the convention: **DECO2018_A1C_yourUniKey_roll_bounce_open**. Then press **Accept**.
 
     ![Step 2 - Image 1]({{site.baseurl}}/assets/images/wk7-tutorial/step6-image58.png)
 
@@ -772,8 +772,8 @@ Using **either** animation, add two **distinct** principles of animation to it.
 
 You will need to submit a **.ZIP** file, containing:
 
-- DECO1008_A1C_yourUnikey_turntable.mp4 (or .mov)
-- DECO1008_A1C_yourUnikey_bounce_roll_open.mp4 (or .mov)
+- DECO2018_A1C_yourUnikey_turntable.mp4 (or .mov)
+- DECO2018_A1C_yourUnikey_bounce_roll_open.mp4 (or .mov)
 
 Add a comment in the Canvas submission that states your two principles, for example:
 - Principle of Animation 1: _Principle Name_
