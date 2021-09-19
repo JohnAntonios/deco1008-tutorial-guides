@@ -44,16 +44,18 @@ sidebar:
     {%- endif -%}
 
     {%- assign result = hidden | where_exp: "item", "item == 'related_posts'" -%}
-    {%- if result.size == 0 or page.name contains 'optional' -%}
-    <div class="post-related">
-      <div>Related Articles</div>
-      <ul>
-        {% assign posts = site[page.collection] | sample:4 %}
-        {%- for post in posts -%}
-        <li><a class="post-link" href="{{post.url | relative_url}}" title="{{ page.next.title | escape }}">{{ post.title | escape | truncatewords: 12 }}</a></li>
-        {%- endfor -%}
-      </ul>
-    </div>
+    {%- if page.path contains '-tutorial.md' -%}
+      {%- if result.size == 0 -%}
+      <div class="post-related">
+        <div>Related Articles</div>
+        <ul>
+          {% assign posts = site[page.collection] | sample:4 %}
+          {%- for post in posts -%}
+          <li><a class="post-link" href="{{post.url | relative_url}}" title="{{ page.next.title | escape }}">{{ post.title | escape | truncatewords: 12 }}</a></li>
+          {%- endfor -%}
+        </ul>
+      </div>
+      {%- endif -%}
     {%- endif -%}
 
     {%- assign result = hidden | where_exp: "item", "item == 'comments'" -%}
