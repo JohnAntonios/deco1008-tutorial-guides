@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Week 7 Tutorial - (Assessment 1C) Animation in Blender
+title: Assessment 1C - Animation in Blender
 subtitle: Assessment 1C - Learning about animations in Blender!
 ---
 
-This is Week 7's tutorial where you will learn about animation in Blender with your 1B PokeBall and stand.
+This is where you will learn about animation in Blender with your 1B PokeBall and stand.
 
 ## Objective
 
