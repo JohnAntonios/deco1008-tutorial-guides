@@ -1,0 +1,1712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Week 11 Tutorial - (Assessment 1D) Materials, Textures, Lighting and Rendering in Blender | DECO2018 Tutorial Guides</title>
+<meta name="generator" content="Jekyll v4.2.1">
+<meta property="og:title" content="Week 11 Tutorial - (Assessment 1D) Materials, Textures, Lighting and Rendering in Blender">
+<meta name="author" content="DECO2018 Team">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="This is Week 11’s tutorial where you will learn about materials, textures, lighting and rendering in Blender with your 1B or 1C PokeBall and stand.">
+<meta property="og:description" content="This is Week 11’s tutorial where you will learn about materials, textures, lighting and rendering in Blender with your 1B or 1C PokeBall and stand.">
+<link rel="canonical" href="https://johnantonios.github.io/deco1008-tutorial-guides/2021/09/16/wk11-tutorial.html">
+<meta property="og:url" content="https://johnantonios.github.io/deco1008-tutorial-guides/2021/09/16/wk11-tutorial.html">
+<meta property="og:site_name" content="DECO2018 Tutorial Guides">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2021-09-16T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Week 11 Tutorial - (Assessment 1D) Materials, Textures, Lighting and Rendering in Blender">
+<script type="application/ld+json">
+{"description":"This is Week 11’s tutorial where you will learn about materials, textures, lighting and rendering in Blender with your 1B or 1C PokeBall and stand.","url":"https://johnantonios.github.io/deco1008-tutorial-guides/2021/09/16/wk11-tutorial.html","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://johnantonios.github.io/deco1008-tutorial-guides/2021/09/16/wk11-tutorial.html"},"author":{"@type":"Person","name":"DECO2018 Team"},"headline":"Week 11 Tutorial - (Assessment 1D) Materials, Textures, Lighting and Rendering in Blender","dateModified":"2021-09-16T00:00:00+00:00","datePublished":"2021-09-16T00:00:00+00:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="shortcut icon" href="/deco1008-tutorial-guides/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+  <!-- and it's easy to individually load additional languages -->
+  <script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js"></script>
+  <link rel="stylesheet" href="/deco1008-tutorial-guides/assets/css/main.css">
+  <script src="/deco1008-tutorial-guides/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="https://johnantonios.github.io/deco1008-tutorial-guides/feed.xml" title="DECO2018 Tutorial Guides">
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header " role="banner">
+
+  <div class="wrapper">
+    <div class="site-header-inner">
+<span class="site-brand"><a class="site-brand-inner" rel="author" href="/deco1008-tutorial-guides/">
+  <img class="site-favicon" title="DECO2018 Tutorial Guides" src="/deco1008-tutorial-guides/favicon.ico" onerror="this.style.display='none'">
+  DECO2018 Tutorial Guides
+</a>
+</span><nav class="site-nav">
+
+
+
+
+<span class="page-link">
+
+<div id="google_translate_element" style="display: none;">
+</div>
+
+<span class="ct-language">
+  <ul class="list-unstyled ct-language-dropdown">
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="en">
+          
+          <img src="https://www.countryflags.io/au/flat/64.png" title="English">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="fr">
+          
+          <img src="https://www.countryflags.io/fr/flat/64.png" title="Franch">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="zh-CN">
+          
+          <img src="https://www.countryflags.io/cn/flat/64.png" title="Chinese(Simple)">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ja">
+          
+          <img src="https://www.countryflags.io/jp/flat/64.png" title="Japan">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ko">
+          
+          <img src="https://www.countryflags.io/kr/flat/64.png" title="Korean">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ru">
+          
+          <img src="https://www.countryflags.io/ru/flat/64.png" title="Russia">
+          
+        </a>
+      </li>
+    
+  </ul>
+</span>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: '',
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.VERTICAL
+  }, 'google_translate_element');
+
+  function restoreLang() {
+    var iframe = document.getElementsByClassName('goog-te-banner-frame')[0];
+    if (!iframe) return;
+
+    var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
+    var restore_el = innerDoc.getElementsByTagName("button");
+
+    for (var i = 0; i < restore_el.length; i++) {
+      if (restore_el[i].id.indexOf("restore") >= 0) {
+        restore_el[i].click();
+        var close_el = innerDoc.getElementsByClassName("goog-close-link");
+        close_el[0].click();
+        return;
+      }
+    }
+  }
+
+  function triggerHtmlEvent(element, eventName) {
+    var event;
+    if (document.createEvent) {
+      event = document.createEvent('HTMLEvents');
+      event.initEvent(eventName, true, true);
+      element.dispatchEvent(event);
+    } else {
+      event = document.createEventObject();
+      event.eventType = eventName;
+      element.fireEvent('on' + event.eventType, event);
+    }
+  }
+
+  var googleCombo = document.querySelector("select.goog-te-combo");
+  var langSelect = document.querySelector('.ct-language');
+  langSelect.addEventListener('click', function(event) {
+    if (!event.target) {
+      return;
+    }
+
+    var selected = document.querySelector('.ct-language .ct-language-selected');
+    if (selected) {
+      selected.classList.remove('ct-language-selected');
+    }
+
+    var target = event.target;
+    while (target && target !== langSelect ) {
+      if (target.matches('.lang-select')) {
+        break;
+      }
+      target = target.parentElement;
+    }
+
+    if (target && target.matches('.lang-select')) {
+      var lang = target.getAttribute('data-lang');
+      if (googleCombo.value == lang) {
+        restoreLang();
+      } else {
+        target.parentElement.classList.add('ct-language-selected');
+        googleCombo.value = lang;
+        triggerHtmlEvent(googleCombo, 'change');
+      }
+    }
+
+    event.preventDefault();
+  });
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</span></nav>
+</div>
+  </div>
+</header>
+
+<script>
+  (function() {
+    var lastScrollY = getScrollPos().y;
+    var documentElement = document.documentElement;
+
+    function storeScrollData() {
+      var y = getScrollPos().y;var scrollStatus = "";
+
+      if (y <= 0) {
+        scrollStatus = "top";
+      } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+        scrollStatus = "bottom";
+      } else {
+        var isScrollDown = (y - lastScrollY > 0) ? true : false;
+        scrollStatus = isScrollDown ? "down" : "up";
+      }
+
+      lastScrollY = y;
+      documentElement.setAttribute("data-scroll-status", scrollStatus);
+    }
+
+    window.addEventListener('scroll', function(e) {
+      storeScrollData();
+    });
+
+    storeScrollData();
+  })();
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.tagName.toLowerCase() == 'a') {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<div class="theme-toggle">
+  <input type="checkbox" id="theme-switch">
+  <label for="theme-switch">
+    <div class="toggle"></div>
+    <div class="names">
+      <p class="light">Light</p>
+      <p class="dark">Dark</p>
+    </div>
+  </label>
+</div>
+
+<script>
+  (function() {
+    var sw = document.getElementById('theme-switch');
+    var html = document.getElementsByTagName('html')[0];
+    var themeData = loadThemeData();
+
+    function saveThemeData(data) {
+      localStorage.setItem('theme', JSON.stringify(data));
+    }
+
+    function loadThemeData() {
+      var data = localStorage.getItem('theme');
+      try {
+        data = JSON.parse(data ? data : '');
+      } catch(e) {
+        data = { nightShift: null, autoToggleAt: 0 };
+        saveThemeData(data);
+      }
+      return data;
+    }
+
+    function handleThemeToggle(nightShift) {
+      themeData.nightShift = nightShift;
+      saveThemeData(themeData);
+      html.dataset.theme = nightShift ? 'dark' : 'light';
+      setTimeout(function() {
+        sw.checked = nightShift ? true : false;
+      }, 50);
+    }
+
+    function autoThemeToggle() {
+      // Next time point of theme toggle
+      var now = new Date();
+      var toggleAt = new Date();
+      var hours = now.getHours();
+      var nightShift = hours >= 19 || hours <=7;
+
+      if (nightShift) {
+        if (hours > 7) {
+          toggleAt.setDate(toggleAt.getDate() + 1);
+        }
+        toggleAt.setHours(7);
+      } else {
+        toggleAt.setHours(19);
+      }
+
+      toggleAt.setMinutes(0);
+      toggleAt.setSeconds(0);
+      toggleAt.setMilliseconds(0)
+
+      var delay = toggleAt.getTime() - now.getTime();
+
+      // auto toggle theme mode
+      setTimeout(function() {
+        handleThemeToggle(!nightShift);
+      }, delay);
+
+      return {
+        nightShift: nightShift,
+        toggleAt: toggleAt.getTime()
+      };
+    }
+
+    var data = autoThemeToggle();
+
+    // Listen the theme toggle event
+    sw.addEventListener('change', function(event) {
+      handleThemeToggle(event.target.checked);
+    });
+
+    // Toggle theme by local setting
+    if (data.toggleAt > themeData.autoToggleAt) {
+      themeData.autoToggleAt = data.toggleAt;
+      handleThemeToggle(data.nightShift);
+    } else {
+      handleThemeToggle(themeData.nightShift);
+    }
+  })();
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     <div class="post">
+  <section>
+
+
+
+
+
+
+
+
+
+<header class="post-header">
+  <h1 class="post-title p-name" itemprop="name headline">Week 11 Tutorial - (Assessment 1D) Materials, Textures, Lighting and Rendering in Blender</h1>
+  <h3 class="post-subtitle">Assessment 1D - Learning about materials, textures, lighting and rendering in Blender!</h3>
+
+  <p class="post-meta">
+    <time class="dt-published" datetime="2021-09-16T00:00:00+00:00" itemprop="datePublished"><i class="fa fa-calendar"></i> Sep 16, 2021
+    </time>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 31 mins</span>
+  </p></header>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <div class="post-content e-content" itemprop="articleBody">
+
+      <p>This is Week 11’s tutorial where you will learn about materials, textures, lighting and rendering in Blender with your 1B or 1C PokeBall and stand.</p>
+
+<hr>
+
+<h2 id="objective">Objective</h2>
+
+<p>Your objective is to render your PokeBall + stand! You will be <strong>required</strong> to produce the following render of a <strong>Heavy Ball</strong>.</p>
+
+<p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/final_render.jpg" alt="Final render"></p>
+
+<p><strong>You may go an extra step and apply your own variation of the PokeBall and render it with its lid open (LIKE A1C), but not the standard red-white PokeBall.</strong>.</p>
+
+<hr>
+
+<h2 id="faqs">FAQs</h2>
+
+<details>
+
+  <summary style="color: #E64626;">Can the Pokeball be any colour/pattern we wish? Or do we have to the follow the tutorial's colours?</summary>
+
+  <p>You are required to produce the <strong>Heavy Ball</strong> as shown above with its colours. Then for the extra step, you can apply your own variation of the PokeBall, but not the standard red-white PokeBall.</p>
+
+</details>
+
+<p><br></p>
+
+<details>
+
+  <summary style="color: #E64626;">Do we have to create the heavy ball first and then another variance for the extra step?</summary>
+
+  <p>Yes.</p>
+
+</details>
+
+<p><br></p>
+
+<details>
+
+  <summary style="color: #E64626;">Can we go straight into making another variant while following the steps?</summary>
+
+  <p>No.</p>
+
+</details>
+
+<p><br></p>
+
+<details>
+
+  <summary style="color: #E64626;">We submit the heavy ball and our variation in the zip file correct?</summary>
+
+  <p>Yes.</p>
+
+</details>
+
+<p><br></p>
+
+<details>
+
+  <summary style="color: #E64626;">By variation, does that mean making like an Ultra Ball, after making the Heavy Ball?</summary>
+
+  <p>Yes.</p>
+
+</details>
+
+<p><br></p>
+
+<details>
+
+  <summary style="color: #E64626;">My camera view / final render looks like its clipping the PokeBall + Stand. </summary>
+
+  <p>If your render has some funny faces or the PokeBall is not completely shown.
+Select your <strong>Camera</strong> and go into the <strong>Object Data Properties</strong>, changing the <strong>clip start</strong> to <strong>1mm</strong> and the <strong>clip end</strong> to <strong>1000mm</strong>.</p>
+
+  <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/clipping.png" alt="Step 2 - Image 1"></p>
+
+  <p>Also, make sure to delete any objects as a result of a Non-Destructive Boolean (COMBINED_DIF) and no <strong>Mask</strong> object, or delete <strong>any object that is hidden or nested</strong>. For example, these two underlined should be deleted.</p>
+
+  <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/clipping-start.png" alt="Step 2 - Image 1"></p>
+
+</details>
+
+<p><br></p>
+
+<details>
+
+  <summary style="color: #E64626;">My paint looks fuzzy / weird areas are being painted!</summary>
+
+  <p>This is due to overlapping UV faces. There are two workarounds, the first is quicker, but the second is more accurate.</p>
+
+  <p><strong>Method A - Island Margins</strong></p>
+
+  <p>Select your <strong>Top_Shell</strong> and go into <strong>Edit Mode</strong>. Ensure <strong>Face Selection</strong> is on and select <strong>all</strong> of the faces. Then go to <strong>UV &gt; Smart UV Project</strong> and adjust the <strong>Island Margin</strong> to <strong>0.05</strong>.</p>
+
+  <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/method-a.png" alt="Step 2 - Image 1">.</p>
+
+  <p><strong>Method B - Moving UV Faces</strong></p>
+
+  <p>Go to the <strong>UV Editing</strong> workspace tab and select your <strong>Top_Shell</strong>, and switch to <strong>Edit Mode</strong>.</p>
+
+  <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/method-b-1.png" alt="Step 2 - Image 1"></p>
+
+  <p>Highlight the faces that have extra paint applied, for example here</p>
+
+  <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/method-b-2.png" alt="Step 2 - Image 1"></p>
+
+  <p>In the right viewport, select all the faces by pressing <code class="language-plaintext highlighter-rouge">A</code> and then in the left viewport, zoom into the faces where the overlapping is occurring.</p>
+
+  <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/method-b-3.png" alt="Step 2 - Image 1"></p>
+
+  <p>Go into “Island” selection and select the group that has the overlapping paint.</p>
+
+  <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/method-b-4.png" alt="Step 2 - Image 1">
+<img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/method-b-5.png" alt="Step 2 - Image 1"></p>
+
+  <p>Move it to an empty space, such as here. Then repaint!</p>
+
+  <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/method-b-6.png" alt="Step 2 - Image 1"></p>
+
+</details>
+
+<p><br></p>
+
+<hr>
+
+<h2 id="step-1---setting-up-blender-file-from-1c">Step 1 - Setting up Blender File from 1C</h2>
+
+<h3 id="note---if-you-still-have-your-a1b-file-please-copy-and-paste-that-and-rename-it-from-a1b-to-a1d-and-skip-this-step">
+<strong>NOTE</strong> - if you still have your <strong>A1B</strong> file, please copy and paste that and rename it from <strong>A1B</strong> to <strong>A1D</strong> and <strong>skip this step</strong>.</h3>
+
+<p>If you do not have access to your A1B file and only A1C (which is the animations), then please follow these steps.</p>
+
+<h3 id="video">Video</h3>
+
+<iframe width="100%" height="320px" allowfullscreen="true" src="https://sydney.instructuremedia.com/embed/25adeb31-711f-4065-9276-2de5e4339ffd" frameborder="0"></iframe>
+
+<h3 id="walkthrough-written-steps">Walkthrough written steps</h3>
+
+<details>
+
+  <summary style="color: #E64626;">Click here to see the steps.</summary>
+
+  <p><br></p>
+
+  <p><strong>NOTE</strong> - if you still have your <strong>A1B</strong> file, please copy and paste that and rename it from <strong>A1B</strong> to <strong>A1D</strong> and <strong>skip this step</strong>.</p>
+
+  <p>If you do not have access to your A1B file and only A1C (which is the animations), then please follow these steps.</p>
+
+  <ol>
+    <li>
+      <p>Open your <strong>A1C</strong> file.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image1.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Press the <strong>Animation</strong> tab in the workspaces ribbon, if it is not already selected.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image2.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Turn <strong>off</strong> <strong>auto keyframe mode</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image3.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Select the <strong>References</strong> collection in the scene collection.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image4.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p><strong>Right-click</strong> on it and press <strong>Delete Hierarchy</strong>. This will recursively delete the collection with its items inside.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image5.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Reveal the <strong>Stand</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image6.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Select the <strong>Plane</strong> and in the Scene Collection area, <strong>right-click</strong> and press <strong>Delete</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image7.png" alt="Step 2 - Image 1"></p>
+
+      <p>Repeat this for the <strong>PokeBall_Path</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image8.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Select the <strong>PokeBall</strong> and go to the <strong>Object Constraints</strong> tab.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image9.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Press the <strong>X</strong> button located at the top-right of the Follow Path card, to remove it.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image10.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Select the <strong>Camera</strong> which is nested inside the <strong>Camera_Rotator</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image11.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Hover your cursor in the viewport area and <strong>right-click &gt; Parent &gt; Clear Parent</strong>. This will de-parent the <strong>Camera</strong> from the <strong>Camera_Rotator</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image12.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Select the <strong>Camera_Rotator</strong> and in the Scene Collection area, <strong>right-click</strong> and press <strong>Delete</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image13.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Select the <strong>Bottom_Shell</strong> which is nested inside the <strong>PokeBall</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image14.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Hover your cursor in the viewport area and <strong>right-click &gt; Parent &gt; Clear Parent</strong>. This will de-parent the <strong>Bottom_Shell</strong> from the <strong>PokeBall</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image15.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Select the <strong>Top_Shell</strong> which is nested inside the <strong>PokeBall &gt; Lid_Opener</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image16.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Hover your cursor in the viewport area and <strong>right-click &gt; Parent &gt; Clear Parent</strong>. This will de-parent the <strong>Top_Shell</strong> from the <strong>PokeBall</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image17.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Select the <strong>Lid_Opener</strong> and in the Scene Collection area, <strong>right-click</strong> and press <strong>Delete</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image18.png" alt="Step 2 - Image 1"></p>
+
+      <p>Repeat this for the <strong>PokeBall</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image19.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Select the <strong>Top_Shell</strong> and go into the <strong>Object Properties</strong> tab in the inspector.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image20.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Change the <strong>Location X</strong> value to <strong>0</strong> and change the <strong>Location Z</strong> value to where the <strong>Top_Shell</strong> is sitting above the <strong>Bottom_Shell</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image21.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Switch to the <strong>Modelling</strong> workspace tab.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image22.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Save the file by going to <strong>File &gt; Save As…</strong> and rename from <strong>A1C</strong> to <strong>A1D</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image24.png" alt="Step 2 - Image 1">
+<img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image23.png" alt="Step 2 - Image 1"></p>
+    </li>
+  </ol>
+
+</details>
+
+<p><br></p>
+
+<hr>
+
+<h2 id="step-2---material-on-bottom-shell">Step 2 - Material on Bottom Shell</h2>
+
+<h3 id="video-1">Video</h3>
+
+<iframe width="100%" height="320px" allowfullscreen="true" src="https://sydney.instructuremedia.com/embed/b1d4531a-0a16-49df-b491-f170c68f135a" frameborder="0"></iframe>
+
+<h3 id="walkthrough-written-steps-1">Walkthrough written steps</h3>
+
+<details>
+
+  <summary style="color: #E64626;">Click here to see the steps.</summary>
+
+  <p><br></p>
+
+  <p>Let’s create our first Material on Blender for the Bottom Shell.</p>
+
+  <ol>
+    <li>
+      <p>Select the <strong>Bottom_Shell</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step2-image1.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Select the <strong>Material Properties</strong> tab which is denoted by the red checkered circle icon, in the inspector.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step2-image2.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Press the <strong>+ New</strong> button to create a material.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step2-image3.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Rename the material by selecting the text box, and name it <strong>Light_Grey</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step2-image4.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Select the <strong>Preview</strong> text to open the preview pane. Here we can view our material applied on a selectable list of types of Meshes.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step2-image5.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Select the <strong>Surface</strong> text to open the surface pane. Here we can adjust parameters of the material to change its style.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step2-image6.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>For now, we are only interested in changing the material’s base colour (Albedo). Select the rectangle near <strong>Base Color</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step2-image7.png" alt="Step 2 - Image 1"></p>
+
+      <p>Adjust the colour to a light grey.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step2-image8.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>However, despite changing the colour. It is not showing in the viewport. This is because we are still in <strong>Solid</strong> view. Change to <strong>Material Preview</strong>, located at the top-right of the viewport.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step2-image9.png" alt="Step 2 - Image 1"></p>
+
+      <p>The white material that is on the <strong>Top_Shell</strong> and <strong>Stand</strong> is a default material that Blender applies for those objects that do not have any material applied.</p>
+    </li>
+    <li>
+      <p>If we change the colour of the <strong>Light_Grey</strong> material again, it will update in the viewport as well.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step2-image10.png" alt="Step 2 - Image 1"></p>
+    </li>
+  </ol>
+
+</details>
+
+<p><br></p>
+
+<hr>
+
+<h2 id="step-3---texture-painting-on-top-shell">Step 3 - Texture Painting on Top Shell</h2>
+
+<h3 id="video-2">Video</h3>
+
+<iframe width="100%" height="320px" allowfullscreen="true" src="https://sydney.instructuremedia.com/embed/4534d382-ea7e-40ab-abad-388692f7cf8b" frameborder="0"></iframe>
+
+<h3 id="walkthrough-written-steps-2">Walkthrough written steps</h3>
+
+<details>
+
+  <summary style="color: #E64626;">Click here to see the steps.</summary>
+
+  <p><br></p>
+
+  <p>Now let’s look at another way of creating a material / texture in Blender, through Texture Painting! It’s like Microsoft Paint, but for 3D.</p>
+
+  <ol>
+    <li>
+      <p>Go to Google Images and search for a reference image of a <a href="https://www.google.com/search?q=heavy+ball+pokeball&amp;client=firefox-b-d&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwiGwfHGj97sAhUR73MBHXIEA9oQ_AUoAXoECA0QAw&amp;biw=1920&amp;bih=947#imgrc=RNN1p0q0l3jtuM" target="\_blank">Heavy Ball PokeBall.</a></p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image1.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Download the image and save it in the same location as your Blender file, naming it <strong>Heavy_Ball_Reference</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image2.png" alt="Step 2 - Image 1"></p>
+
+      <p>Or you can download it here:</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/heavy_ball_reference.jpg" alt="Heavy Ball Reference"></p>
+    </li>
+    <li>
+      <p>Before doing any texture painting, we need to first unwrap the UVs of the <strong>Top_Shell</strong>. Select the <strong>Top_Shell</strong> and switch to <strong>Edit Mode</strong>. Ensure you have <strong>Face Selection</strong> on.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image3.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Select all the faces by going to <strong>Select &gt; All</strong> or pressing <code class="language-plaintext highlighter-rouge">A</code> on your keyboard.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image4.png" alt="Step 2 - Image 1">
+<img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image4-2.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Unwrap the UVs by going to <strong>UV &gt; Smart UV Project</strong> and press <strong>OK</strong>. Do not change any of the parameters.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image5.png" alt="Step 2 - Image 1">
+<img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image5-2.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Switch to the <strong>Texture Paint</strong> workspace located at the top.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image6.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>On the left, is the unwrapped UVs for the <strong>Top_Shell</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image7.png" alt="Step 2 - Image 1"></p>
+
+      <p>On the right, is the viewport with a coloured object which represents the object that had its UVs unwrapped.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image8.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Switch the view from <strong>Solid</strong> to <strong>Material Preview</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image9.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>On the right, press the <strong>+</strong> button near No Textures, and select <strong>Base Color</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image10.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Name the texture paint slot <strong>Heavy_Ball_Texture_Paint</strong> and press <strong>OK</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image11.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>By pressing <strong>left-click</strong> on the <strong>Top_Shell</strong> in the viewport, we can now paint on it. This is because we have the <strong>Draw</strong> mode selected in the Toolbar.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image12.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Changing the mode to <strong>Soften</strong> in the Toolbar, allows us to smooth out sharp / jagged edges.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image13.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Changing the mode to <strong>Smear</strong> in the Toolbar, allows us to spread the paint applied in a specific direction.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image14.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Changing the mode to <strong>Clone</strong> in the Toolbar, allows us to paint an object based on a reference point colour. This is similar to Photoshop’s Stamp and Clone tool. To select a reference point, hold <strong>CTRL</strong> or <strong>CMD</strong> and <strong>left-click</strong> somewhere on the object, then you can paint anywhere else.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image15.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Changing the mode to <strong>Fill</strong> in the Toolbar, does what you would expect. Fill in the entire object with a colour, with a single <strong>left-click</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image16.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>The <strong>radius</strong> (size) of the brush can be adjusted in the toolbar at the top. The change is denoted by the larger white circle surrounding the cursor, which represents the radius.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image17.png" alt="Step 2 - Image 1"></p>
+
+      <p>Pressing <code class="language-plaintext highlighter-rouge">F</code> on your keyboard adjusts the radius of the brush, we move the cursor outwards (making it larger) or inwards (making it smaller).</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image17-2.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>The <strong>strength</strong> of the brush can be adjusted in the toolbar the top. The lower the strength, the more transparent / less effective the brush is.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image18.png" alt="Step 2 - Image 1">
+<img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image18-2.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>In the left viewport, press the <strong>image dropdown</strong> at the top and select the <strong>Heavy_Ball_Texture_Paint</strong>. This will overlay our texture paint onto the UVs, allowing us to accurately see what has been painted - this updates in real-time as we paint as well.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image19.png" alt="Step 2 - Image 1">
+<img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image19-2.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Press the <strong>editor type</strong> dropdown located at the top-right of the scene collection and select <strong>Image Editor</strong>. This will replace the <strong>Scene Collection</strong> with the <strong>Image Editor</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image20.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>In the <strong>Image Editor</strong>, go to <strong>Image &gt; Open</strong> and open the downloaded <strong>Heavy_Ball_Reference</strong> file.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image21.png" alt="Step 2 - Image 1">
+<img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image21-2.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>In the <strong>Image Editor</strong>, go to <strong>View &gt; [✔] Display Texture Paint UVs</strong> and uncheck it. This will hide the UV overlays, allowing us to see the reference image clearly.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image22.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Select the <strong>Color Palette</strong> pane under <strong>Brush Settings</strong> and press the <strong>+ New</strong> button, renaming it to <strong>Heavy_Ball_Palette</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image23.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Select the colour picker above it by pressing on the <strong>white rectangle</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image24.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Select the <strong>eyedropper</strong> and <strong>left-click</strong> on the dark blue section of the <strong>Heavy_Ball_Reference</strong> image.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image25.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Press the <strong>+</strong> button underneath the Color Palette, this will create a swatch with the dark blue.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image26.png" alt="Step 2 - Image 1"></p>
+
+      <p>Repeat the previous step and this step, but for the light blue circle in the reference image.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image26-2.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Select <strong>Fill</strong> mode in the Toolbar, select the <strong>dark blue</strong> swatch and <strong>left-click</strong> anywhere on the <strong>Top_Shell</strong> in the viewport.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image27.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Select <strong>Draw</strong> mode in the Toolbar and select the <strong>light blue swatch</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image28.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Press <strong>Falloff</strong> to open the pane which adjusts the smoothness of the paint applied to the object.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image29.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Press the <strong>Falloff type dropdown</strong> and change it to <strong>Constant</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image30.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Change the brush’s <strong>radius</strong> to a size that resembles the smaller circle in the reference image (Mines at <strong>93px</strong>).</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image31.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Press <strong>Symmetry</strong> to open the pane which allows you to mirror the brush’s paint based on a chosen set of axes.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image32.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Select <strong>Y</strong> in the button group.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image33.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Paint on the <strong>Top_Shell</strong> at a location that is similar to the small circle location in the reference image.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image34.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Increase the brush <strong>radius</strong> and paint on the <strong>Top_Shell</strong> again for the larger circle.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image35.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Select <strong>Soften</strong> mode in the Toolbar, and work your way around each circle on <strong>one</strong> side to smoothen the edges.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image36.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>The painting and smoothening of the circles appear on both sides of the <strong>Top_Shell</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image37.png" alt="Step 2 - Image 1"></p>
+    </li>
+  </ol>
+
+</details>
+
+<p><br></p>
+
+<hr>
+
+<h2 id="step-4---material-on-lid">Step 4 - Material on Lid</h2>
+
+<h3 id="video-3">Video</h3>
+
+<iframe width="100%" height="320px" allowfullscreen="true" src="https://sydney.instructuremedia.com/embed/c214f38f-f545-4f99-86f6-43862da6a230" frameborder="0"></iframe>
+
+<h3 id="walkthrough-written-steps-3">Walkthrough written steps</h3>
+
+<details>
+
+  <summary style="color: #E64626;">Click here to see the steps.</summary>
+
+  <p><br></p>
+
+  <p>Let’s look at how to have multiple materials applied to an object.</p>
+
+  <ol>
+    <li>
+      <p>Switch to the <strong>Modelling</strong> tab.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step4-image1.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Ensure you are in the <strong>Material Properties</strong> tab and rename the material to <strong>Heavy_Ball_Base</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step4-image2.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Press the <strong>+</strong> button near the list of materials to create a new material slot for this object.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step4-image3.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Go into <strong>Edit Mode</strong> and ensure you have <strong>Face selection</strong> on. Then make a box selection of a few faces on the lid.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step4-image4.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Go to <strong>Select &gt; Select Linked &gt; Linked</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step4-image5.png" alt="Step 2 - Image 1"></p>
+
+      <p>Select <strong>UVs</strong> in the <strong>Select Linked All</strong> window at the bottom-right.
+<img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step4-image5-2.png" alt="Step 2 - Image 1"></p>
+
+      <p>Select all the faces that make up the lid.
+<img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step4-image5-3.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Select the empty material in the <strong>Material Properties</strong> tab.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step4-image6.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Press the <strong>+ New</strong> button underneath the material list to create a material for the empty material slot.
+<img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step4-image7.png" alt="Step 2 - Image 1"></p>
+
+      <p>Rename it to <strong>Button</strong> or <strong>Lid</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step4-image8.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>With the faces still selected, press the <strong>Assign</strong> button.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step4-image9.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Change the <strong>base colour</strong> of the <strong>Button</strong> material to a light blue.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step4-image10.png" alt="Step 2 - Image 1"></p>
+    </li>
+  </ol>
+
+</details>
+
+<p><br></p>
+
+<hr>
+
+<h2 id="step-5---texture-on-rings">Step 5 - Texture on Rings</h2>
+
+<h3 id="video-4">Video</h3>
+
+<iframe width="100%" height="320px" allowfullscreen="true" src="https://sydney.instructuremedia.com/embed/5185a484-cf0b-4afd-94ff-0ec0c58ca33f" frameborder="0"></iframe>
+
+<h3 id="walkthrough-written-steps-4">Walkthrough written steps</h3>
+
+<details>
+
+  <summary style="color: #E64626;">Click here to see the steps.</summary>
+
+  <p><br></p>
+
+  <p>Let’s look at another method of applying a material, through a texture map!</p>
+
+  <ol>
+    <li>
+      <p>Go to Google Images once again and search for a <a href="https://www.google.com/search?q=dark+silk+texture+imagesize%3A256x256&amp;tbm=isch&amp;ved=2ahUKEwi1sqL0v97sAhWzKrcAHelVAusQ2-cCegQIABAA&amp;oq=dark+silk+texture+imagesize%3A256x256&amp;gs_lcp=CgNpbWcQAzoECCMQJzoECAAQHjoGCAAQCBAeUMMEWPAxYMIzaAVwAHgBgAHVAYgBkReSAQYwLjE4LjKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&amp;sclient=img&amp;ei=3CudX7XUK7PV3LUP6auJ2A4&amp;bih=742&amp;biw=1440#imgrc=FUeYlPl42FOt-M" target="\_blank">Dark Silk Texture</a>.</p>
+
+      <p><strong>Note</strong>: The <code class="language-plaintext highlighter-rouge">imagesize:256x256</code> is a way to search for images in Google Images by a specified width x height dimension.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step5-image1.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Save the image as <strong>Ring_Texture_Map</strong> in the same location as where your Blender file is.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step5-image2.png" alt="Step 2 - Image 1"></p>
+
+      <p>You can download the texture here:</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/ring_texture_map.jpeg" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>With the <strong>Top_Shell</strong> selected, create another material slot by pressing the <strong>+</strong> button near the list of materials.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step5-image3.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Go into <strong>Edit Mode</strong>, ensure <strong>Face selection</strong> is on and select all the faces that make up the <strong>ring</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step5-image4.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>With the faces still selected, select the empty material slot and press the <strong>+ New</strong> button underneath the list of materials.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step5-image5.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Press the <strong>Assign</strong> button to assign the plain material to the ring faces.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step5-image6.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Rename the material to <strong>Ring</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step5-image7.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Press the <strong>yellow dot</strong> that is to the right of the <strong>Base color</strong> text, and select <strong>Image Texture</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step5-image9.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Press the <strong>Open</strong> button underneath <strong>Image Texture</strong> and select the downloaded <strong>Ring_Texture_Map.jpg</strong> file and press <strong>Open Image</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step5-image10.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Go into <strong>Edit Mode</strong> and select the ring faces, a shortcut is to press the <strong>Select</strong> button which is next to the <strong>Assign</strong> button in the <strong>Material Properties</strong> tab for the <strong>Ring</strong> material.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step5-image11.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Switch the <strong>UV Editing</strong> workspace - here we can adjust the UVs themselves for the selected faces of an object.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step5-image12.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Select <strong>all</strong> of the UV vertices / faces. By either pressing <code class="language-plaintext highlighter-rouge">A</code> on your keyboard or making a box selection.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step5-image13.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Rotate the UVs by <strong>90˚</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step5-image14.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Repeat the previous steps, but for the <strong>Bottom_Shell</strong> ring.</p>
+
+      <p><strong>NOTE</strong>: Make sure to unwrap the UVs first.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step5-image16.png" alt="Step 2 - Image 1"></p>
+
+      <p>Also, instead of creating a new material for the ring faces, you can re-use the already made <strong>Ring</strong> material by pressing the dropdown and selecting the <strong>Ring</strong> material.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step5-image17.png" alt="Step 2 - Image 1"></p>
+    </li>
+  </ol>
+
+</details>
+
+<p><br></p>
+
+<hr>
+
+<h2 id="step-6---material-on-stand">Step 6 - Material on Stand</h2>
+
+<h3 id="video-5">Video</h3>
+
+<iframe width="100%" height="320px" allowfullscreen="true" src="https://sydney.instructuremedia.com/embed/374238f4-2a0c-4959-8622-28fa236232fc" frameborder="0"></iframe>
+
+<h3 id="walkthrough-written-steps-5">Walkthrough written steps</h3>
+
+<details>
+
+  <summary style="color: #E64626;">Click here to see the steps.</summary>
+
+  <p><br></p>
+
+  <p>Let’s add a basic material to the stand, this should be relatively straight forward 😎.</p>
+
+  <ol>
+    <li>
+      <p>Select the <strong>Stand</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step6-image1.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Create a new material by pressing the <strong>+ New</strong> button.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step6-image2.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Rename the material to <strong>Stand</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step6-image3.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Change the <strong>base colour</strong> to a very light blue.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step6-image4.png" alt="Step 2 - Image 1"></p>
+    </li>
+  </ol>
+
+</details>
+
+<p><br></p>
+
+<hr>
+
+<h2 id="step-7---lighting">Step 7 - Lighting</h2>
+
+<h3 id="video-6">Video</h3>
+
+<iframe width="100%" height="320px" allowfullscreen="true" src="https://sydney.instructuremedia.com/embed/6d2951d1-a68c-49be-8936-a629e3b21734" frameborder="0"></iframe>
+
+<h3 id="walkthrough-written-steps-6">Walkthrough written steps</h3>
+
+<details>
+
+  <summary style="color: #E64626;">Click here to see the steps.</summary>
+
+  <p><br></p>
+
+  <p>Let’s now look into adding lighting to our scene.</p>
+
+  <ol>
+    <li>
+      <p>Switch the view from <strong>Material Preview</strong> to the furthest on the right, <strong>Rendered</strong>. You will notice that everything is quite dull, this is because the only light is within the PokeBall.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step7-image1.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Select the <strong>Light</strong> in your scene. In the inspector, go to the <strong>Object Data Properties</strong> which is shown as a green outline of a light bulb.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step7-image2.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Move the <strong>light</strong>, so that it is outside the PokeBall.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step7-image3.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>In the <strong>Object Data Properties</strong> tab, change the <strong>Type</strong> from <strong>Point</strong> to <strong>Sun</strong>. It will update the lighting in the entire scene.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step7-image4.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Change the <strong>strength</strong> of the light to <strong>5</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step7-image5.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Drag the <strong>yellow gizmo</strong> that is near the sun, to change the direction of the sunlight.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step7-image6.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>For a more cartoon look, tick off <strong>Shadows</strong> in the <strong>Object Data Properties</strong> tab.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step7-image7.png" alt="Step 2 - Image 1"></p>
+
+      <p>Optionally, you can tick on <strong>Shadows</strong> and adjust the <strong>Bias</strong>, the lower the bias the more shadows appear and the higher the bias, the less shadows appear.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step7-image8.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Select the <strong>Top_Shell</strong> and go to <strong>Object &gt; Snap &gt; Cursor to Active</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step7-image9.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p><strong>Add &gt; Light &gt; Spot</strong> to add a spot light in your scene.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step7-image10.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Move the <strong>Spot</strong> light out on the X-axis, then rotate it on the <strong>Y-axis</strong> by <strong>90˚</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step7-image11.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>With the <strong>Spot</strong> light selected, in the <strong>Object Data Properties</strong> tab, change the <strong>Power</strong> to <strong>0.03</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step7-image12.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Change the <strong>size</strong> of the <strong>Spot Shape</strong> to <strong>38.2˚</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step7-image13.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Reduce the <strong>Specular</strong> to <strong>0</strong>, to not receive any light reflection.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step7-image14.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Change the <strong>Colour</strong> to a lighter colour than the <strong>Lid/Button’s</strong> colour.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step7-image15.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Rename the <strong>Spot</strong> light to <strong>Lid_Highlight</strong> and the <strong>Light</strong> (sun) to <strong>Sun</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step7-image16.png" alt="Step 2 - Image 1"></p>
+    </li>
+  </ol>
+
+</details>
+
+<p><br></p>
+
+<hr>
+
+<h2 id="step-8---rendering">Step 8 - Rendering</h2>
+
+<h3 id="video-7">Video</h3>
+
+<iframe width="100%" height="320px" allowfullscreen="true" src="https://sydney.instructuremedia.com/embed/28b74e74-6d39-48aa-89e0-6635aa10c364" frameborder="0"></iframe>
+
+<h3 id="walkthrough-written-steps-7">Walkthrough written steps</h3>
+
+<details>
+
+  <summary style="color: #E64626;">Click here to see the steps.</summary>
+
+  <p><br></p>
+
+  <p>The final step! Rendering the scene 📺</p>
+
+  <ol>
+    <li>
+      <p>Set the cursor to world origin by going to <strong>Object &gt; Snap &gt; Cursor to World Origin</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image1.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Add a <strong>Mesh &gt; Plane</strong> with a size of <strong>350mm</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image2.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>With the <strong>Plane</strong> selected, go into <strong>Edit Mode</strong> and press the <strong>Loop Cut</strong> tool.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image3.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Hover your cursor until the yellow line is running horizontally through the Plane, <strong>Left-click</strong> and <strong>hold</strong>, moving it up towards the top of the plane and then release.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image4.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Go into <strong>Face selection</strong> and select the cut face.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image5.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p><strong>Extrude</strong> the face upwards.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image6.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Go into <strong>Edge selection</strong> and select the cut edge.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image7.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p><strong>Bevel</strong> the edge with a <strong>width</strong> of <strong>21.5mm</strong> and increase the <strong>segments</strong> to <strong>20</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image8.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p><strong>Scale</strong> the plane on the <strong>Y-axis</strong> to roughly <strong>2.5</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image9.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p><strong>Move</strong> the plane downwards on the <strong>Z-axis</strong> until the <strong>stand</strong> is sitting on it, and rename the plane to <strong>Background_Plane</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image10.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Create a material for the <strong>plane</strong> and give it a dark grey colour.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image11.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Open the <strong>sidebar</strong> either by pressing the arrow or <code class="language-plaintext highlighter-rouge">N</code> on your keyboard, go to the <strong>View</strong> tab and check <strong>Camera To View</strong> in the <strong>Lock</strong> section.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image12.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Set the viewport to the <strong>Camera</strong> by going to <strong>View &gt; Viewpoint &gt; Camera</strong> and adjust the view of the camera.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image13.png" alt="Step 2 - Image 1"></p>
+
+      <p>Adjust the camera’s view.
+<img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image13-2.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>At the top, press the <strong>Show Overlays</strong> button to hide the gizmos, for a preview.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image14.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>To render the scene, go to <strong>Render &gt; Render Image</strong> at the top main navigation bar. <strong>Note</strong> the rendering process takes time, depending on your Computer.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image15.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>In the <strong>Blender Render</strong> window, go to <strong>Image &gt; Save</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image16.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Press the dropdown near <strong>File Format</strong> and select <strong>JPEG</strong>, and name your file to <strong>DECO2018_A1D_yourUnikey_render</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image17.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Change the quality to <strong>100%</strong> and press <strong>Save As Image</strong>, ensuring that you have selected the same location as to where your Blender file is located.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image18.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>In the <strong>Inspector</strong> toolbar, select the <strong>Render Properties</strong> tab that is denoted by the white camera outline.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image19.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p><strong>Check Bloom</strong> and adjust the parameters as you wish, mainly the <strong>colour</strong>, <strong>threshold</strong> and <strong>radius</strong> for a cinematic-like effect.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image20.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Some additional material properties that you can adjust include:</p>
+
+      <p>The <strong>Metallic</strong> material property, adjusts the amount of shininess.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image21.png" alt="Step 2 - Image 1"></p>
+
+      <p>The <strong>Specular</strong> material property, adjusts the amount of reflection.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image22.png" alt="Step 2 - Image 1"></p>
+
+      <p>The <strong>Roughness</strong> material property, adjusts the amount of smoothness.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image23.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>To smooth out an object for rendering purposes, select the object, e.g. the <strong>Top_Shell</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image24.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Go into <strong>Edit Mode</strong> and have <strong>Face Selection</strong> on, and select <strong>all</strong> faces.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image25.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Go to <strong>Mesh &gt; Normals &gt; Smooth Vectors</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image26.png" alt="Step 2 - Image 1"></p>
+
+      <p>Its now smooth! <strong>Note</strong>: the bump at the front can be photoshopped 😅.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image27.png" alt="Step 2 - Image 1"></p>
+    </li>
+  </ol>
+
+</details>
+
+<p><br></p>
+
+<hr>
+
+<h2 id="extra-step---variation-of-pokeball-with-a1c-open-lid">Extra Step - Variation of PokeBall with (A1C) open lid</h2>
+
+<p>Create a variation of your PokeBall (<strong>Please not the standard design</strong>) and render it with its <strong>lid</strong> open (LIKE IN A1C).</p>
+
+<h2 id="submission">Submission</h2>
+
+<p>You will need to submit a <strong>.ZIP</strong> file, containing:</p>
+
+<ul>
+  <li>DECO2018_A1D_yourUnikey_render.jpeg &lt;— <strong>Heavy Ball</strong>
+</li>
+  <li>DECO2018_A1D_yourUnikey_extra_render.jpeg &lt;— <strong>Your own design / another design that is not the standard red PokeBall</strong>
+</li>
+</ul>
+
+<hr>
+
+<p>That’s all for this week!</p>
+
+<p><img src="https://thumbs.gfycat.com/HighPeacefulAsianconstablebutterfly-small.gif" alt="Magikarp OP"></p>
+
+
+    </div>
+
+</article>
+<div class="post-nav">
+        <a class="previous" href="/deco1008-tutorial-guides/2021/09/15/wk12-live-tutorial.html" title="Week 12 Live Tutorial - Advanced Lighting, Rendering and Post-Processing in Photoshop">Week 12 Live Tutorial - Advanced...</a>
+        
+        <a class="next" href="/deco1008-tutorial-guides/2021/09/17/wk7-optional-prac.html" title="Week 7 Optional Prac">Week 7 Optional Prac</a>
+      </div>
+<div class="post-related">
+      <div>Related Articles</div>
+      <ul>
+        <li><a class="post-link" href="/deco1008-tutorial-guides/2021/09/17/wk7-optional-prac.html" title="Week 7 Optional Prac">Week 7 Optional Prac</a></li>
+<li><a class="post-link" href="/deco1008-tutorial-guides/2021/09/16/wk11-tutorial.html" title="Week 7 Optional Prac">Week 11 Tutorial - (Assessment 1D) Materials, Textures, Lighting and Rendering in...</a></li>
+<li><a class="post-link" href="/deco1008-tutorial-guides/2021/09/15/wk12-live-tutorial.html" title="Week 7 Optional Prac">Week 12 Live Tutorial - Advanced Lighting, Rendering and Post-Processing in Photoshop...</a></li>
+</ul>
+    </div>
+<div class="post-comments"></div></section>
+</div>
+
+  </section>
+  <section class="sidebar" style="margin-left: 15px;">
+    <!-- Get sidebar items --><style type="text/css" media="screen">
+.post-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+</style>
+
+<div class="post-menu">
+  <div class="post-menu-title">TOC</div>
+  <div class="post-menu-content"></div>
+</div>
+
+<script>
+  function generateContent() {
+    var menu = document.querySelector(".post-menu");
+    var menuContent =  menu.querySelector(".post-menu-content");
+    var headings = document.querySelector(".post-content").querySelectorAll("h2, h3, h4, h5, h6");
+
+    // Hide menu when no headings
+    if (headings.length === 0) {
+      return menu.style.display = "none";
+    }
+
+    // Generate post menu
+    var menuHTML = '';
+    for (var i = 0; i < headings.length; i++) {
+      var h = headings[i];
+      menuHTML += (
+        '<li class="h-' + h.tagName.toLowerCase() + '">'
+        + '<a href="#h-' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+    }
+
+    menuContent.innerHTML = '<ul>' + menuHTML + '</ul>';
+
+    // The header element
+    var header = document.querySelector('header.site-header');
+
+    function doMenuCollapse(index, over_items) {
+      var items = menuContent.firstChild.children;
+
+      if (over_items == undefined) {
+        over_items = 20;
+      }
+
+      if (items.length < over_items) {
+        return;
+      }
+
+      var activeItem = items[index];
+      var beginItem = activeItem
+      var endItem = activeItem
+      var beginIndex = index;
+      var endIndex = index + 1;
+      while (beginIndex >= 0
+        && !items[beginIndex].classList.contains('h-h2')) {
+        beginIndex -= 1;
+      }
+      while (endIndex < items.length
+        && !items[endIndex].classList.contains('h-h2')) {
+        endIndex += 1;
+      }
+      for (var i = 0; i < beginIndex; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+      for (var i = beginIndex + 1; i < endIndex; i++) {
+        item = items[i]
+        // if (!item.classList.contains('h-h2')) {
+          item.style.display = '';
+        // }
+      }
+      for (var i = endIndex; i < items.length; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+    }
+
+    // Init menu collapsed
+    doMenuCollapse(-1);
+
+    // Active the menu item
+    window.addEventListener('scroll', function (event) {
+      var lastActive = menuContent.querySelector('.active');
+      var changed = true;
+      var activeIndex = -1;
+      for (var i = headings.length - 1; i >= 0; i--) {
+        var h = headings[i];
+        var headingRect = h.getBoundingClientRect();
+        var headerRect = header.getBoundingClientRect();
+        var headerTop = Math.floor(headerRect.top);
+        var headerHeight = Math.floor(headerRect.height);
+        var headerHeight = headerTop + headerHeight + 20;
+        if (headingRect.top <= headerHeight) {
+          var id = 'h-' + h.getAttribute('id');
+          var a = menuContent.querySelector('a[href="#' + id  + '"]');
+          var curActive = a.parentNode;
+          if (curActive) {
+            curActive.classList.add('active');
+            activeIndex = i;
+          }
+          if (lastActive == curActive) {
+            changed = false;
+          }
+          break;
+        }
+      }
+      if (changed) {
+        if (lastActive) {
+          lastActive.classList.remove('active');
+        }
+        doMenuCollapse(activeIndex);
+      }
+      event.preventDefault();
+    });
+  }
+  generateContent();
+</script>
+</section>
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/deco1008-tutorial-guides/"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+      <div>Copyright © 2021 DECO2018 Team</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

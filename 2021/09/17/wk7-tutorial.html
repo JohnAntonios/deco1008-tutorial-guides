@@ -1,0 +1,1532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Assessment 1C - Animation in Blender | DECO2018 Tutorial Guides</title>
+<meta name="generator" content="Jekyll v4.2.1">
+<meta property="og:title" content="Assessment 1C - Animation in Blender">
+<meta name="author" content="DECO2018 Team">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="This is where you will learn about animation in Blender with your 1B PokeBall and stand.">
+<meta property="og:description" content="This is where you will learn about animation in Blender with your 1B PokeBall and stand.">
+<link rel="canonical" href="https://johnantonios.github.io/deco1008-tutorial-guides/2021/09/17/wk7-tutorial.html">
+<meta property="og:url" content="https://johnantonios.github.io/deco1008-tutorial-guides/2021/09/17/wk7-tutorial.html">
+<meta property="og:site_name" content="DECO2018 Tutorial Guides">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2021-09-17T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Assessment 1C - Animation in Blender">
+<script type="application/ld+json">
+{"description":"This is where you will learn about animation in Blender with your 1B PokeBall and stand.","url":"https://johnantonios.github.io/deco1008-tutorial-guides/2021/09/17/wk7-tutorial.html","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://johnantonios.github.io/deco1008-tutorial-guides/2021/09/17/wk7-tutorial.html"},"author":{"@type":"Person","name":"DECO2018 Team"},"headline":"Assessment 1C - Animation in Blender","dateModified":"2021-09-17T00:00:00+00:00","datePublished":"2021-09-17T00:00:00+00:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="shortcut icon" href="/deco1008-tutorial-guides/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+  <!-- and it's easy to individually load additional languages -->
+  <script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js"></script>
+  <link rel="stylesheet" href="/deco1008-tutorial-guides/assets/css/main.css">
+  <script src="/deco1008-tutorial-guides/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="https://johnantonios.github.io/deco1008-tutorial-guides/feed.xml" title="DECO2018 Tutorial Guides">
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header " role="banner">
+
+  <div class="wrapper">
+    <div class="site-header-inner">
+<span class="site-brand"><a class="site-brand-inner" rel="author" href="/deco1008-tutorial-guides/">
+  <img class="site-favicon" title="DECO2018 Tutorial Guides" src="/deco1008-tutorial-guides/favicon.ico" onerror="this.style.display='none'">
+  DECO2018 Tutorial Guides
+</a>
+</span><nav class="site-nav">
+
+
+
+
+<span class="page-link">
+
+<div id="google_translate_element" style="display: none;">
+</div>
+
+<span class="ct-language">
+  <ul class="list-unstyled ct-language-dropdown">
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="en">
+          
+          <img src="https://www.countryflags.io/au/flat/64.png" title="English">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="fr">
+          
+          <img src="https://www.countryflags.io/fr/flat/64.png" title="Franch">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="zh-CN">
+          
+          <img src="https://www.countryflags.io/cn/flat/64.png" title="Chinese(Simple)">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ja">
+          
+          <img src="https://www.countryflags.io/jp/flat/64.png" title="Japan">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ko">
+          
+          <img src="https://www.countryflags.io/kr/flat/64.png" title="Korean">
+          
+        </a>
+      </li>
+    
+      <li>
+        <a href="#" class="lang-select" data-lang="ru">
+          
+          <img src="https://www.countryflags.io/ru/flat/64.png" title="Russia">
+          
+        </a>
+      </li>
+    
+  </ul>
+</span>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: '',
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.VERTICAL
+  }, 'google_translate_element');
+
+  function restoreLang() {
+    var iframe = document.getElementsByClassName('goog-te-banner-frame')[0];
+    if (!iframe) return;
+
+    var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
+    var restore_el = innerDoc.getElementsByTagName("button");
+
+    for (var i = 0; i < restore_el.length; i++) {
+      if (restore_el[i].id.indexOf("restore") >= 0) {
+        restore_el[i].click();
+        var close_el = innerDoc.getElementsByClassName("goog-close-link");
+        close_el[0].click();
+        return;
+      }
+    }
+  }
+
+  function triggerHtmlEvent(element, eventName) {
+    var event;
+    if (document.createEvent) {
+      event = document.createEvent('HTMLEvents');
+      event.initEvent(eventName, true, true);
+      element.dispatchEvent(event);
+    } else {
+      event = document.createEventObject();
+      event.eventType = eventName;
+      element.fireEvent('on' + event.eventType, event);
+    }
+  }
+
+  var googleCombo = document.querySelector("select.goog-te-combo");
+  var langSelect = document.querySelector('.ct-language');
+  langSelect.addEventListener('click', function(event) {
+    if (!event.target) {
+      return;
+    }
+
+    var selected = document.querySelector('.ct-language .ct-language-selected');
+    if (selected) {
+      selected.classList.remove('ct-language-selected');
+    }
+
+    var target = event.target;
+    while (target && target !== langSelect ) {
+      if (target.matches('.lang-select')) {
+        break;
+      }
+      target = target.parentElement;
+    }
+
+    if (target && target.matches('.lang-select')) {
+      var lang = target.getAttribute('data-lang');
+      if (googleCombo.value == lang) {
+        restoreLang();
+      } else {
+        target.parentElement.classList.add('ct-language-selected');
+        googleCombo.value = lang;
+        triggerHtmlEvent(googleCombo, 'change');
+      }
+    }
+
+    event.preventDefault();
+  });
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</span></nav>
+</div>
+  </div>
+</header>
+
+<script>
+  (function() {
+    var lastScrollY = getScrollPos().y;
+    var documentElement = document.documentElement;
+
+    function storeScrollData() {
+      var y = getScrollPos().y;var scrollStatus = "";
+
+      if (y <= 0) {
+        scrollStatus = "top";
+      } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+        scrollStatus = "bottom";
+      } else {
+        var isScrollDown = (y - lastScrollY > 0) ? true : false;
+        scrollStatus = isScrollDown ? "down" : "up";
+      }
+
+      lastScrollY = y;
+      documentElement.setAttribute("data-scroll-status", scrollStatus);
+    }
+
+    window.addEventListener('scroll', function(e) {
+      storeScrollData();
+    });
+
+    storeScrollData();
+  })();
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.tagName.toLowerCase() == 'a') {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<div class="theme-toggle">
+  <input type="checkbox" id="theme-switch">
+  <label for="theme-switch">
+    <div class="toggle"></div>
+    <div class="names">
+      <p class="light">Light</p>
+      <p class="dark">Dark</p>
+    </div>
+  </label>
+</div>
+
+<script>
+  (function() {
+    var sw = document.getElementById('theme-switch');
+    var html = document.getElementsByTagName('html')[0];
+    var themeData = loadThemeData();
+
+    function saveThemeData(data) {
+      localStorage.setItem('theme', JSON.stringify(data));
+    }
+
+    function loadThemeData() {
+      var data = localStorage.getItem('theme');
+      try {
+        data = JSON.parse(data ? data : '');
+      } catch(e) {
+        data = { nightShift: null, autoToggleAt: 0 };
+        saveThemeData(data);
+      }
+      return data;
+    }
+
+    function handleThemeToggle(nightShift) {
+      themeData.nightShift = nightShift;
+      saveThemeData(themeData);
+      html.dataset.theme = nightShift ? 'dark' : 'light';
+      setTimeout(function() {
+        sw.checked = nightShift ? true : false;
+      }, 50);
+    }
+
+    function autoThemeToggle() {
+      // Next time point of theme toggle
+      var now = new Date();
+      var toggleAt = new Date();
+      var hours = now.getHours();
+      var nightShift = hours >= 19 || hours <=7;
+
+      if (nightShift) {
+        if (hours > 7) {
+          toggleAt.setDate(toggleAt.getDate() + 1);
+        }
+        toggleAt.setHours(7);
+      } else {
+        toggleAt.setHours(19);
+      }
+
+      toggleAt.setMinutes(0);
+      toggleAt.setSeconds(0);
+      toggleAt.setMilliseconds(0)
+
+      var delay = toggleAt.getTime() - now.getTime();
+
+      // auto toggle theme mode
+      setTimeout(function() {
+        handleThemeToggle(!nightShift);
+      }, delay);
+
+      return {
+        nightShift: nightShift,
+        toggleAt: toggleAt.getTime()
+      };
+    }
+
+    var data = autoThemeToggle();
+
+    // Listen the theme toggle event
+    sw.addEventListener('change', function(event) {
+      handleThemeToggle(event.target.checked);
+    });
+
+    // Toggle theme by local setting
+    if (data.toggleAt > themeData.autoToggleAt) {
+      themeData.autoToggleAt = data.toggleAt;
+      handleThemeToggle(data.nightShift);
+    } else {
+      handleThemeToggle(themeData.nightShift);
+    }
+  })();
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     <div class="post">
+  <section>
+
+
+
+
+
+
+
+
+
+<header class="post-header">
+  <h1 class="post-title p-name" itemprop="name headline">Assessment 1C - Animation in Blender</h1>
+  <h3 class="post-subtitle">Assessment 1C - Learning about animations in Blender!</h3>
+
+  <p class="post-meta">
+    <time class="dt-published" datetime="2021-09-17T00:00:00+00:00" itemprop="datePublished"><i class="fa fa-calendar"></i> Sep 17, 2021
+    </time>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 30 mins</span>
+  </p></header>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <div class="post-content e-content" itemprop="articleBody">
+
+      <p>This is where you will learn about animation in Blender with your 1B PokeBall and stand.</p>
+
+<h2 id="objective">Objective</h2>
+
+<p>Your objective is to animate your Assessment 1B PokeBall! You will be <strong>required</strong> to produce two animations:</p>
+
+<p><strong>Turntable</strong></p>
+
+<iframe width="100%" height="320px" allowfullscreen="true" src="https://sydney.instructuremedia.com/embed/d949bebf-3b9b-4c3b-a59b-3ecac273da99" frameborder="0"></iframe>
+
+<p><br></p>
+
+<p><strong>Bounce, Roll and Open</strong></p>
+
+<iframe width="100%" height="320px" allowfullscreen="true" src="https://sydney.instructuremedia.com/embed/09ed1746-b544-439d-b239-6d77c714a956" frameborder="0"></iframe>
+
+<p><br></p>
+
+<p><strong>You may go an extra step and apply two principles of animation to one of the above!</strong>.</p>
+
+<hr>
+
+<h2 id="step-1---setting-up-the-blender-file">Step 1 - Setting up the Blender file</h2>
+
+<h3 id="video">Video</h3>
+
+<iframe width="100%" height="320px" allowfullscreen="true" src="https://sydney.instructuremedia.com/embed/87702c33-c8b3-4f1c-9faf-b88260c8d74c" frameborder="0" class="media">
+</iframe>
+
+<h3 id="walkthrough-written-steps">Walkthrough written steps</h3>
+
+<details>
+
+  <summary style="color: #E64626;">Click here to see the steps.</summary>
+
+  <p><br></p>
+
+  <p>
+
+1. Locate your A1B Blender File.
+
+<br>
+
+<img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step1-image1.png" alt="Step 1 - Image 1">`
+
+<br>
+
+2. Duplicate this file (copy + paste) and rename it to <strong>DECO2018_A1C_YourUnikey</strong>.
+
+<br>
+
+<img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step1-image2.png" alt="Step 1 - Image 2">
+
+<br>
+
+3. Open this new Blender file.
+
+<br>
+
+<img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step1-image3.png" alt="Step 1 - Image 3">
+
+</p>
+
+</details>
+
+<p><br></p>
+
+<hr>
+
+<h2 id="step-2---introducing-the-animation-workspace">Step 2 - Introducing the Animation workspace</h2>
+
+<h3 id="video-1">Video</h3>
+
+<iframe width="100%" height="320px" allowfullscreen="true" src="https://sydney.instructuremedia.com/embed/ed8bdba6-1529-4e0c-9f62-19f93e3b19a2" frameborder="0"></iframe>
+
+<h3 id="walkthrough-written-steps-1">Walkthrough written steps</h3>
+
+<details>
+
+  <summary style="color: #E64626;">Click here to see the steps.</summary>
+
+  <p><br></p>
+
+  <p>Congratulations! You have made it past the modelling workspace in Blender! 😃</p>
+
+  <ol>
+    <li>
+      <p>If you previously had <strong>face orientation</strong> on, turn this <strong>off</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step2-image1.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Press the <strong>Animation</strong> tab in the workspaces ribbon.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step2-image2.png" alt="Step 2 - Image 1"></p>
+
+      <p>You will notice that quite a bit has changed. Let’s break down the new workspace.</p>
+    </li>
+    <li>
+      <p>We now see there are two viewports instead of one viewport. The viewport on the left is where you would preview your animation and the viewport on the right is where you would work on your animation.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step2-image3.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Below the viewports is a timeline. We will be in this area the most as it is where we can create our animations! If you have used a software like Adobe Animate or Adobe After Effects, it is quite similar in its workflow. It consists of:</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step2-image4.png" alt="Step 2 - Image 1"></p>
+    </li>
+  </ol>
+
+  <ul>
+    <li>The <strong>playhead</strong> denoted by the blue vertical bar. This is like the handle you see in a video player on platforms like YouTube.</li>
+    <li>The <strong>sheet</strong> which is the area in the centre. This is where your keyframes will be.</li>
+    <li>The <strong>player controls</strong> at the bottom-centre. This is a series of buttons to play, pause, rewind, record and jump to certain points, in the animation.</li>
+  </ul>
+
+</details>
+
+<p><br></p>
+
+<hr>
+
+<h2 id="step-3---introducing-the-camera">Step 3 - Introducing the Camera</h2>
+
+<h3 id="video-2">Video</h3>
+
+<iframe width="100%" height="320px" allowfullscreen="true" src="https://sydney.instructuremedia.com/embed/065a237c-8d9c-46d7-9976-a2a3a1171330" frameborder="0"></iframe>
+
+<h3 id="walkthrough-written-steps-2">Walkthrough written steps</h3>
+
+<details>
+
+  <summary style="color: #E64626;">Click here to see the steps.</summary>
+
+  <p><br></p>
+
+  <ol>
+    <li>
+      <p>We have previously stated to not worry about the Camera, well now its time to focus on the Camera in Blender!
+The camera is a second pair of eyes, the first pair of eyes is the viewport which is what we as the user see in Blender.
+The camera acts as an internal camera that can be set up for rendering and animations.</p>
+
+      <p>In the <strong>left</strong> viewport, click on the Hamburger menu near the top, then go to View -&gt; Viewpoint -&gt; Camera. You will notice this rectangular box, this is what the Camera is currently seeing.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step3-image1.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Try moving the camera around in the <strong>right</strong> viewport, you will notice that it is moving as well in the <strong>left</strong> viewport.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step3-image2.png" alt="Step 2 - Image 1"></p>
+
+      <p>Our objective for the first animation, the turntable, is to position the camera to have it slightly above the Pokeball + stand as we want the top shell to move up.</p>
+
+      <p>You will notice that is quite difficult to do so, with just manually adjusting the camera in the right viewport.</p>
+    </li>
+    <li>
+      <p>In the <strong>left</strong> viewport, press <strong>N</strong> on your keyboard or go to View -&gt; Sidebar to open the Sidebar.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step3-image3.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Press the <strong>view</strong> tab in the sidebar.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step3-image4.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Under the <strong>View Lock</strong> section, check the <strong>Camera to View</strong> checkbox. What this will do is instead of adjusting the viewport when you are using your mouse to move around, it will adjust the camera’s view.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step3-image5.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Still in the <strong>left</strong> viewport, try to move around with just your mouse. You will now notice that you are updating the camera’s position and rotation as well! Much easier 😃</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step3-image6.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>There is one issue! You will notice that as we zoom out, the Pokeball begins to clip. We need to update the clipping start and end, as the camera has different values for clipping compared to the viewport’s.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step3-image7.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>With the <strong>Camera</strong> Selected, go to the <strong>Object Data Properties</strong> tab. It is denoted by the camera icon.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step3-image8.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Change <strong>Clip Start</strong> to 0.01mm and <strong>Clip End</strong> to 1000mm.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step3-image9.png" alt="Step 2 - Image 1"></p>
+    </li>
+  </ol>
+
+</details>
+
+<p><br></p>
+
+<hr>
+
+<h2 id="step-4---turntable-animation">Step 4 - Turntable animation</h2>
+
+<h3 id="video-3">Video</h3>
+
+<iframe width="100%" height="320px" allowfullscreen="true" src="https://sydney.instructuremedia.com/embed/aaa502d3-74f6-49c6-89b6-a4de3b38cc97" frameborder="0">
+</iframe>
+
+<h3 id="walkthrough-written-steps-3">Walkthrough written steps</h3>
+
+<details>
+
+  <summary style="color: #E64626;">Click here to see the steps.</summary>
+
+  <p><br></p>
+
+  <p>Now we are going to create our first animation! The turntable animation.</p>
+
+  <ol>
+    <li>
+      <p>Adjust the camera’s view to something as shown below, with space at the top and the stand slightly cut-off.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image1.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Select the <strong>Top_Shell</strong> and move the playhead to frame <strong>1</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image2.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>In the <strong>Object Properties</strong> tab, press the circular dot near the <strong>Location Z</strong> value.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image3.png" alt="Step 2 - Image 1"></p>
+
+      <p>This will create a keyframe in the timeline.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image4.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>You will notice that if you de-select the Top_Shell, its keyframes disappear from the timeline. To still show these keyframes, you will need to toggle off the selected keyframes mode found on the top-right side of the timeline.</p>
+
+      <p>When nothing is selected and selected keyframes mode is <strong>on</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image5.png" alt="Step 2 - Image 1"></p>
+
+      <p>When nothing is selected and selected keyframes mode is <strong>off</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image6.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>We now want to move the Top_Shell up, this will create the <strong>explosion</strong>. Ensure that the <strong>Top_Shell</strong> is selected. Now press the <strong>record</strong> button located at the bottom of the timeline.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image7.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Move the playhead to frame <strong>50</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image8.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Move the <strong>Top_Shell</strong> up on the <strong>Z-axis</strong>, to where it touches the top edge of the rectangle in the <strong>left</strong> viewport.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image9.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>You will now notice that Blender has automatically created the keyframe for us! But it has also annoyingly created a keyframe for every single other property 🙃, but that’s okay because they are the same and have not changed.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image10.png" alt="Step 2 - Image 1"></p>
+
+      <p>You can now turn off <strong>record</strong> mode.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image13.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Move the playhead to frame <strong>1</strong> and play the animation! You can do this by either pressing <strong>Spacebar</strong> on your keyboard or pressing the right arrow at the bottom of the timeline.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image12.png" alt="Step 2 - Image 1">
+<img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image11.png" alt="Step 2 - Image 1"></p>
+
+      <p>Great work! You have created your first animation in Blender!</p>
+    </li>
+    <li>
+      <p>We can clean up the timeline by removing the redundant keyframes, box select everything but the <strong>Z Location</strong> keyframe.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image14.png" alt="Step 2 - Image 1"></p>
+
+      <p>Right-click and press <strong>Delete keyframes</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image15.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Move the playhead to frame <strong>100</strong> and select the keyframe at frame <strong>50</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image16.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Right-click and press <strong>Duplicate</strong>, this will automatically grab the duplicated keyframe for you to move to a new location.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image17.png" alt="Step 2 - Image 1"></p>
+
+      <p>Move the duplicated keyframe to frame <strong>100</strong> and left-click to confirm.
+<img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image18.png" alt="Step 2 - Image 1"></p>
+
+      <p>This will hold the lifted position of the lid for 50 frames.</p>
+
+      <p>You can re-adjust this length by selecting the duplicated keyframe and pressing <strong>G</strong> to move it to a new location, left-click to confirm.
+<img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image19.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Move the playhead to frame <strong>130</strong> and select the keyframe at frame <strong>1</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image20.png" alt="Step 2 - Image 1"></p>
+
+      <p>Just like the previous step, duplicate the keyframe and move it to frame <strong>130</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image21.png" alt="Step 2 - Image 1"></p>
+
+      <p>You can move the keyframes and adjust the timings however you like!</p>
+    </li>
+    <li>
+      <p>In the top-left of the timeline area, press the <strong>Editor Type</strong> and select <strong>Graph Editor</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image22.png" alt="Step 2 - Image 1"></p>
+
+      <p>You will notice that there is nothing but a single line!</p>
+    </li>
+    <li>
+      <p>Zoom out and pan upwards (the controls are exactly like moving the viewport), you will see your keyframes!</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image24.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>The graph editor allows us to adjust the <strong>easing</strong> of each keyframe, while still being able to move the keyframes.
+It works exactly like a spline curve!</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image25.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>The transition between two keyframes can be adjusted by changing the <strong>Handle Type</strong>. Select a keyframe, right-click -&gt; Handle Type.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image26.png" alt="Step 2 - Image 1"></p>
+
+      <ul>
+        <li>
+<strong>Free</strong> - gives you control over both control nodes independently, i.e. moving one won’t affect the other.</li>
+        <li>
+<strong>Aligned</strong> - the standard control, i.e. a bezier curve between the two control nodes.</li>
+        <li>
+<strong>Vector</strong> - the opposite of <strong>Aligned</strong>, a linear curve between the two control nodes.</li>
+      </ul>
+    </li>
+    <li>
+      <p>The type of easing between at least <strong>two</strong> keyframes can be changed by <strong>interpolation</strong>. Select two keyframes and right-click -&gt; Interpolation Mode -&gt; Choose an interpolation and preview to get a different result. Experiment with these and choose the one that feels best to you. Do this for both sides of the animation (opening the lid and closing the lid).</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image27.png" alt="Step 2 - Image 1">
+<img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image28.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Rename the animation by pressing the arrow icon near <strong>Top_Shell</strong> in the scene hierarchy, then pressing the arrow icon near <strong>Animation</strong>. Click on the animation itself, in this case it is called <strong>Top_ShellAction.001</strong> and rename it to “Explode”.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image29.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>We now want to rotate the camera around the exploding Pokeball model. Go to Add -&gt; Empty -&gt; Plain Axes (make sure your 3D cursor is at world origin).</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image30.png" alt="Step 2 - Image 1">
+<img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image31.png" alt="Step 2 - Image 1"></p>
+
+      <p>Rename this to <strong>Camera_Rotator</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image32.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>With the <strong>Camera_Rotator</strong> selected, go into its <strong>Object Properties</strong> and press the circle near the <strong>Rotation Z</strong> value.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image33.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Press the <strong>record</strong> button and move the playhead to the <strong>end keyframe, (frame 250)</strong>. A quick way to do this is by pressing the right arrow with a bar icon at the bottom-centre.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image34.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Change the <strong>Rotation Z</strong> value to 360.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image35.png" alt="Step 2 - Image 1"></p>
+
+      <p>Play the animation and you will see the axes spin seamlessly. Press the <strong>record</strong> button to stop recording.</p>
+    </li>
+    <li>
+      <p>Select the <strong>Camera_Rotator</strong>, then select the <strong>Camera</strong>. It is important to select these in this order. A way to know that you have selected these correctly is by the <strong>Camera</strong> being highlighted in a darker shade of orange and blue, compared to the <strong>Camera_Rotator</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image36.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Right-click -&gt; Parent -&gt; Object. This will parent the <strong>Camera</strong> to the <strong>Camera_Rotator</strong>. Meaning that the <strong>Camera</strong> will inherit the <strong>Camera_Rotator’s</strong> animation!</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image37.png" alt="Step 2 - Image 1"></p>
+
+      <p>Play the animation and you will see the camera spin seamlessly. You will notice that something is a bit weird, the camera slows down towards the end and at the beginning.</p>
+    </li>
+    <li>
+      <p>Switch to <strong>Graph Editor</strong> and select both keyframes (you can do this by either box selecting, or pressing <strong>A</strong> on your keyboard)</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image38.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Right-click -&gt; Interpolation Mode -&gt; Linear. This will apply a constant rotation to the camera, with no easing mimicking a turntable.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image39.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>The last thing to do is move the <strong>Explode</strong> animation from the beginning of the animation to somewhere in the middle. Select the <strong>Top_Shell</strong> and go into the <strong>Dope Sheet</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image40.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Select all the keyframes and move these towards the centre.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image41.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Great! The turntable animation is finished, now we can render it. In the inspector toolbar, click on <strong>Output Properties</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image42.png" alt="Step 2 - Image 1"></p>
+
+      <p>Ensure:</p>
+
+      <ul>
+        <li>
+<strong>Resolution %</strong> is 100%.</li>
+        <li>
+<strong>Aspect X and Y</strong> are both 1.000.</li>
+        <li>
+<strong>Frame Start</strong> is 1, <strong>Frame End</strong> is 250 and <strong>Frame Step</strong> is 1.</li>
+        <li>
+<strong>Frame Rate</strong> is either <strong>24</strong> or <strong>23.98</strong>.</li>
+      </ul>
+    </li>
+    <li>
+      <p>Press the file button below <strong>Output</strong> and specify a file name for the animation. Use the convention: <strong>DECO2018_A1C_yourUniKey_turntable</strong>. Then press <strong>Accept</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image43.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Change the file format from <strong>PNG</strong> to <strong>FFmpeg Video</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image44.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Press on the <strong>Encoding</strong> tab and change the <strong>Container</strong> from <strong>Matroska</strong> to <strong>MPEG-4</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image45.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>In the <strong>Encoding / Video</strong> section, change the <strong>Output Quality</strong> to <strong>High quality</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image46.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>In the <strong>left</strong> viewport, press the hamburger menu -&gt; <strong>View</strong> -&gt; <strong>Viewport Render Animation</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image47.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>The animation will now begin the render. You can see the progress by the cursor updating to the current frame number, it will be complete once it reaches the <strong>end frame</strong> which is <strong>250</strong>. This will take some time depending on your computer’s performance.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image48.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>The animation will have saved into the location you specified earlier. Remove the <strong>0001-0250</strong> at the end of the file name, now play!</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image49.png" alt="Step 2 - Image 1"></p>
+    </li>
+  </ol>
+
+  <p>Great job, you have completed your first animation! Take a break before tackling the next animation.</p>
+
+</details>
+
+<p><br></p>
+
+<hr>
+
+<h2 id="step-5---nla">Step 5 - NLA</h2>
+
+<h3 id="video-4">Video</h3>
+
+<iframe width="100%" height="320px" allowfullscreen="true" src="https://sydney.instructuremedia.com/embed/b467cebe-435a-4bf4-ab83-75705f3e9315" frameborder="0"></iframe>
+
+<h3 id="walkthrough-written-steps-4">Walkthrough written steps</h3>
+
+<details>
+
+  <summary style="color: #E64626;">Click here to see the steps.</summary>
+
+  <p><br></p>
+
+  <p><strong>NLA</strong> stands for <strong>N</strong>on<strong>l</strong>inear <strong>A</strong>nimation. They are Blender’s way of composing multiple animations in one Blender scene without having to create a Blender file for each animation because that would be inefficient!</p>
+
+  <p>If you have ever used a video-editing software like Adobe Premiere Pro or Final Cut Pro, it works in a similar way. There is a <strong>track</strong> for each animation that is tied to an object. You can move these <strong>tracks</strong> around which adjusts when they get played, <strong>mute</strong> tracks that do not need to be edited or used and add new <strong>empty tracks</strong> for another animation applied to an object.</p>
+
+  <p>
+
+1. Change the <strong>Editor Type</strong> to <strong>Nonlinear Animation</strong>.
+
+<br>
+
+<img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step5-image1.png" alt="Step 2 - Image 1">
+
+<br>On the left are the tracks. They are grouped by the 3D Object. Within these groups are the animation tracks.
+<br>The orange bars represent the animation itself and its duration. You have the ability to <strong>move</strong> these around adjusting when they start / finish.&lt;/li&gt;
+<br>
+
+<br>
+
+<img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step5-image2.png" alt="Step 2 - Image 1">
+
+<br>
+
+2. Press the <strong>Push Down Action</strong> button that is located near the <strong>Camera_RotatorAction</strong> animation track.
+
+<br>
+
+<img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step5-image3.png" alt="Step 2 - Image 1">
+
+<br>
+
+You will see that under <strong>Camera_Rotator</strong> there is an <strong>NlaTrack</strong> which is the camera rotation animation and above it is an empty track called <strong>No Action</strong> - Blender is now able to edit the empty track for the <strong>Camera_Rotator</strong> object as it is the top-most one.
+
+<br>
+
+<img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step5-image4.png" alt="Step 2 - Image 1">
+
+<br>
+
+3. Repeat the above step, but for the <strong>Top_Shell - Explode</strong> animation track.
+
+<br>
+
+<img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step5-image6.png" alt="Step 2 - Image 1">
+
+<br>
+
+</p>
+
+  <p>We can now begin working on our second animation!</p>
+
+  <p><strong>Note</strong></p>
+
+  <p>We will be changing a lot of the Pokeball’s structure and properties and the camera in the scene hierarchy. If you want to keep the current state of the Pokeball and camera, <strong>copy and paste</strong> these into a <strong>New Collection</strong> and hide it.</p>
+
+</details>
+
+<p><br></p>
+
+<hr>
+
+<h2 id="step-6---bounce-roll-and-open-animation">Step 6 - Bounce, Roll and Open animation</h2>
+
+<h3 id="video-5">Video</h3>
+
+<iframe width="100%" height="320px" allowfullscreen="true" src="https://sydney.instructuremedia.com/embed/70f283b6-1067-407e-902e-9a99431840f4" frameborder="0"></iframe>
+
+<h3 id="walkthrough-written-steps-5">Walkthrough written steps</h3>
+
+<details>
+
+  <summary style="color: #E64626;">Click here to see the steps.</summary>
+
+  <p><br></p>
+
+  <ol>
+    <li>
+      <p><strong>Hide</strong> your <strong>Stand</strong> object.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image1.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Currently the PokeBall is separated into two parts - the <strong>Top_Shell</strong> and the <strong>Bottom_Shell</strong>. We want to move the PokeBall as a whole, rather than selecting them individually and moving them. Select the <strong>Top_Shell</strong>, in the <strong>right</strong> viewport, go to <strong>Object</strong> -&gt; <strong>Snap</strong> -&gt; <strong>Cursor to Active</strong></p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image2.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Go to <strong>Add</strong> -&gt; <strong>Empty</strong> -&gt; <strong>Sphere</strong>. We want to create a silhouette of the Pokeball, and the shape that resembles it the most is a Sphere. We have created the sphere in the centre of the PokeBall so when we increase its size, it increases from the centre and not from the bottom.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image3.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Change the <strong>radius</strong> to <strong>35.2</strong>mm.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image4.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Rename the <strong>Empty</strong> sphere to <strong>PokeBall</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image5.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Select the <strong>Top_Shell</strong> and <strong>Bottom_Shell</strong> first, then select the <strong>PokeBall</strong>. This order is important.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image6.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Right-click -&gt; <strong>Parent</strong> -&gt; <strong>Object</strong>. This will parent the <strong>Top_Shell</strong> and <strong>Bottom_Shell</strong> to the <strong>PokeBall</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image7.png" alt="Step 2 - Image 1"></p>
+
+      <p>Try to move the <strong>PokeBall</strong> object, you will see that the entire shell is moving in one piece!</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image8.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>We need a ground for our PokeBall to land on. Go to <strong>Add</strong> -&gt; <strong>Mesh</strong> -&gt; <strong>Plane</strong> (Ensure the 3D cursor is at world origin).</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image9.png" alt="Step 2 - Image 1"></p>
+
+      <p>Set its size to <strong>2000</strong>mm.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image10.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>In the <strong>left</strong> viewport, adjust the camera to something like this. Where the PokeBall is on an angle and there is more space on the left, than on the right.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image11.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Go to <strong>Add</strong> -&gt; <strong>Curve</strong> -&gt; <strong>Bezier</strong>. We want to create a path for the PokeBall object to follow, this will make more sense as we progress.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image12.png" alt="Step 2 - Image 1"></p>
+
+      <p>Set its radius to <strong>50</strong>mm.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image13.png" alt="Step 2 - Image 1"></p>
+
+      <p>Rename to <strong>PokeBall_Path</strong></p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image14.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Switch to <strong>Front</strong> view and hide everything but the <strong>PokeBall_Path</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image15.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Search the Internet for a bouncing ball animation reference, ideally one where it does not show the ball. <strong>Note:</strong> a PokeBall does not adhere to a ‘bouncy’ ball in the Physics world, meaning Squash and Stretch won’t be applied here.</p>
+
+      <p>Here’s one you can use.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/Ball_Animation_Reference.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Add the downloaded reference image into your scene. Here’s a quick refresher:</p>
+
+      <p>Create a new collection - call it <strong>References</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image17.png" alt="Step 2 - Image 1"></p>
+
+      <p><strong>Add</strong> -&gt; <strong>Image</strong> -&gt; <strong>Reference</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image18.png" alt="Step 2 - Image 1"></p>
+
+      <p>Select the downloaded file and <strong>uncheck</strong> align to view.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image19.png" alt="Step 2 - Image 1"></p>
+
+      <p>Rotate the reference image so that it is facing the <strong>front view</strong>, <strong>90</strong> on the <strong>X-axis</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image20.png" alt="Step 2 - Image 1"></p>
+
+      <p>Increase its size to <strong>670mm</strong>, centre the reference image (by resetting its position and ensuring the <strong>X Offset</strong> and <strong>Y Offset</strong> are <strong>-0.50</strong>) and enable transparency, reducing the opacity to <strong>0.3</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image21.png" alt="Step 2 - Image 1"></p>
+
+      <p>Rename the reference image to <strong>Ball_Path</strong> and lock it.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image22.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Trace your Bezier Curve over the reference image. Remember it is <strong>E</strong> to extrude out a new point.</p>
+
+      <ul>
+        <li>Change the <strong>Handle Type</strong> to <strong>Free</strong> for better control for each point.</li>
+        <li>Change the <strong>Handle Type</strong> to <strong>Aligned</strong> for each bottom point.</li>
+      </ul>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image23.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Select the last point in the path and extrude a new point. Ensure that it is extruding only on the <strong>X-axis</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image24.png" alt="Step 2 - Image 1"></p>
+
+      <p>Change its <strong>Handle Type</strong> to <strong>Vector</strong> so it becomes a straight line. This is the rolling line of the Ball.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image25.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Hide the <strong>References</strong> collection.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image26.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Select the <strong>PokeBall_Path</strong>, go to <strong>Object</strong> -&gt; <strong>Set Origin</strong> -&gt; <strong>Origin to Geometry</strong></p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image27.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Unhide the objects, and clean the path drawn (i.e. ensuring the Y values for each point are near / at 0, this is especially for the control points).</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image28.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Zero-out the position of the <strong>PokeBall_Path</strong> and move it slightly above the PokeBall itself. Adjust its scale to around <strong>0.4 - 0.5</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image29.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Select the <strong>PokeBall</strong>, go to the <strong>Object Constraints</strong> tab in the Inspector.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image30.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p><strong>Add Object Constraint</strong> -&gt; <strong>Follow Path</strong>. We are going to have the <strong>PokeBall</strong> follow the path of the <strong>PokeBall_Path</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image31.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Select the <strong>Target</strong> as the <strong>PokeBall Path</strong>, press <strong>Animate Path</strong> then check <strong>Fixed Position</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image32.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Move the playhead to frame <strong>0</strong> (Or 1, no idea why I put it at 0 🤦‍♂️), then press the circle icon near <strong>Offset Factor</strong>.</p>
+
+      <p><strong>Note</strong>: If you are using an older version of Blender (&lt;= 2.8), then you would need to right-click on the offset factor and press <strong>Insert Keyframe</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image33.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Press record at the bottom of the timeline, move the playhead to the end frame <strong>250</strong> and change the <strong>Offset Factor</strong> value to <strong>1</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image34.png" alt="Step 2 - Image 1"></p>
+
+      <p>Don’t forget to stop recording! Play the animation.</p>
+    </li>
+    <li>
+      <p>The animation is quite slow, we can speed this up by moving the keyframe at frame <strong>250</strong> closer, for a faster animation.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image35.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>You’ll notice that the PokeBall is inside the plane, we will need to fix this. Find a bottom point as reference, and move the <strong>PokeBall_Path</strong> down until the PokeBall is sitting on the Plane.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image37.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Continue to refine the path and animation until you are satisfied.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image38.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>We now want to have the PokeBall rotating as it bounces and rolls to its final position. Move to the <strong>first</strong> frame and adjust the <strong>Rotation Y</strong> value of the <strong>PokeBall</strong> to <strong>-121</strong>, then press the circle icon to create the keyframe.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image39.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Go into <strong>record</strong> mode, move the playhead to when the <strong>PokeBall</strong> is no longer bouncing (mine is at frame <strong>103</strong>, yours may be different) and adjust the <strong>Rotation Y</strong> value to <strong>229</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image40.png" alt="Step 2 - Image 1"></p>
+
+      <p>Great! We now have the PokeBall bouncing and rolling, now all that is left is to open the lid.</p>
+    </li>
+    <li>
+      <p>Move the playhead to the <strong>last keyframe</strong> (where the Pokeball stops all together), and adjust the <strong>Rotation Y</strong> value to <strong>360</strong>, then turn off <strong>record mode</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image41.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Move the playhead <strong>10 frames after</strong> the Pokeball has stopped rolling and is at rest.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image42.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>We want to rotate the <strong>Top_Shell</strong> to show the Pokeball lid opening, however if we try to rotate it it’s rotating around its centre point which intersects with the bottom shell. Select the <strong>Top_Shell</strong>, go to <strong>Object</strong> -&gt; <strong>Snap</strong> -&gt; <strong>Cursor to Active</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image43.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Go to <strong>Add</strong> -&gt; <strong>Empty</strong> -&gt; <strong>Cube</strong>. We want to create a pivot point for the <strong>Top_Shell</strong>, so it rotates relative to that object and not to its centre.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image44.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Turn on <strong>X-Ray Mode</strong> and reduce the <strong>radius</strong> of the <strong>Empty Cube</strong> to <strong>1.6mm</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image45.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Move the <strong>Empty Cube</strong> up so that it is touching the base of the <strong>Top_Shell</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image46.png" alt="Step 2 - Image 1"></p>
+
+      <p>Then to the back of the <strong>Top_Shell</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image47.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Rename the <strong>Empty Cube</strong> to <strong>Lid_Opener</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image48.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>We first want to make the <strong>Lid_Opener</strong> a <em>child</em> of the <strong>PokeBall</strong>. Select the <strong>Lid_Opener</strong> first, then select the <strong>PokeBall</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image49.png" alt="Step 2 - Image 1"></p>
+
+      <p>Right-click -&gt; <strong>Parent</strong> -&gt; <strong>Object</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image50.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Now the <strong>Top_Shell</strong> needs to be a <em>child</em> of the <strong>Lid_Opener</strong>. Select the <strong>Top_Shell</strong> first, then select the <strong>Lid_Opener</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image51.png" alt="Step 2 - Image 1"></p>
+
+      <p>Right-click -&gt; <strong>Parent</strong> -&gt; <strong>Object</strong>. <strong>Ensure that you have ticked KEEP TRANSFORM</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image53.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Select the <strong>Lid_Opener</strong> and press the icon near <strong>Rotation Y</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image54.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Turn on <strong>record</strong> mode, move the playhead <strong>20 frames after</strong> (For me this is frame <strong>150</strong>), then adjust the <strong>Rotation Y</strong> value to <strong>-110</strong>. Turn off <strong>record</strong> mode.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image55.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Refine the opening of the lid however you like!</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image56.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Rename the animations to <strong>Bounce_and_Roll</strong> and <strong>Lid_Open</strong> respectively.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image57.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Press the file button below <strong>Output</strong> and specify a file name for the animation. Use the convention: <strong>DECO2018_A1C_yourUniKey_roll_bounce_open</strong>. Then press <strong>Accept</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image58.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Change the file format from <strong>PNG</strong> to <strong>FFmpeg Video</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image44.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>Press on the <strong>Encoding</strong> tab and change the <strong>Container</strong> from <strong>Matroska</strong> to <strong>MPEG-4</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image45.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>In the <strong>Encoding / Video</strong> section, change the <strong>Output Quality</strong> to <strong>High quality</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image46.png" alt="Step 2 - Image 1"></p>
+    </li>
+    <li>
+      <p>In the <strong>left</strong> viewport, press the hamburger menu -&gt; <strong>View</strong> -&gt; <strong>Viewport Render Animation</strong>.</p>
+
+      <p><img src="/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image59.png" alt="Step 2 - Image 1"></p>
+    </li>
+  </ol>
+
+  <p>Great job, you have completed your second required animation! Well done!</p>
+
+  <p>The next step is an optional animation, all the best.</p>
+
+</details>
+
+<p><br></p>
+
+<hr>
+
+<h2 id="extra-step---2-principles-of-animation">Extra Step - 2 Principles of Animation</h2>
+
+<p>Using <strong>either</strong> animation, add two <strong>distinct</strong> principles of animation to it.</p>
+
+<h2 id="submission">Submission</h2>
+
+<p>You will need to submit a <strong>.ZIP</strong> file, containing:</p>
+
+<ul>
+  <li>DECO2018_A1C_yourUnikey_turntable.mp4 (or .mov)</li>
+  <li>DECO2018_A1C_yourUnikey_bounce_roll_open.mp4 (or .mov)</li>
+</ul>
+
+<p>Add a comment in the Canvas submission that states your two principles, for example:</p>
+<ul>
+  <li>Principle of Animation 1: <em>Principle Name</em>
+</li>
+  <li>Principle of Animation 2: <em>Principle Name</em>
+</li>
+</ul>
+
+<hr>
+
+<p>That’s all for this week!</p>
+
+<p><img src="https://media.tenor.com/images/7c355668e41f8cf511fe30c8483379d0/tenor.gif" alt="Surprised Pikachu Gif"></p>
+
+
+    </div>
+
+</article>
+<div class="post-nav">
+        <a class="previous" href="/deco1008-tutorial-guides/2021/09/17/wk7-optional-prac.html" title="Week 7 Optional Prac">Week 7 Optional Prac</a>
+        <span></span>
+</div>
+<div class="post-related">
+      <div>Related Articles</div>
+      <ul>
+        <li><a class="post-link" href="/deco1008-tutorial-guides/2021/09/15/wk12-live-tutorial.html" title="">Week 12 Live Tutorial - Advanced Lighting, Rendering and Post-Processing in Photoshop...</a></li>
+<li><a class="post-link" href="/deco1008-tutorial-guides/2021/09/16/wk11-tutorial.html" title="">Week 11 Tutorial - (Assessment 1D) Materials, Textures, Lighting and Rendering in...</a></li>
+<li><a class="post-link" href="/deco1008-tutorial-guides/2021/09/17/wk7-optional-prac.html" title="">Week 7 Optional Prac</a></li>
+</ul>
+    </div>
+<div class="post-comments"></div></section>
+</div>
+
+  </section>
+  <section class="sidebar" style="margin-left: 15px;">
+    <!-- Get sidebar items --><style type="text/css" media="screen">
+.post-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+</style>
+
+<div class="post-menu">
+  <div class="post-menu-title">TOC</div>
+  <div class="post-menu-content"></div>
+</div>
+
+<script>
+  function generateContent() {
+    var menu = document.querySelector(".post-menu");
+    var menuContent =  menu.querySelector(".post-menu-content");
+    var headings = document.querySelector(".post-content").querySelectorAll("h2, h3, h4, h5, h6");
+
+    // Hide menu when no headings
+    if (headings.length === 0) {
+      return menu.style.display = "none";
+    }
+
+    // Generate post menu
+    var menuHTML = '';
+    for (var i = 0; i < headings.length; i++) {
+      var h = headings[i];
+      menuHTML += (
+        '<li class="h-' + h.tagName.toLowerCase() + '">'
+        + '<a href="#h-' + h.getAttribute('id') + '">' + h.textContent + '</a></li>');
+    }
+
+    menuContent.innerHTML = '<ul>' + menuHTML + '</ul>';
+
+    // The header element
+    var header = document.querySelector('header.site-header');
+
+    function doMenuCollapse(index, over_items) {
+      var items = menuContent.firstChild.children;
+
+      if (over_items == undefined) {
+        over_items = 20;
+      }
+
+      if (items.length < over_items) {
+        return;
+      }
+
+      var activeItem = items[index];
+      var beginItem = activeItem
+      var endItem = activeItem
+      var beginIndex = index;
+      var endIndex = index + 1;
+      while (beginIndex >= 0
+        && !items[beginIndex].classList.contains('h-h2')) {
+        beginIndex -= 1;
+      }
+      while (endIndex < items.length
+        && !items[endIndex].classList.contains('h-h2')) {
+        endIndex += 1;
+      }
+      for (var i = 0; i < beginIndex; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+      for (var i = beginIndex + 1; i < endIndex; i++) {
+        item = items[i]
+        // if (!item.classList.contains('h-h2')) {
+          item.style.display = '';
+        // }
+      }
+      for (var i = endIndex; i < items.length; i++) {
+        item = items[i]
+        if (!item.classList.contains('h-h2')) {
+          item.style.display = 'none';
+        }
+      }
+    }
+
+    // Init menu collapsed
+    doMenuCollapse(-1);
+
+    // Active the menu item
+    window.addEventListener('scroll', function (event) {
+      var lastActive = menuContent.querySelector('.active');
+      var changed = true;
+      var activeIndex = -1;
+      for (var i = headings.length - 1; i >= 0; i--) {
+        var h = headings[i];
+        var headingRect = h.getBoundingClientRect();
+        var headerRect = header.getBoundingClientRect();
+        var headerTop = Math.floor(headerRect.top);
+        var headerHeight = Math.floor(headerRect.height);
+        var headerHeight = headerTop + headerHeight + 20;
+        if (headingRect.top <= headerHeight) {
+          var id = 'h-' + h.getAttribute('id');
+          var a = menuContent.querySelector('a[href="#' + id  + '"]');
+          var curActive = a.parentNode;
+          if (curActive) {
+            curActive.classList.add('active');
+            activeIndex = i;
+          }
+          if (lastActive == curActive) {
+            changed = false;
+          }
+          break;
+        }
+      }
+      if (changed) {
+        if (lastActive) {
+          lastActive.classList.remove('active');
+        }
+        doMenuCollapse(activeIndex);
+      }
+      event.preventDefault();
+    });
+  }
+  generateContent();
+</script>
+</section>
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/deco1008-tutorial-guides/"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+      <div>Copyright © 2021 DECO2018 Team</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

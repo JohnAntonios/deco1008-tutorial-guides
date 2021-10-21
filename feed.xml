@@ -1,0 +1,2371 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://johnantonios.github.io/deco1008-tutorial-guides/feed.xml" rel="self" type="application/atom+xml" /><link href="https://johnantonios.github.io/deco1008-tutorial-guides/" rel="alternate" type="text/html" /><updated>2021-10-21T22:02:45+00:00</updated><id>https://johnantonios.github.io/deco1008-tutorial-guides/feed.xml</id><title type="html">DECO2018 Tutorial Guides</title><subtitle>DECO2018 Tutorial Guides.</subtitle><author><name>DECO2018 Team</name></author><entry><title type="html">Assessment 1C - Animation in Blender</title><link href="https://johnantonios.github.io/deco1008-tutorial-guides/2021/09/17/wk7-tutorial.html" rel="alternate" type="text/html" title="Assessment 1C - Animation in Blender" /><published>2021-09-17T00:00:00+00:00</published><updated>2021-09-17T00:00:00+00:00</updated><id>https://johnantonios.github.io/deco1008-tutorial-guides/2021/09/17/wk7-tutorial</id><content type="html" xml:base="https://johnantonios.github.io/deco1008-tutorial-guides/2021/09/17/wk7-tutorial.html">&lt;p&gt;This is where you will learn about animation in Blender with your 1B PokeBall and stand.&lt;/p&gt;
+
+&lt;h2 id=&quot;objective&quot;&gt;Objective&lt;/h2&gt;
+
+&lt;p&gt;Your objective is to animate your Assessment 1B PokeBall! You will be &lt;strong&gt;required&lt;/strong&gt; to produce two animations:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Turntable&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;320px&quot; allowfullscreen=&quot;true&quot; src=&quot;https://sydney.instructuremedia.com/embed/d949bebf-3b9b-4c3b-a59b-3ecac273da99&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bounce, Roll and Open&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;320px&quot; allowfullscreen=&quot;true&quot; src=&quot;https://sydney.instructuremedia.com/embed/09ed1746-b544-439d-b239-6d77c714a956&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You may go an extra step and apply two principles of animation to one of the above!&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;step-1---setting-up-the-blender-file&quot;&gt;Step 1 - Setting up the Blender file&lt;/h2&gt;
+
+&lt;h3 id=&quot;video&quot;&gt;Video&lt;/h3&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;320px&quot; allowfullscreen=&quot;true&quot; src=&quot;https://sydney.instructuremedia.com/embed/87702c33-c8b3-4f1c-9faf-b88260c8d74c&quot; frameborder=&quot;0&quot; class=&quot;media&quot;&gt;
+&lt;/iframe&gt;
+
+&lt;h3 id=&quot;walkthrough-written-steps&quot;&gt;Walkthrough written steps&lt;/h3&gt;
+
+&lt;details&gt;
+
+  &lt;summary style=&quot;color: #E64626;&quot;&gt;Click here to see the steps.&lt;/summary&gt;
+
+  &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+  &lt;p&gt;
+
+1. Locate your A1B Blender File.
+
+&lt;br /&gt;
+
+&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step1-image1.png&quot; alt=&quot;Step 1 - Image 1&quot; /&gt;`
+
+&lt;br /&gt;
+
+2. Duplicate this file (copy + paste) and rename it to &lt;strong&gt;DECO2018_A1C_YourUnikey&lt;/strong&gt;.
+
+&lt;br /&gt;
+
+&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step1-image2.png&quot; alt=&quot;Step 1 - Image 2&quot; /&gt;
+
+&lt;br /&gt;
+
+3. Open this new Blender file.
+
+&lt;br /&gt;
+
+&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step1-image3.png&quot; alt=&quot;Step 1 - Image 3&quot; /&gt;
+
+&lt;/p&gt;
+
+&lt;/details&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;step-2---introducing-the-animation-workspace&quot;&gt;Step 2 - Introducing the Animation workspace&lt;/h2&gt;
+
+&lt;h3 id=&quot;video-1&quot;&gt;Video&lt;/h3&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;320px&quot; allowfullscreen=&quot;true&quot; src=&quot;https://sydney.instructuremedia.com/embed/ed8bdba6-1529-4e0c-9f62-19f93e3b19a2&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;walkthrough-written-steps-1&quot;&gt;Walkthrough written steps&lt;/h3&gt;
+
+&lt;details&gt;
+
+  &lt;summary style=&quot;color: #E64626;&quot;&gt;Click here to see the steps.&lt;/summary&gt;
+
+  &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+  &lt;p&gt;Congratulations! You have made it past the modelling workspace in Blender! 😃&lt;/p&gt;
+
+  &lt;ol&gt;
+    &lt;li&gt;
+      &lt;p&gt;If you previously had &lt;strong&gt;face orientation&lt;/strong&gt; on, turn this &lt;strong&gt;off&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step2-image1.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Press the &lt;strong&gt;Animation&lt;/strong&gt; tab in the workspaces ribbon.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step2-image2.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;You will notice that quite a bit has changed. Let’s break down the new workspace.&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;We now see there are two viewports instead of one viewport. The viewport on the left is where you would preview your animation and the viewport on the right is where you would work on your animation.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step2-image3.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Below the viewports is a timeline. We will be in this area the most as it is where we can create our animations! If you have used a software like Adobe Animate or Adobe After Effects, it is quite similar in its workflow. It consists of:&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step2-image4.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;The &lt;strong&gt;playhead&lt;/strong&gt; denoted by the blue vertical bar. This is like the handle you see in a video player on platforms like YouTube.&lt;/li&gt;
+    &lt;li&gt;The &lt;strong&gt;sheet&lt;/strong&gt; which is the area in the centre. This is where your keyframes will be.&lt;/li&gt;
+    &lt;li&gt;The &lt;strong&gt;player controls&lt;/strong&gt; at the bottom-centre. This is a series of buttons to play, pause, rewind, record and jump to certain points, in the animation.&lt;/li&gt;
+  &lt;/ul&gt;
+
+&lt;/details&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;step-3---introducing-the-camera&quot;&gt;Step 3 - Introducing the Camera&lt;/h2&gt;
+
+&lt;h3 id=&quot;video-2&quot;&gt;Video&lt;/h3&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;320px&quot; allowfullscreen=&quot;true&quot; src=&quot;https://sydney.instructuremedia.com/embed/065a237c-8d9c-46d7-9976-a2a3a1171330&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;walkthrough-written-steps-2&quot;&gt;Walkthrough written steps&lt;/h3&gt;
+
+&lt;details&gt;
+
+  &lt;summary style=&quot;color: #E64626;&quot;&gt;Click here to see the steps.&lt;/summary&gt;
+
+  &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+  &lt;ol&gt;
+    &lt;li&gt;
+      &lt;p&gt;We have previously stated to not worry about the Camera, well now its time to focus on the Camera in Blender!
+The camera is a second pair of eyes, the first pair of eyes is the viewport which is what we as the user see in Blender.
+The camera acts as an internal camera that can be set up for rendering and animations.&lt;/p&gt;
+
+      &lt;p&gt;In the &lt;strong&gt;left&lt;/strong&gt; viewport, click on the Hamburger menu near the top, then go to View -&amp;gt; Viewpoint -&amp;gt; Camera. You will notice this rectangular box, this is what the Camera is currently seeing.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step3-image1.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Try moving the camera around in the &lt;strong&gt;right&lt;/strong&gt; viewport, you will notice that it is moving as well in the &lt;strong&gt;left&lt;/strong&gt; viewport.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step3-image2.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Our objective for the first animation, the turntable, is to position the camera to have it slightly above the Pokeball + stand as we want the top shell to move up.&lt;/p&gt;
+
+      &lt;p&gt;You will notice that is quite difficult to do so, with just manually adjusting the camera in the right viewport.&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;In the &lt;strong&gt;left&lt;/strong&gt; viewport, press &lt;strong&gt;N&lt;/strong&gt; on your keyboard or go to View -&amp;gt; Sidebar to open the Sidebar.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step3-image3.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Press the &lt;strong&gt;view&lt;/strong&gt; tab in the sidebar.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step3-image4.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Under the &lt;strong&gt;View Lock&lt;/strong&gt; section, check the &lt;strong&gt;Camera to View&lt;/strong&gt; checkbox. What this will do is instead of adjusting the viewport when you are using your mouse to move around, it will adjust the camera’s view.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step3-image5.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Still in the &lt;strong&gt;left&lt;/strong&gt; viewport, try to move around with just your mouse. You will now notice that you are updating the camera’s position and rotation as well! Much easier 😃&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step3-image6.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;There is one issue! You will notice that as we zoom out, the Pokeball begins to clip. We need to update the clipping start and end, as the camera has different values for clipping compared to the viewport’s.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step3-image7.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;With the &lt;strong&gt;Camera&lt;/strong&gt; Selected, go to the &lt;strong&gt;Object Data Properties&lt;/strong&gt; tab. It is denoted by the camera icon.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step3-image8.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Change &lt;strong&gt;Clip Start&lt;/strong&gt; to 0.01mm and &lt;strong&gt;Clip End&lt;/strong&gt; to 1000mm.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step3-image9.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+
+&lt;/details&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;step-4---turntable-animation&quot;&gt;Step 4 - Turntable animation&lt;/h2&gt;
+
+&lt;h3 id=&quot;video-3&quot;&gt;Video&lt;/h3&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;320px&quot; allowfullscreen=&quot;true&quot; src=&quot;https://sydney.instructuremedia.com/embed/aaa502d3-74f6-49c6-89b6-a4de3b38cc97&quot; frameborder=&quot;0&quot;&gt;
+&lt;/iframe&gt;
+
+&lt;h3 id=&quot;walkthrough-written-steps-3&quot;&gt;Walkthrough written steps&lt;/h3&gt;
+
+&lt;details&gt;
+
+  &lt;summary style=&quot;color: #E64626;&quot;&gt;Click here to see the steps.&lt;/summary&gt;
+
+  &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+  &lt;p&gt;Now we are going to create our first animation! The turntable animation.&lt;/p&gt;
+
+  &lt;ol&gt;
+    &lt;li&gt;
+      &lt;p&gt;Adjust the camera’s view to something as shown below, with space at the top and the stand slightly cut-off.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image1.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select the &lt;strong&gt;Top_Shell&lt;/strong&gt; and move the playhead to frame &lt;strong&gt;1&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image2.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;In the &lt;strong&gt;Object Properties&lt;/strong&gt; tab, press the circular dot near the &lt;strong&gt;Location Z&lt;/strong&gt; value.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image3.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;This will create a keyframe in the timeline.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image4.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;You will notice that if you de-select the Top_Shell, its keyframes disappear from the timeline. To still show these keyframes, you will need to toggle off the selected keyframes mode found on the top-right side of the timeline.&lt;/p&gt;
+
+      &lt;p&gt;When nothing is selected and selected keyframes mode is &lt;strong&gt;on&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image5.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;When nothing is selected and selected keyframes mode is &lt;strong&gt;off&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image6.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;We now want to move the Top_Shell up, this will create the &lt;strong&gt;explosion&lt;/strong&gt;. Ensure that the &lt;strong&gt;Top_Shell&lt;/strong&gt; is selected. Now press the &lt;strong&gt;record&lt;/strong&gt; button located at the bottom of the timeline.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image7.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Move the playhead to frame &lt;strong&gt;50&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image8.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Move the &lt;strong&gt;Top_Shell&lt;/strong&gt; up on the &lt;strong&gt;Z-axis&lt;/strong&gt;, to where it touches the top edge of the rectangle in the &lt;strong&gt;left&lt;/strong&gt; viewport.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image9.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;You will now notice that Blender has automatically created the keyframe for us! But it has also annoyingly created a keyframe for every single other property 🙃, but that’s okay because they are the same and have not changed.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image10.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;You can now turn off &lt;strong&gt;record&lt;/strong&gt; mode.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image13.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Move the playhead to frame &lt;strong&gt;1&lt;/strong&gt; and play the animation! You can do this by either pressing &lt;strong&gt;Spacebar&lt;/strong&gt; on your keyboard or pressing the right arrow at the bottom of the timeline.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image12.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;
+&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image11.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Great work! You have created your first animation in Blender!&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;We can clean up the timeline by removing the redundant keyframes, box select everything but the &lt;strong&gt;Z Location&lt;/strong&gt; keyframe.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image14.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Right-click and press &lt;strong&gt;Delete keyframes&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image15.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Move the playhead to frame &lt;strong&gt;100&lt;/strong&gt; and select the keyframe at frame &lt;strong&gt;50&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image16.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Right-click and press &lt;strong&gt;Duplicate&lt;/strong&gt;, this will automatically grab the duplicated keyframe for you to move to a new location.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image17.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Move the duplicated keyframe to frame &lt;strong&gt;100&lt;/strong&gt; and left-click to confirm.
+&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image18.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;This will hold the lifted position of the lid for 50 frames.&lt;/p&gt;
+
+      &lt;p&gt;You can re-adjust this length by selecting the duplicated keyframe and pressing &lt;strong&gt;G&lt;/strong&gt; to move it to a new location, left-click to confirm.
+&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image19.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Move the playhead to frame &lt;strong&gt;130&lt;/strong&gt; and select the keyframe at frame &lt;strong&gt;1&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image20.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Just like the previous step, duplicate the keyframe and move it to frame &lt;strong&gt;130&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image21.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;You can move the keyframes and adjust the timings however you like!&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;In the top-left of the timeline area, press the &lt;strong&gt;Editor Type&lt;/strong&gt; and select &lt;strong&gt;Graph Editor&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image22.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;You will notice that there is nothing but a single line!&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Zoom out and pan upwards (the controls are exactly like moving the viewport), you will see your keyframes!&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image24.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;The graph editor allows us to adjust the &lt;strong&gt;easing&lt;/strong&gt; of each keyframe, while still being able to move the keyframes.
+It works exactly like a spline curve!&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image25.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;The transition between two keyframes can be adjusted by changing the &lt;strong&gt;Handle Type&lt;/strong&gt;. Select a keyframe, right-click -&amp;gt; Handle Type.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image26.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;ul&gt;
+        &lt;li&gt;&lt;strong&gt;Free&lt;/strong&gt; - gives you control over both control nodes independently, i.e. moving one won’t affect the other.&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Aligned&lt;/strong&gt; - the standard control, i.e. a bezier curve between the two control nodes.&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Vector&lt;/strong&gt; - the opposite of &lt;strong&gt;Aligned&lt;/strong&gt;, a linear curve between the two control nodes.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;The type of easing between at least &lt;strong&gt;two&lt;/strong&gt; keyframes can be changed by &lt;strong&gt;interpolation&lt;/strong&gt;. Select two keyframes and right-click -&amp;gt; Interpolation Mode -&amp;gt; Choose an interpolation and preview to get a different result. Experiment with these and choose the one that feels best to you. Do this for both sides of the animation (opening the lid and closing the lid).&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image27.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;
+&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image28.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Rename the animation by pressing the arrow icon near &lt;strong&gt;Top_Shell&lt;/strong&gt; in the scene hierarchy, then pressing the arrow icon near &lt;strong&gt;Animation&lt;/strong&gt;. Click on the animation itself, in this case it is called &lt;strong&gt;Top_ShellAction.001&lt;/strong&gt; and rename it to “Explode”.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image29.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;We now want to rotate the camera around the exploding Pokeball model. Go to Add -&amp;gt; Empty -&amp;gt; Plain Axes (make sure your 3D cursor is at world origin).&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image30.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;
+&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image31.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Rename this to &lt;strong&gt;Camera_Rotator&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image32.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;With the &lt;strong&gt;Camera_Rotator&lt;/strong&gt; selected, go into its &lt;strong&gt;Object Properties&lt;/strong&gt; and press the circle near the &lt;strong&gt;Rotation Z&lt;/strong&gt; value.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image33.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Press the &lt;strong&gt;record&lt;/strong&gt; button and move the playhead to the &lt;strong&gt;end keyframe, (frame 250)&lt;/strong&gt;. A quick way to do this is by pressing the right arrow with a bar icon at the bottom-centre.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image34.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Change the &lt;strong&gt;Rotation Z&lt;/strong&gt; value to 360.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image35.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Play the animation and you will see the axes spin seamlessly. Press the &lt;strong&gt;record&lt;/strong&gt; button to stop recording.&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select the &lt;strong&gt;Camera_Rotator&lt;/strong&gt;, then select the &lt;strong&gt;Camera&lt;/strong&gt;. It is important to select these in this order. A way to know that you have selected these correctly is by the &lt;strong&gt;Camera&lt;/strong&gt; being highlighted in a darker shade of orange and blue, compared to the &lt;strong&gt;Camera_Rotator&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image36.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Right-click -&amp;gt; Parent -&amp;gt; Object. This will parent the &lt;strong&gt;Camera&lt;/strong&gt; to the &lt;strong&gt;Camera_Rotator&lt;/strong&gt;. Meaning that the &lt;strong&gt;Camera&lt;/strong&gt; will inherit the &lt;strong&gt;Camera_Rotator’s&lt;/strong&gt; animation!&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image37.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Play the animation and you will see the camera spin seamlessly. You will notice that something is a bit weird, the camera slows down towards the end and at the beginning.&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Switch to &lt;strong&gt;Graph Editor&lt;/strong&gt; and select both keyframes (you can do this by either box selecting, or pressing &lt;strong&gt;A&lt;/strong&gt; on your keyboard)&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image38.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Right-click -&amp;gt; Interpolation Mode -&amp;gt; Linear. This will apply a constant rotation to the camera, with no easing mimicking a turntable.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image39.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;The last thing to do is move the &lt;strong&gt;Explode&lt;/strong&gt; animation from the beginning of the animation to somewhere in the middle. Select the &lt;strong&gt;Top_Shell&lt;/strong&gt; and go into the &lt;strong&gt;Dope Sheet&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image40.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select all the keyframes and move these towards the centre.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image41.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Great! The turntable animation is finished, now we can render it. In the inspector toolbar, click on &lt;strong&gt;Output Properties&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image42.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Ensure:&lt;/p&gt;
+
+      &lt;ul&gt;
+        &lt;li&gt;&lt;strong&gt;Resolution %&lt;/strong&gt; is 100%.&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Aspect X and Y&lt;/strong&gt; are both 1.000.&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Frame Start&lt;/strong&gt; is 1, &lt;strong&gt;Frame End&lt;/strong&gt; is 250 and &lt;strong&gt;Frame Step&lt;/strong&gt; is 1.&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Frame Rate&lt;/strong&gt; is either &lt;strong&gt;24&lt;/strong&gt; or &lt;strong&gt;23.98&lt;/strong&gt;.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Press the file button below &lt;strong&gt;Output&lt;/strong&gt; and specify a file name for the animation. Use the convention: &lt;strong&gt;DECO2018_A1C_yourUniKey_turntable&lt;/strong&gt;. Then press &lt;strong&gt;Accept&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image43.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Change the file format from &lt;strong&gt;PNG&lt;/strong&gt; to &lt;strong&gt;FFmpeg Video&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image44.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Press on the &lt;strong&gt;Encoding&lt;/strong&gt; tab and change the &lt;strong&gt;Container&lt;/strong&gt; from &lt;strong&gt;Matroska&lt;/strong&gt; to &lt;strong&gt;MPEG-4&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image45.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;In the &lt;strong&gt;Encoding / Video&lt;/strong&gt; section, change the &lt;strong&gt;Output Quality&lt;/strong&gt; to &lt;strong&gt;High quality&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image46.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;In the &lt;strong&gt;left&lt;/strong&gt; viewport, press the hamburger menu -&amp;gt; &lt;strong&gt;View&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Viewport Render Animation&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image47.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;The animation will now begin the render. You can see the progress by the cursor updating to the current frame number, it will be complete once it reaches the &lt;strong&gt;end frame&lt;/strong&gt; which is &lt;strong&gt;250&lt;/strong&gt;. This will take some time depending on your computer’s performance.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image48.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;The animation will have saved into the location you specified earlier. Remove the &lt;strong&gt;0001-0250&lt;/strong&gt; at the end of the file name, now play!&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image49.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+
+  &lt;p&gt;Great job, you have completed your first animation! Take a break before tackling the next animation.&lt;/p&gt;
+
+&lt;/details&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;step-5---nla&quot;&gt;Step 5 - NLA&lt;/h2&gt;
+
+&lt;h3 id=&quot;video-4&quot;&gt;Video&lt;/h3&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;320px&quot; allowfullscreen=&quot;true&quot; src=&quot;https://sydney.instructuremedia.com/embed/b467cebe-435a-4bf4-ab83-75705f3e9315&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;walkthrough-written-steps-4&quot;&gt;Walkthrough written steps&lt;/h3&gt;
+
+&lt;details&gt;
+
+  &lt;summary style=&quot;color: #E64626;&quot;&gt;Click here to see the steps.&lt;/summary&gt;
+
+  &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;NLA&lt;/strong&gt; stands for &lt;strong&gt;N&lt;/strong&gt;on&lt;strong&gt;l&lt;/strong&gt;inear &lt;strong&gt;A&lt;/strong&gt;nimation. They are Blender’s way of composing multiple animations in one Blender scene without having to create a Blender file for each animation because that would be inefficient!&lt;/p&gt;
+
+  &lt;p&gt;If you have ever used a video-editing software like Adobe Premiere Pro or Final Cut Pro, it works in a similar way. There is a &lt;strong&gt;track&lt;/strong&gt; for each animation that is tied to an object. You can move these &lt;strong&gt;tracks&lt;/strong&gt; around which adjusts when they get played, &lt;strong&gt;mute&lt;/strong&gt; tracks that do not need to be edited or used and add new &lt;strong&gt;empty tracks&lt;/strong&gt; for another animation applied to an object.&lt;/p&gt;
+
+  &lt;p&gt;
+
+1. Change the &lt;strong&gt;Editor Type&lt;/strong&gt; to &lt;strong&gt;Nonlinear Animation&lt;/strong&gt;.
+
+&lt;br /&gt;
+
+&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step5-image1.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;
+
+&lt;br /&gt;On the left are the tracks. They are grouped by the 3D Object. Within these groups are the animation tracks.
+&lt;br /&gt;The orange bars represent the animation itself and its duration. You have the ability to &lt;strong&gt;move&lt;/strong&gt; these around adjusting when they start / finish.&amp;lt;/li&amp;gt;
+&lt;br /&gt;
+
+&lt;br /&gt;
+
+&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step5-image2.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;
+
+&lt;br /&gt;
+
+2. Press the &lt;strong&gt;Push Down Action&lt;/strong&gt; button that is located near the &lt;strong&gt;Camera_RotatorAction&lt;/strong&gt; animation track.
+
+&lt;br /&gt;
+
+&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step5-image3.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;
+
+&lt;br /&gt;
+
+You will see that under &lt;strong&gt;Camera_Rotator&lt;/strong&gt; there is an &lt;strong&gt;NlaTrack&lt;/strong&gt; which is the camera rotation animation and above it is an empty track called &lt;strong&gt;No Action&lt;/strong&gt; - Blender is now able to edit the empty track for the &lt;strong&gt;Camera_Rotator&lt;/strong&gt; object as it is the top-most one.
+
+&lt;br /&gt;
+
+&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step5-image4.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;
+
+&lt;br /&gt;
+
+3. Repeat the above step, but for the &lt;strong&gt;Top_Shell - Explode&lt;/strong&gt; animation track.
+
+&lt;br /&gt;
+
+&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step5-image6.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;
+
+&lt;br /&gt;
+
+&lt;/p&gt;
+
+  &lt;p&gt;We can now begin working on our second animation!&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;We will be changing a lot of the Pokeball’s structure and properties and the camera in the scene hierarchy. If you want to keep the current state of the Pokeball and camera, &lt;strong&gt;copy and paste&lt;/strong&gt; these into a &lt;strong&gt;New Collection&lt;/strong&gt; and hide it.&lt;/p&gt;
+
+&lt;/details&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;step-6---bounce-roll-and-open-animation&quot;&gt;Step 6 - Bounce, Roll and Open animation&lt;/h2&gt;
+
+&lt;h3 id=&quot;video-5&quot;&gt;Video&lt;/h3&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;320px&quot; allowfullscreen=&quot;true&quot; src=&quot;https://sydney.instructuremedia.com/embed/70f283b6-1067-407e-902e-9a99431840f4&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;walkthrough-written-steps-5&quot;&gt;Walkthrough written steps&lt;/h3&gt;
+
+&lt;details&gt;
+
+  &lt;summary style=&quot;color: #E64626;&quot;&gt;Click here to see the steps.&lt;/summary&gt;
+
+  &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+  &lt;ol&gt;
+    &lt;li&gt;
+      &lt;p&gt;&lt;strong&gt;Hide&lt;/strong&gt; your &lt;strong&gt;Stand&lt;/strong&gt; object.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image1.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Currently the PokeBall is separated into two parts - the &lt;strong&gt;Top_Shell&lt;/strong&gt; and the &lt;strong&gt;Bottom_Shell&lt;/strong&gt;. We want to move the PokeBall as a whole, rather than selecting them individually and moving them. Select the &lt;strong&gt;Top_Shell&lt;/strong&gt;, in the &lt;strong&gt;right&lt;/strong&gt; viewport, go to &lt;strong&gt;Object&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Snap&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Cursor to Active&lt;/strong&gt;&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image2.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Go to &lt;strong&gt;Add&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Empty&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Sphere&lt;/strong&gt;. We want to create a silhouette of the Pokeball, and the shape that resembles it the most is a Sphere. We have created the sphere in the centre of the PokeBall so when we increase its size, it increases from the centre and not from the bottom.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image3.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Change the &lt;strong&gt;radius&lt;/strong&gt; to &lt;strong&gt;35.2&lt;/strong&gt;mm.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image4.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Rename the &lt;strong&gt;Empty&lt;/strong&gt; sphere to &lt;strong&gt;PokeBall&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image5.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select the &lt;strong&gt;Top_Shell&lt;/strong&gt; and &lt;strong&gt;Bottom_Shell&lt;/strong&gt; first, then select the &lt;strong&gt;PokeBall&lt;/strong&gt;. This order is important.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image6.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Right-click -&amp;gt; &lt;strong&gt;Parent&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Object&lt;/strong&gt;. This will parent the &lt;strong&gt;Top_Shell&lt;/strong&gt; and &lt;strong&gt;Bottom_Shell&lt;/strong&gt; to the &lt;strong&gt;PokeBall&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image7.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Try to move the &lt;strong&gt;PokeBall&lt;/strong&gt; object, you will see that the entire shell is moving in one piece!&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image8.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;We need a ground for our PokeBall to land on. Go to &lt;strong&gt;Add&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Mesh&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Plane&lt;/strong&gt; (Ensure the 3D cursor is at world origin).&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image9.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Set its size to &lt;strong&gt;2000&lt;/strong&gt;mm.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image10.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;In the &lt;strong&gt;left&lt;/strong&gt; viewport, adjust the camera to something like this. Where the PokeBall is on an angle and there is more space on the left, than on the right.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image11.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Go to &lt;strong&gt;Add&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Curve&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Bezier&lt;/strong&gt;. We want to create a path for the PokeBall object to follow, this will make more sense as we progress.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image12.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Set its radius to &lt;strong&gt;50&lt;/strong&gt;mm.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image13.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Rename to &lt;strong&gt;PokeBall_Path&lt;/strong&gt;&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image14.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Switch to &lt;strong&gt;Front&lt;/strong&gt; view and hide everything but the &lt;strong&gt;PokeBall_Path&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image15.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Search the Internet for a bouncing ball animation reference, ideally one where it does not show the ball. &lt;strong&gt;Note:&lt;/strong&gt; a PokeBall does not adhere to a ‘bouncy’ ball in the Physics world, meaning Squash and Stretch won’t be applied here.&lt;/p&gt;
+
+      &lt;p&gt;Here’s one you can use.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/Ball_Animation_Reference.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Add the downloaded reference image into your scene. Here’s a quick refresher:&lt;/p&gt;
+
+      &lt;p&gt;Create a new collection - call it &lt;strong&gt;References&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image17.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;&lt;strong&gt;Add&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Image&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Reference&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image18.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Select the downloaded file and &lt;strong&gt;uncheck&lt;/strong&gt; align to view.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image19.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Rotate the reference image so that it is facing the &lt;strong&gt;front view&lt;/strong&gt;, &lt;strong&gt;90&lt;/strong&gt; on the &lt;strong&gt;X-axis&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image20.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Increase its size to &lt;strong&gt;670mm&lt;/strong&gt;, centre the reference image (by resetting its position and ensuring the &lt;strong&gt;X Offset&lt;/strong&gt; and &lt;strong&gt;Y Offset&lt;/strong&gt; are &lt;strong&gt;-0.50&lt;/strong&gt;) and enable transparency, reducing the opacity to &lt;strong&gt;0.3&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image21.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Rename the reference image to &lt;strong&gt;Ball_Path&lt;/strong&gt; and lock it.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image22.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Trace your Bezier Curve over the reference image. Remember it is &lt;strong&gt;E&lt;/strong&gt; to extrude out a new point.&lt;/p&gt;
+
+      &lt;ul&gt;
+        &lt;li&gt;Change the &lt;strong&gt;Handle Type&lt;/strong&gt; to &lt;strong&gt;Free&lt;/strong&gt; for better control for each point.&lt;/li&gt;
+        &lt;li&gt;Change the &lt;strong&gt;Handle Type&lt;/strong&gt; to &lt;strong&gt;Aligned&lt;/strong&gt; for each bottom point.&lt;/li&gt;
+      &lt;/ul&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image23.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select the last point in the path and extrude a new point. Ensure that it is extruding only on the &lt;strong&gt;X-axis&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image24.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Change its &lt;strong&gt;Handle Type&lt;/strong&gt; to &lt;strong&gt;Vector&lt;/strong&gt; so it becomes a straight line. This is the rolling line of the Ball.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image25.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Hide the &lt;strong&gt;References&lt;/strong&gt; collection.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image26.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select the &lt;strong&gt;PokeBall_Path&lt;/strong&gt;, go to &lt;strong&gt;Object&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Set Origin&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Origin to Geometry&lt;/strong&gt;&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image27.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Unhide the objects, and clean the path drawn (i.e. ensuring the Y values for each point are near / at 0, this is especially for the control points).&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image28.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Zero-out the position of the &lt;strong&gt;PokeBall_Path&lt;/strong&gt; and move it slightly above the PokeBall itself. Adjust its scale to around &lt;strong&gt;0.4 - 0.5&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image29.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select the &lt;strong&gt;PokeBall&lt;/strong&gt;, go to the &lt;strong&gt;Object Constraints&lt;/strong&gt; tab in the Inspector.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image30.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;&lt;strong&gt;Add Object Constraint&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Follow Path&lt;/strong&gt;. We are going to have the &lt;strong&gt;PokeBall&lt;/strong&gt; follow the path of the &lt;strong&gt;PokeBall_Path&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image31.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select the &lt;strong&gt;Target&lt;/strong&gt; as the &lt;strong&gt;PokeBall Path&lt;/strong&gt;, press &lt;strong&gt;Animate Path&lt;/strong&gt; then check &lt;strong&gt;Fixed Position&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image32.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Move the playhead to frame &lt;strong&gt;0&lt;/strong&gt; (Or 1, no idea why I put it at 0 🤦‍♂️), then press the circle icon near &lt;strong&gt;Offset Factor&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: If you are using an older version of Blender (&amp;lt;= 2.8), then you would need to right-click on the offset factor and press &lt;strong&gt;Insert Keyframe&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image33.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Press record at the bottom of the timeline, move the playhead to the end frame &lt;strong&gt;250&lt;/strong&gt; and change the &lt;strong&gt;Offset Factor&lt;/strong&gt; value to &lt;strong&gt;1&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image34.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Don’t forget to stop recording! Play the animation.&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;The animation is quite slow, we can speed this up by moving the keyframe at frame &lt;strong&gt;250&lt;/strong&gt; closer, for a faster animation.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image35.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;You’ll notice that the PokeBall is inside the plane, we will need to fix this. Find a bottom point as reference, and move the &lt;strong&gt;PokeBall_Path&lt;/strong&gt; down until the PokeBall is sitting on the Plane.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image37.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Continue to refine the path and animation until you are satisfied.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image38.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;We now want to have the PokeBall rotating as it bounces and rolls to its final position. Move to the &lt;strong&gt;first&lt;/strong&gt; frame and adjust the &lt;strong&gt;Rotation Y&lt;/strong&gt; value of the &lt;strong&gt;PokeBall&lt;/strong&gt; to &lt;strong&gt;-121&lt;/strong&gt;, then press the circle icon to create the keyframe.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image39.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Go into &lt;strong&gt;record&lt;/strong&gt; mode, move the playhead to when the &lt;strong&gt;PokeBall&lt;/strong&gt; is no longer bouncing (mine is at frame &lt;strong&gt;103&lt;/strong&gt;, yours may be different) and adjust the &lt;strong&gt;Rotation Y&lt;/strong&gt; value to &lt;strong&gt;229&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image40.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Great! We now have the PokeBall bouncing and rolling, now all that is left is to open the lid.&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Move the playhead to the &lt;strong&gt;last keyframe&lt;/strong&gt; (where the Pokeball stops all together), and adjust the &lt;strong&gt;Rotation Y&lt;/strong&gt; value to &lt;strong&gt;360&lt;/strong&gt;, then turn off &lt;strong&gt;record mode&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image41.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Move the playhead &lt;strong&gt;10 frames after&lt;/strong&gt; the Pokeball has stopped rolling and is at rest.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image42.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;We want to rotate the &lt;strong&gt;Top_Shell&lt;/strong&gt; to show the Pokeball lid opening, however if we try to rotate it it’s rotating around its centre point which intersects with the bottom shell. Select the &lt;strong&gt;Top_Shell&lt;/strong&gt;, go to &lt;strong&gt;Object&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Snap&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Cursor to Active&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image43.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Go to &lt;strong&gt;Add&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Empty&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Cube&lt;/strong&gt;. We want to create a pivot point for the &lt;strong&gt;Top_Shell&lt;/strong&gt;, so it rotates relative to that object and not to its centre.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image44.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Turn on &lt;strong&gt;X-Ray Mode&lt;/strong&gt; and reduce the &lt;strong&gt;radius&lt;/strong&gt; of the &lt;strong&gt;Empty Cube&lt;/strong&gt; to &lt;strong&gt;1.6mm&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image45.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Move the &lt;strong&gt;Empty Cube&lt;/strong&gt; up so that it is touching the base of the &lt;strong&gt;Top_Shell&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image46.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Then to the back of the &lt;strong&gt;Top_Shell&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image47.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Rename the &lt;strong&gt;Empty Cube&lt;/strong&gt; to &lt;strong&gt;Lid_Opener&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image48.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;We first want to make the &lt;strong&gt;Lid_Opener&lt;/strong&gt; a &lt;em&gt;child&lt;/em&gt; of the &lt;strong&gt;PokeBall&lt;/strong&gt;. Select the &lt;strong&gt;Lid_Opener&lt;/strong&gt; first, then select the &lt;strong&gt;PokeBall&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image49.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Right-click -&amp;gt; &lt;strong&gt;Parent&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Object&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image50.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Now the &lt;strong&gt;Top_Shell&lt;/strong&gt; needs to be a &lt;em&gt;child&lt;/em&gt; of the &lt;strong&gt;Lid_Opener&lt;/strong&gt;. Select the &lt;strong&gt;Top_Shell&lt;/strong&gt; first, then select the &lt;strong&gt;Lid_Opener&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image51.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Right-click -&amp;gt; &lt;strong&gt;Parent&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Object&lt;/strong&gt;. &lt;strong&gt;Ensure that you have ticked KEEP TRANSFORM&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image53.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select the &lt;strong&gt;Lid_Opener&lt;/strong&gt; and press the icon near &lt;strong&gt;Rotation Y&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image54.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Turn on &lt;strong&gt;record&lt;/strong&gt; mode, move the playhead &lt;strong&gt;20 frames after&lt;/strong&gt; (For me this is frame &lt;strong&gt;150&lt;/strong&gt;), then adjust the &lt;strong&gt;Rotation Y&lt;/strong&gt; value to &lt;strong&gt;-110&lt;/strong&gt;. Turn off &lt;strong&gt;record&lt;/strong&gt; mode.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image55.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Refine the opening of the lid however you like!&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image56.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Rename the animations to &lt;strong&gt;Bounce_and_Roll&lt;/strong&gt; and &lt;strong&gt;Lid_Open&lt;/strong&gt; respectively.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image57.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Press the file button below &lt;strong&gt;Output&lt;/strong&gt; and specify a file name for the animation. Use the convention: &lt;strong&gt;DECO2018_A1C_yourUniKey_roll_bounce_open&lt;/strong&gt;. Then press &lt;strong&gt;Accept&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image58.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Change the file format from &lt;strong&gt;PNG&lt;/strong&gt; to &lt;strong&gt;FFmpeg Video&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image44.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Press on the &lt;strong&gt;Encoding&lt;/strong&gt; tab and change the &lt;strong&gt;Container&lt;/strong&gt; from &lt;strong&gt;Matroska&lt;/strong&gt; to &lt;strong&gt;MPEG-4&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image45.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;In the &lt;strong&gt;Encoding / Video&lt;/strong&gt; section, change the &lt;strong&gt;Output Quality&lt;/strong&gt; to &lt;strong&gt;High quality&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step4-image46.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;In the &lt;strong&gt;left&lt;/strong&gt; viewport, press the hamburger menu -&amp;gt; &lt;strong&gt;View&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Viewport Render Animation&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk7-tutorial/step6-image59.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+
+  &lt;p&gt;Great job, you have completed your second required animation! Well done!&lt;/p&gt;
+
+  &lt;p&gt;The next step is an optional animation, all the best.&lt;/p&gt;
+
+&lt;/details&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;extra-step---2-principles-of-animation&quot;&gt;Extra Step - 2 Principles of Animation&lt;/h2&gt;
+
+&lt;p&gt;Using &lt;strong&gt;either&lt;/strong&gt; animation, add two &lt;strong&gt;distinct&lt;/strong&gt; principles of animation to it.&lt;/p&gt;
+
+&lt;h2 id=&quot;submission&quot;&gt;Submission&lt;/h2&gt;
+
+&lt;p&gt;You will need to submit a &lt;strong&gt;.ZIP&lt;/strong&gt; file, containing:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;DECO2018_A1C_yourUnikey_turntable.mp4 (or .mov)&lt;/li&gt;
+  &lt;li&gt;DECO2018_A1C_yourUnikey_bounce_roll_open.mp4 (or .mov)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Add a comment in the Canvas submission that states your two principles, for example:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Principle of Animation 1: &lt;em&gt;Principle Name&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Principle of Animation 2: &lt;em&gt;Principle Name&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;That’s all for this week!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://media.tenor.com/images/7c355668e41f8cf511fe30c8483379d0/tenor.gif&quot; alt=&quot;Surprised Pikachu Gif&quot; /&gt;&lt;/p&gt;</content><author><name>DECO2018 Team</name></author><summary type="html">This is where you will learn about animation in Blender with your 1B PokeBall and stand.</summary></entry><entry><title type="html">Week 7 Optional Prac</title><link href="https://johnantonios.github.io/deco1008-tutorial-guides/2021/09/17/wk7-optional-prac.html" rel="alternate" type="text/html" title="Week 7 Optional Prac" /><published>2021-09-17T00:00:00+00:00</published><updated>2021-09-17T00:00:00+00:00</updated><id>https://johnantonios.github.io/deco1008-tutorial-guides/2021/09/17/wk7-optional-prac</id><content type="html" xml:base="https://johnantonios.github.io/deco1008-tutorial-guides/2021/09/17/wk7-optional-prac.html">&lt;p&gt;This is an optional practical to help you learn more about 3D modelling file types and creating a 3D-print ready object to be 3D printed!&lt;/p&gt;
+
+&lt;h2 id=&quot;file-types-for-3d-printing&quot;&gt;File Types for 3D printing.&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;.blend&lt;/strong&gt; - this is your Blender file. It is NOT what you import into a slicing program like Cura. This stores data about your Blender scene (models, modifiers, hierarchy etc) and what you edit to produce your model.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;.stl&lt;/strong&gt; - this is the file needed to be exported for each model from Blender. STL stands for Standard Triangle language, it describes the surface geometry of a 3D object without any representation of colour, materials, animations or textures. This format has two variants - ASCII and Binary. Binary is the most common and what we will be exporting in as they are more compact. Slicing programs work best with STL files.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;file-types-for-other-3d-modelling-use-cases&quot;&gt;File types for other 3D modelling use cases.&lt;/h2&gt;
+
+&lt;p&gt;Beyond 3D printing, there are many other applications of 3D modelling. Typically in video game development!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;.obj&lt;/strong&gt; - exports the model’s surface geometry along with its materials and textures. Use this if you only need the materials and textures and nothing else, good for high quality static renders.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;.fbx&lt;/strong&gt; - exports everything. This includes the scene’s information such as lights, cameras and animations applied to objects. You can optionally export selected objects which retrieves that model’s information only. This file is typically used in game engines such as Unity!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;objective&quot;&gt;Objective&lt;/h2&gt;
+
+&lt;p&gt;Your objective is to model this Jack-O-Lantern Pumpkin! Please note, you do not need to 3D print this from Cura, it is just an exercise.
+It consists of two parts:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The lid + stem.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image129.png&quot; alt=&quot;The lid and stem&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The body with the face cut out.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image16.png&quot; alt=&quot;The body with the face cut out&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Assembled.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image111.png&quot; alt=&quot;Assembled pumpkin&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Note the walkthrough will show a different pumpkin design!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;320px&quot; allowfullscreen=&quot;true&quot; src=&quot;https://sydney.instructuremedia.com/embed/780a5b37-02a9-464f-b3ff-23b0042326a7&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;walkthrough&quot;&gt;Walkthrough&lt;/h2&gt;
+
+&lt;h3 id=&quot;step-1---extending-the-number-of-undos&quot;&gt;Step 1 - Extending the number of Undos&lt;/h3&gt;
+
+&lt;p&gt;From observations, we have discovered that Blender has a default limit of 50 undos. We can increase this to 256 undos by:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Going to Edit -&amp;gt; Preferences&lt;/li&gt;
+  &lt;li&gt;Going to the System Tab.&lt;/li&gt;
+  &lt;li&gt;Changing the Undo Steps to 256 which is the limit.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image64.png&quot; alt=&quot;Extending the number of Undos&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-2---pumpkin-body&quot;&gt;Step 2 - Pumpkin Body&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a UV Sphere&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image30.png&quot; alt=&quot;Create a UV Sphere&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You can optionally check Face Orientation in the Viewport Overlays.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Go to Top View&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image8.png&quot; alt=&quot;Go to Top View&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Go into Edit Mode&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image43.png&quot; alt=&quot;Go into Edit Mode&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;We want to select the edges that run down the sphere and are opposite of each other. We can do so by selecting &lt;strong&gt;Edges&lt;/strong&gt; and while holding &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ALT&lt;/code&gt;, clicking an edge. This selects an &lt;strong&gt;edge loop&lt;/strong&gt;.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image89.png&quot; alt=&quot;Edge loop 1&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;We want to select the edge loop that is opposite of this. To do this we need to add on to our current selection, we do this by holding &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SHIFT + ALT&lt;/code&gt; then selecting the edge.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image104.png&quot; alt=&quot;Edge loop 4&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Repeat this until you get a pattern you desire, this is an example:&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image93.png&quot; alt=&quot;Edge loop Pattern 2&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Scale in the selected edges, but not so much they intersect each other.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image118.png&quot; alt=&quot;Scale 2&quot; /&gt;
+&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image87.png&quot; alt=&quot;Scale 3&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Switch to vertex mode and select the bottom vertex. We want to make this vertex on the same level as its outer ring vertices so it becomes flat for a better 3D print.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image55.png&quot; alt=&quot;Bottom vertex&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;With the bottom vertex selected go into the Front View. Move the vertex down until it is flush with the other vertices.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image85.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;For less support material to be created during the 3D print process, you can repeat the last two steps but for any other vertices that are not flush with its sibling vertices (Only the bottom ring is necessary).&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image17.png&quot; alt=&quot;Other vertices&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Select the top vertex.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image82.png&quot; alt=&quot;Other vertices&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;With the top vertex selected go into the Font View. Move the vertex up until it is flush with the other vertices. You can perform step 11 on this top’s vertex outer ring of vertices.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image37.png&quot; alt=&quot;Other vertices&quot; /&gt;
+&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image5.png&quot; alt=&quot;Other vertices&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;step-3---pumpkin-lid&quot;&gt;Step 3 - Pumpkin Lid&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Go into Top View and ensure faces are selected. Box select all the top faces.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image57.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Extrude upwards and scale inwards.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image72.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Complete the stem! It is up to you how you want to rotate and position it.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image47.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Go into Front View, Edit Mode, Toggle X-Ray mode on and ensure faces are selected. Now box select the top of the pumpkin including the stem created.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image109.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Separate the lid from the pumpkin by right clicking -&amp;gt; Separate -&amp;gt; Selection.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image106.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Rename the separated objects now to “Lid” and “Pumpkin” respectively.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image42.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Select the lid and move it upwards. We now need to create a cylinder to support the closing and opening of the lid as the lid on itself with the step can be weak and not hold in place. You can also scale down the lid slightly to make it a snug fit, ensuring that the scale is between 0.990 to 1&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image34.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;step-4---pumpkin-lid-support&quot;&gt;Step 4 - Pumpkin Lid Support&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Add a cylinder.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image74.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Move the cylinder up to the lid, so that it is slightly intersecting it.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image79.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Solidify the &lt;strong&gt;lid&lt;/strong&gt; with a thickness of 1.8mm. NOT the cylinder.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image126.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If the cylinder is too long, you can go into Edit mode with faces selected, select the bottom face and move it up. Additionally if you want a more loose fit, you can scale down the cylinder.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image114.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Move the cylinder so that it is intersecting within the lid itself, X-Ray will help with this.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image15.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Select both the lid and cylinder. Union them!&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image48.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Move the combined lid down and re-scale accordingly such that it is slightly larger than the pumpkin.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image75.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ensure the object is renamed to “Lid” and hide it.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;step-5---carving-the-pumpkin&quot;&gt;Step 5 - Carving the Pumpkin&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;With the Pumpkin selected go into edit mode and ensure vertex mode is on, and go into Front View.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image45.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;We are going to be using a new tool in Edit mode - the knife tool. This lets us cut new topology in the model.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image18.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Left click on a vertex point and you will see a yellow rectangle with a red line. Think of this as a pen tool.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image14.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;To complete an empty selection press Spacebar.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image80.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Let’s cut out one of the eyes by making a triangular shape cut, then pressing spacebar to confirm the cut:&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image76.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;The red points indicate new vertices that will be created upon confirming the cut. Note that Blender automatically added these as we connected the vertices together.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image94.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;You will also notice that a left-click cut is an opaque rectangular point and a cut that is a result of going beyond that vertex to the new selected cut point is a transparent circle.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Repeat the same steps but for the right eye.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image86.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Cut out the nose now, note that if you try to just connect the left corner to the right corner it won’t make the cut through the indented vertex point. In that case we need to select that point as well.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image90.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;
+&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image6.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Now cut out the mouth of the Pumpkin! Using the two techniques shown above.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image46.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You will notice that the cut faces have been selected. We can now deselect the faces that we do not need to remove. Change to the select tool &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;(W)&lt;/code&gt; Hold &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SHIFT&lt;/code&gt; and left click these faces.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image61.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Now press Delete on your keyboard -&amp;gt; Faces. Tada!&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image13.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;We have cut out the faces without even needing to do any Boolean differences.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image21.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you don’t like the shape of what has been cut, you can individually move these vertices in edit mode.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image81.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Once you are happy with the carved face, solidify the pumpkin with a thickness at least 1.8mm.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image91.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Reposition the lid back to the centre and adjust again if you want.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image71.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;step-6---exporting-parts-for-3d-printing&quot;&gt;Step 6 - Exporting parts for 3D printing&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Select only the Lid. Go to File -&amp;gt; Export -&amp;gt; .STL.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image121.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Name the file “lid”, ensure Selection Only is ticked. Then press Export STL.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image39.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Repeat the steps for the Pumpkin, ensuring its name is “pumpkin” or “body”. Note that with Apply Modifiers checked, any modifier that hasn’t been applied yet will be applied in the export process.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;step-7---importing-into-cura&quot;&gt;Step 7 - Importing into Cura&lt;/h3&gt;
+
+&lt;p&gt;From the 3D printing induction, you would have gone through the process of installing and setting up Cura.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Double-click the exported Lid STL file and it will open in Cura. If you are on Mac, you will need to open Cura then drag and drop the Lid STL file.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image117.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Drag and drop in the body STL file.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image52.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You will now see both of your parts in Cura!&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image32.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;So you would need to accommodate for this as well when arranging your models.
+A method to arrange models nicely is to use the Arrange All Models feature in Cura.
+Simply right-click on the bed and press “Arrange All Models”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image73.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image120.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This gap would be the absolute &lt;strong&gt;minimum&lt;/strong&gt; between each model, too close and the brim of the two objects can intersect.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image10.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This gap would be the absolute minimum between each model, too further out and the print would take a longer time and the chance of &lt;strong&gt;stringing&lt;/strong&gt; is greater. &lt;strong&gt;Stringing&lt;/strong&gt; occurs when small strings of plastic are left behind. This is typically due to plastic oozing out of the nozzle while the extruder is moving to a new location. They are also quite annoying to remove.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image58.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This would be the recommended distance between the models, roughly ½ of a square in Cura.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/mid-sem-break-prac/image20.png&quot; alt=&quot;Move Bottom vertex&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Don’t send these off to print, this was just an exercise to get you ready for when you 3D print your own devices!&lt;/p&gt;
+
+&lt;p&gt;Thanks for your time!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/cyyac9sTiN7ji/giphy.gif&quot; alt=&quot;Carlton dance&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;</content><author><name>DECO2018 Team</name></author><summary type="html">This is an optional practical to help you learn more about 3D modelling file types and creating a 3D-print ready object to be 3D printed!</summary></entry><entry><title type="html">Week 11 Tutorial - (Assessment 1D) Materials, Textures, Lighting and Rendering in Blender</title><link href="https://johnantonios.github.io/deco1008-tutorial-guides/2021/09/16/wk11-tutorial.html" rel="alternate" type="text/html" title="Week 11 Tutorial - (Assessment 1D) Materials, Textures, Lighting and Rendering in Blender" /><published>2021-09-16T00:00:00+00:00</published><updated>2021-09-16T00:00:00+00:00</updated><id>https://johnantonios.github.io/deco1008-tutorial-guides/2021/09/16/wk11-tutorial</id><content type="html" xml:base="https://johnantonios.github.io/deco1008-tutorial-guides/2021/09/16/wk11-tutorial.html">&lt;p&gt;This is Week 11’s tutorial where you will learn about materials, textures, lighting and rendering in Blender with your 1B or 1C PokeBall and stand.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;objective&quot;&gt;Objective&lt;/h2&gt;
+
+&lt;p&gt;Your objective is to render your PokeBall + stand! You will be &lt;strong&gt;required&lt;/strong&gt; to produce the following render of a &lt;strong&gt;Heavy Ball&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/final_render.jpg&quot; alt=&quot;Final render&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You may go an extra step and apply your own variation of the PokeBall and render it with its lid open (LIKE A1C), but not the standard red-white PokeBall.&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;faqs&quot;&gt;FAQs&lt;/h2&gt;
+
+&lt;details&gt;
+
+  &lt;summary style=&quot;color: #E64626;&quot;&gt;Can the Pokeball be any colour/pattern we wish? Or do we have to the follow the tutorial's colours?&lt;/summary&gt;
+
+  &lt;p&gt;You are required to produce the &lt;strong&gt;Heavy Ball&lt;/strong&gt; as shown above with its colours. Then for the extra step, you can apply your own variation of the PokeBall, but not the standard red-white PokeBall.&lt;/p&gt;
+
+&lt;/details&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;details&gt;
+
+  &lt;summary style=&quot;color: #E64626;&quot;&gt;Do we have to create the heavy ball first and then another variance for the extra step?&lt;/summary&gt;
+
+  &lt;p&gt;Yes.&lt;/p&gt;
+
+&lt;/details&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;details&gt;
+
+  &lt;summary style=&quot;color: #E64626;&quot;&gt;Can we go straight into making another variant while following the steps?&lt;/summary&gt;
+
+  &lt;p&gt;No.&lt;/p&gt;
+
+&lt;/details&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;details&gt;
+
+  &lt;summary style=&quot;color: #E64626;&quot;&gt;We submit the heavy ball and our variation in the zip file correct?&lt;/summary&gt;
+
+  &lt;p&gt;Yes.&lt;/p&gt;
+
+&lt;/details&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;details&gt;
+
+  &lt;summary style=&quot;color: #E64626;&quot;&gt;By variation, does that mean making like an Ultra Ball, after making the Heavy Ball?&lt;/summary&gt;
+
+  &lt;p&gt;Yes.&lt;/p&gt;
+
+&lt;/details&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;details&gt;
+
+  &lt;summary style=&quot;color: #E64626;&quot;&gt;My camera view / final render looks like its clipping the PokeBall + Stand. &lt;/summary&gt;
+
+  &lt;p&gt;If your render has some funny faces or the PokeBall is not completely shown.
+Select your &lt;strong&gt;Camera&lt;/strong&gt; and go into the &lt;strong&gt;Object Data Properties&lt;/strong&gt;, changing the &lt;strong&gt;clip start&lt;/strong&gt; to &lt;strong&gt;1mm&lt;/strong&gt; and the &lt;strong&gt;clip end&lt;/strong&gt; to &lt;strong&gt;1000mm&lt;/strong&gt;.&lt;/p&gt;
+
+  &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/clipping.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+  &lt;p&gt;Also, make sure to delete any objects as a result of a Non-Destructive Boolean (COMBINED_DIF) and no &lt;strong&gt;Mask&lt;/strong&gt; object, or delete &lt;strong&gt;any object that is hidden or nested&lt;/strong&gt;. For example, these two underlined should be deleted.&lt;/p&gt;
+
+  &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/clipping-start.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+&lt;/details&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;details&gt;
+
+  &lt;summary style=&quot;color: #E64626;&quot;&gt;My paint looks fuzzy / weird areas are being painted!&lt;/summary&gt;
+
+  &lt;p&gt;This is due to overlapping UV faces. There are two workarounds, the first is quicker, but the second is more accurate.&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;Method A - Island Margins&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;Select your &lt;strong&gt;Top_Shell&lt;/strong&gt; and go into &lt;strong&gt;Edit Mode&lt;/strong&gt;. Ensure &lt;strong&gt;Face Selection&lt;/strong&gt; is on and select &lt;strong&gt;all&lt;/strong&gt; of the faces. Then go to &lt;strong&gt;UV &amp;gt; Smart UV Project&lt;/strong&gt; and adjust the &lt;strong&gt;Island Margin&lt;/strong&gt; to &lt;strong&gt;0.05&lt;/strong&gt;.&lt;/p&gt;
+
+  &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/method-a.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;.&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;Method B - Moving UV Faces&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;p&gt;Go to the &lt;strong&gt;UV Editing&lt;/strong&gt; workspace tab and select your &lt;strong&gt;Top_Shell&lt;/strong&gt;, and switch to &lt;strong&gt;Edit Mode&lt;/strong&gt;.&lt;/p&gt;
+
+  &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/method-b-1.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+  &lt;p&gt;Highlight the faces that have extra paint applied, for example here&lt;/p&gt;
+
+  &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/method-b-2.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+  &lt;p&gt;In the right viewport, select all the faces by pressing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A&lt;/code&gt; and then in the left viewport, zoom into the faces where the overlapping is occurring.&lt;/p&gt;
+
+  &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/method-b-3.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+  &lt;p&gt;Go into “Island” selection and select the group that has the overlapping paint.&lt;/p&gt;
+
+  &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/method-b-4.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;
+&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/method-b-5.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+  &lt;p&gt;Move it to an empty space, such as here. Then repaint!&lt;/p&gt;
+
+  &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/method-b-6.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+&lt;/details&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;step-1---setting-up-blender-file-from-1c&quot;&gt;Step 1 - Setting up Blender File from 1C&lt;/h2&gt;
+
+&lt;h3 id=&quot;note---if-you-still-have-your-a1b-file-please-copy-and-paste-that-and-rename-it-from-a1b-to-a1d-and-skip-this-step&quot;&gt;&lt;strong&gt;NOTE&lt;/strong&gt; - if you still have your &lt;strong&gt;A1B&lt;/strong&gt; file, please copy and paste that and rename it from &lt;strong&gt;A1B&lt;/strong&gt; to &lt;strong&gt;A1D&lt;/strong&gt; and &lt;strong&gt;skip this step&lt;/strong&gt;.&lt;/h3&gt;
+
+&lt;p&gt;If you do not have access to your A1B file and only A1C (which is the animations), then please follow these steps.&lt;/p&gt;
+
+&lt;h3 id=&quot;video&quot;&gt;Video&lt;/h3&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;320px&quot; allowfullscreen=&quot;true&quot; src=&quot;https://sydney.instructuremedia.com/embed/25adeb31-711f-4065-9276-2de5e4339ffd&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;walkthrough-written-steps&quot;&gt;Walkthrough written steps&lt;/h3&gt;
+
+&lt;details&gt;
+
+  &lt;summary style=&quot;color: #E64626;&quot;&gt;Click here to see the steps.&lt;/summary&gt;
+
+  &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt; - if you still have your &lt;strong&gt;A1B&lt;/strong&gt; file, please copy and paste that and rename it from &lt;strong&gt;A1B&lt;/strong&gt; to &lt;strong&gt;A1D&lt;/strong&gt; and &lt;strong&gt;skip this step&lt;/strong&gt;.&lt;/p&gt;
+
+  &lt;p&gt;If you do not have access to your A1B file and only A1C (which is the animations), then please follow these steps.&lt;/p&gt;
+
+  &lt;ol&gt;
+    &lt;li&gt;
+      &lt;p&gt;Open your &lt;strong&gt;A1C&lt;/strong&gt; file.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image1.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Press the &lt;strong&gt;Animation&lt;/strong&gt; tab in the workspaces ribbon, if it is not already selected.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image2.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Turn &lt;strong&gt;off&lt;/strong&gt; &lt;strong&gt;auto keyframe mode&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image3.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select the &lt;strong&gt;References&lt;/strong&gt; collection in the scene collection.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image4.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;&lt;strong&gt;Right-click&lt;/strong&gt; on it and press &lt;strong&gt;Delete Hierarchy&lt;/strong&gt;. This will recursively delete the collection with its items inside.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image5.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Reveal the &lt;strong&gt;Stand&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image6.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select the &lt;strong&gt;Plane&lt;/strong&gt; and in the Scene Collection area, &lt;strong&gt;right-click&lt;/strong&gt; and press &lt;strong&gt;Delete&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image7.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Repeat this for the &lt;strong&gt;PokeBall_Path&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image8.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select the &lt;strong&gt;PokeBall&lt;/strong&gt; and go to the &lt;strong&gt;Object Constraints&lt;/strong&gt; tab.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image9.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Press the &lt;strong&gt;X&lt;/strong&gt; button located at the top-right of the Follow Path card, to remove it.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image10.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select the &lt;strong&gt;Camera&lt;/strong&gt; which is nested inside the &lt;strong&gt;Camera_Rotator&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image11.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Hover your cursor in the viewport area and &lt;strong&gt;right-click &amp;gt; Parent &amp;gt; Clear Parent&lt;/strong&gt;. This will de-parent the &lt;strong&gt;Camera&lt;/strong&gt; from the &lt;strong&gt;Camera_Rotator&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image12.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select the &lt;strong&gt;Camera_Rotator&lt;/strong&gt; and in the Scene Collection area, &lt;strong&gt;right-click&lt;/strong&gt; and press &lt;strong&gt;Delete&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image13.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select the &lt;strong&gt;Bottom_Shell&lt;/strong&gt; which is nested inside the &lt;strong&gt;PokeBall&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image14.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Hover your cursor in the viewport area and &lt;strong&gt;right-click &amp;gt; Parent &amp;gt; Clear Parent&lt;/strong&gt;. This will de-parent the &lt;strong&gt;Bottom_Shell&lt;/strong&gt; from the &lt;strong&gt;PokeBall&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image15.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select the &lt;strong&gt;Top_Shell&lt;/strong&gt; which is nested inside the &lt;strong&gt;PokeBall &amp;gt; Lid_Opener&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image16.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Hover your cursor in the viewport area and &lt;strong&gt;right-click &amp;gt; Parent &amp;gt; Clear Parent&lt;/strong&gt;. This will de-parent the &lt;strong&gt;Top_Shell&lt;/strong&gt; from the &lt;strong&gt;PokeBall&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image17.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select the &lt;strong&gt;Lid_Opener&lt;/strong&gt; and in the Scene Collection area, &lt;strong&gt;right-click&lt;/strong&gt; and press &lt;strong&gt;Delete&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image18.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Repeat this for the &lt;strong&gt;PokeBall&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image19.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select the &lt;strong&gt;Top_Shell&lt;/strong&gt; and go into the &lt;strong&gt;Object Properties&lt;/strong&gt; tab in the inspector.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image20.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Change the &lt;strong&gt;Location X&lt;/strong&gt; value to &lt;strong&gt;0&lt;/strong&gt; and change the &lt;strong&gt;Location Z&lt;/strong&gt; value to where the &lt;strong&gt;Top_Shell&lt;/strong&gt; is sitting above the &lt;strong&gt;Bottom_Shell&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image21.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Switch to the &lt;strong&gt;Modelling&lt;/strong&gt; workspace tab.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image22.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Save the file by going to &lt;strong&gt;File &amp;gt; Save As…&lt;/strong&gt; and rename from &lt;strong&gt;A1C&lt;/strong&gt; to &lt;strong&gt;A1D&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image24.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;
+&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step1-image23.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+
+&lt;/details&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;step-2---material-on-bottom-shell&quot;&gt;Step 2 - Material on Bottom Shell&lt;/h2&gt;
+
+&lt;h3 id=&quot;video-1&quot;&gt;Video&lt;/h3&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;320px&quot; allowfullscreen=&quot;true&quot; src=&quot;https://sydney.instructuremedia.com/embed/b1d4531a-0a16-49df-b491-f170c68f135a&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;walkthrough-written-steps-1&quot;&gt;Walkthrough written steps&lt;/h3&gt;
+
+&lt;details&gt;
+
+  &lt;summary style=&quot;color: #E64626;&quot;&gt;Click here to see the steps.&lt;/summary&gt;
+
+  &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+  &lt;p&gt;Let’s create our first Material on Blender for the Bottom Shell.&lt;/p&gt;
+
+  &lt;ol&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select the &lt;strong&gt;Bottom_Shell&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step2-image1.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select the &lt;strong&gt;Material Properties&lt;/strong&gt; tab which is denoted by the red checkered circle icon, in the inspector.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step2-image2.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Press the &lt;strong&gt;+ New&lt;/strong&gt; button to create a material.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step2-image3.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Rename the material by selecting the text box, and name it &lt;strong&gt;Light_Grey&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step2-image4.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select the &lt;strong&gt;Preview&lt;/strong&gt; text to open the preview pane. Here we can view our material applied on a selectable list of types of Meshes.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step2-image5.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select the &lt;strong&gt;Surface&lt;/strong&gt; text to open the surface pane. Here we can adjust parameters of the material to change its style.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step2-image6.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;For now, we are only interested in changing the material’s base colour (Albedo). Select the rectangle near &lt;strong&gt;Base Color&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step2-image7.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Adjust the colour to a light grey.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step2-image8.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;However, despite changing the colour. It is not showing in the viewport. This is because we are still in &lt;strong&gt;Solid&lt;/strong&gt; view. Change to &lt;strong&gt;Material Preview&lt;/strong&gt;, located at the top-right of the viewport.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step2-image9.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;The white material that is on the &lt;strong&gt;Top_Shell&lt;/strong&gt; and &lt;strong&gt;Stand&lt;/strong&gt; is a default material that Blender applies for those objects that do not have any material applied.&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;If we change the colour of the &lt;strong&gt;Light_Grey&lt;/strong&gt; material again, it will update in the viewport as well.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step2-image10.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+
+&lt;/details&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;step-3---texture-painting-on-top-shell&quot;&gt;Step 3 - Texture Painting on Top Shell&lt;/h2&gt;
+
+&lt;h3 id=&quot;video-2&quot;&gt;Video&lt;/h3&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;320px&quot; allowfullscreen=&quot;true&quot; src=&quot;https://sydney.instructuremedia.com/embed/4534d382-ea7e-40ab-abad-388692f7cf8b&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;walkthrough-written-steps-2&quot;&gt;Walkthrough written steps&lt;/h3&gt;
+
+&lt;details&gt;
+
+  &lt;summary style=&quot;color: #E64626;&quot;&gt;Click here to see the steps.&lt;/summary&gt;
+
+  &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+  &lt;p&gt;Now let’s look at another way of creating a material / texture in Blender, through Texture Painting! It’s like Microsoft Paint, but for 3D.&lt;/p&gt;
+
+  &lt;ol&gt;
+    &lt;li&gt;
+      &lt;p&gt;Go to Google Images and search for a reference image of a &lt;a href=&quot;https://www.google.com/search?q=heavy+ball+pokeball&amp;amp;client=firefox-b-d&amp;amp;source=lnms&amp;amp;tbm=isch&amp;amp;sa=X&amp;amp;ved=2ahUKEwiGwfHGj97sAhUR73MBHXIEA9oQ_AUoAXoECA0QAw&amp;amp;biw=1920&amp;amp;bih=947#imgrc=RNN1p0q0l3jtuM&quot; target=&quot;\_blank&quot;&gt;Heavy Ball PokeBall.&lt;/a&gt;&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image1.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Download the image and save it in the same location as your Blender file, naming it &lt;strong&gt;Heavy_Ball_Reference&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image2.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Or you can download it here:&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/heavy_ball_reference.jpg&quot; alt=&quot;Heavy Ball Reference&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Before doing any texture painting, we need to first unwrap the UVs of the &lt;strong&gt;Top_Shell&lt;/strong&gt;. Select the &lt;strong&gt;Top_Shell&lt;/strong&gt; and switch to &lt;strong&gt;Edit Mode&lt;/strong&gt;. Ensure you have &lt;strong&gt;Face Selection&lt;/strong&gt; on.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image3.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select all the faces by going to &lt;strong&gt;Select &amp;gt; All&lt;/strong&gt; or pressing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A&lt;/code&gt; on your keyboard.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image4.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;
+&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image4-2.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Unwrap the UVs by going to &lt;strong&gt;UV &amp;gt; Smart UV Project&lt;/strong&gt; and press &lt;strong&gt;OK&lt;/strong&gt;. Do not change any of the parameters.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image5.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;
+&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image5-2.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Switch to the &lt;strong&gt;Texture Paint&lt;/strong&gt; workspace located at the top.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image6.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;On the left, is the unwrapped UVs for the &lt;strong&gt;Top_Shell&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image7.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;On the right, is the viewport with a coloured object which represents the object that had its UVs unwrapped.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image8.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Switch the view from &lt;strong&gt;Solid&lt;/strong&gt; to &lt;strong&gt;Material Preview&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image9.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;On the right, press the &lt;strong&gt;+&lt;/strong&gt; button near No Textures, and select &lt;strong&gt;Base Color&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image10.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Name the texture paint slot &lt;strong&gt;Heavy_Ball_Texture_Paint&lt;/strong&gt; and press &lt;strong&gt;OK&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image11.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;By pressing &lt;strong&gt;left-click&lt;/strong&gt; on the &lt;strong&gt;Top_Shell&lt;/strong&gt; in the viewport, we can now paint on it. This is because we have the &lt;strong&gt;Draw&lt;/strong&gt; mode selected in the Toolbar.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image12.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Changing the mode to &lt;strong&gt;Soften&lt;/strong&gt; in the Toolbar, allows us to smooth out sharp / jagged edges.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image13.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Changing the mode to &lt;strong&gt;Smear&lt;/strong&gt; in the Toolbar, allows us to spread the paint applied in a specific direction.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image14.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Changing the mode to &lt;strong&gt;Clone&lt;/strong&gt; in the Toolbar, allows us to paint an object based on a reference point colour. This is similar to Photoshop’s Stamp and Clone tool. To select a reference point, hold &lt;strong&gt;CTRL&lt;/strong&gt; or &lt;strong&gt;CMD&lt;/strong&gt; and &lt;strong&gt;left-click&lt;/strong&gt; somewhere on the object, then you can paint anywhere else.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image15.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Changing the mode to &lt;strong&gt;Fill&lt;/strong&gt; in the Toolbar, does what you would expect. Fill in the entire object with a colour, with a single &lt;strong&gt;left-click&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image16.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;The &lt;strong&gt;radius&lt;/strong&gt; (size) of the brush can be adjusted in the toolbar at the top. The change is denoted by the larger white circle surrounding the cursor, which represents the radius.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image17.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Pressing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;F&lt;/code&gt; on your keyboard adjusts the radius of the brush, we move the cursor outwards (making it larger) or inwards (making it smaller).&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image17-2.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;The &lt;strong&gt;strength&lt;/strong&gt; of the brush can be adjusted in the toolbar the top. The lower the strength, the more transparent / less effective the brush is.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image18.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;
+&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image18-2.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;In the left viewport, press the &lt;strong&gt;image dropdown&lt;/strong&gt; at the top and select the &lt;strong&gt;Heavy_Ball_Texture_Paint&lt;/strong&gt;. This will overlay our texture paint onto the UVs, allowing us to accurately see what has been painted - this updates in real-time as we paint as well.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image19.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;
+&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image19-2.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Press the &lt;strong&gt;editor type&lt;/strong&gt; dropdown located at the top-right of the scene collection and select &lt;strong&gt;Image Editor&lt;/strong&gt;. This will replace the &lt;strong&gt;Scene Collection&lt;/strong&gt; with the &lt;strong&gt;Image Editor&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image20.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;In the &lt;strong&gt;Image Editor&lt;/strong&gt;, go to &lt;strong&gt;Image &amp;gt; Open&lt;/strong&gt; and open the downloaded &lt;strong&gt;Heavy_Ball_Reference&lt;/strong&gt; file.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image21.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;
+&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image21-2.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;In the &lt;strong&gt;Image Editor&lt;/strong&gt;, go to &lt;strong&gt;View &amp;gt; [✔] Display Texture Paint UVs&lt;/strong&gt; and uncheck it. This will hide the UV overlays, allowing us to see the reference image clearly.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image22.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select the &lt;strong&gt;Color Palette&lt;/strong&gt; pane under &lt;strong&gt;Brush Settings&lt;/strong&gt; and press the &lt;strong&gt;+ New&lt;/strong&gt; button, renaming it to &lt;strong&gt;Heavy_Ball_Palette&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image23.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select the colour picker above it by pressing on the &lt;strong&gt;white rectangle&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image24.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select the &lt;strong&gt;eyedropper&lt;/strong&gt; and &lt;strong&gt;left-click&lt;/strong&gt; on the dark blue section of the &lt;strong&gt;Heavy_Ball_Reference&lt;/strong&gt; image.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image25.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Press the &lt;strong&gt;+&lt;/strong&gt; button underneath the Color Palette, this will create a swatch with the dark blue.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image26.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Repeat the previous step and this step, but for the light blue circle in the reference image.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image26-2.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select &lt;strong&gt;Fill&lt;/strong&gt; mode in the Toolbar, select the &lt;strong&gt;dark blue&lt;/strong&gt; swatch and &lt;strong&gt;left-click&lt;/strong&gt; anywhere on the &lt;strong&gt;Top_Shell&lt;/strong&gt; in the viewport.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image27.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select &lt;strong&gt;Draw&lt;/strong&gt; mode in the Toolbar and select the &lt;strong&gt;light blue swatch&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image28.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Press &lt;strong&gt;Falloff&lt;/strong&gt; to open the pane which adjusts the smoothness of the paint applied to the object.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image29.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Press the &lt;strong&gt;Falloff type dropdown&lt;/strong&gt; and change it to &lt;strong&gt;Constant&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image30.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Change the brush’s &lt;strong&gt;radius&lt;/strong&gt; to a size that resembles the smaller circle in the reference image (Mines at &lt;strong&gt;93px&lt;/strong&gt;).&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image31.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Press &lt;strong&gt;Symmetry&lt;/strong&gt; to open the pane which allows you to mirror the brush’s paint based on a chosen set of axes.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image32.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select &lt;strong&gt;Y&lt;/strong&gt; in the button group.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image33.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Paint on the &lt;strong&gt;Top_Shell&lt;/strong&gt; at a location that is similar to the small circle location in the reference image.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image34.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Increase the brush &lt;strong&gt;radius&lt;/strong&gt; and paint on the &lt;strong&gt;Top_Shell&lt;/strong&gt; again for the larger circle.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image35.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select &lt;strong&gt;Soften&lt;/strong&gt; mode in the Toolbar, and work your way around each circle on &lt;strong&gt;one&lt;/strong&gt; side to smoothen the edges.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image36.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;The painting and smoothening of the circles appear on both sides of the &lt;strong&gt;Top_Shell&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step3-image37.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+
+&lt;/details&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;step-4---material-on-lid&quot;&gt;Step 4 - Material on Lid&lt;/h2&gt;
+
+&lt;h3 id=&quot;video-3&quot;&gt;Video&lt;/h3&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;320px&quot; allowfullscreen=&quot;true&quot; src=&quot;https://sydney.instructuremedia.com/embed/c214f38f-f545-4f99-86f6-43862da6a230&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;walkthrough-written-steps-3&quot;&gt;Walkthrough written steps&lt;/h3&gt;
+
+&lt;details&gt;
+
+  &lt;summary style=&quot;color: #E64626;&quot;&gt;Click here to see the steps.&lt;/summary&gt;
+
+  &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+  &lt;p&gt;Let’s look at how to have multiple materials applied to an object.&lt;/p&gt;
+
+  &lt;ol&gt;
+    &lt;li&gt;
+      &lt;p&gt;Switch to the &lt;strong&gt;Modelling&lt;/strong&gt; tab.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step4-image1.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Ensure you are in the &lt;strong&gt;Material Properties&lt;/strong&gt; tab and rename the material to &lt;strong&gt;Heavy_Ball_Base&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step4-image2.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Press the &lt;strong&gt;+&lt;/strong&gt; button near the list of materials to create a new material slot for this object.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step4-image3.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Go into &lt;strong&gt;Edit Mode&lt;/strong&gt; and ensure you have &lt;strong&gt;Face selection&lt;/strong&gt; on. Then make a box selection of a few faces on the lid.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step4-image4.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Go to &lt;strong&gt;Select &amp;gt; Select Linked &amp;gt; Linked&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step4-image5.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Select &lt;strong&gt;UVs&lt;/strong&gt; in the &lt;strong&gt;Select Linked All&lt;/strong&gt; window at the bottom-right.
+&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step4-image5-2.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Select all the faces that make up the lid.
+&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step4-image5-3.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select the empty material in the &lt;strong&gt;Material Properties&lt;/strong&gt; tab.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step4-image6.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Press the &lt;strong&gt;+ New&lt;/strong&gt; button underneath the material list to create a material for the empty material slot.
+&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step4-image7.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Rename it to &lt;strong&gt;Button&lt;/strong&gt; or &lt;strong&gt;Lid&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step4-image8.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;With the faces still selected, press the &lt;strong&gt;Assign&lt;/strong&gt; button.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step4-image9.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Change the &lt;strong&gt;base colour&lt;/strong&gt; of the &lt;strong&gt;Button&lt;/strong&gt; material to a light blue.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step4-image10.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+
+&lt;/details&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;step-5---texture-on-rings&quot;&gt;Step 5 - Texture on Rings&lt;/h2&gt;
+
+&lt;h3 id=&quot;video-4&quot;&gt;Video&lt;/h3&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;320px&quot; allowfullscreen=&quot;true&quot; src=&quot;https://sydney.instructuremedia.com/embed/5185a484-cf0b-4afd-94ff-0ec0c58ca33f&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;walkthrough-written-steps-4&quot;&gt;Walkthrough written steps&lt;/h3&gt;
+
+&lt;details&gt;
+
+  &lt;summary style=&quot;color: #E64626;&quot;&gt;Click here to see the steps.&lt;/summary&gt;
+
+  &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+  &lt;p&gt;Let’s look at another method of applying a material, through a texture map!&lt;/p&gt;
+
+  &lt;ol&gt;
+    &lt;li&gt;
+      &lt;p&gt;Go to Google Images once again and search for a &lt;a href=&quot;https://www.google.com/search?q=dark+silk+texture+imagesize%3A256x256&amp;amp;tbm=isch&amp;amp;ved=2ahUKEwi1sqL0v97sAhWzKrcAHelVAusQ2-cCegQIABAA&amp;amp;oq=dark+silk+texture+imagesize%3A256x256&amp;amp;gs_lcp=CgNpbWcQAzoECCMQJzoECAAQHjoGCAAQCBAeUMMEWPAxYMIzaAVwAHgBgAHVAYgBkReSAQYwLjE4LjKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&amp;amp;sclient=img&amp;amp;ei=3CudX7XUK7PV3LUP6auJ2A4&amp;amp;bih=742&amp;amp;biw=1440#imgrc=FUeYlPl42FOt-M&quot; target=&quot;\_blank&quot;&gt;Dark Silk Texture&lt;/a&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;imagesize:256x256&lt;/code&gt; is a way to search for images in Google Images by a specified width x height dimension.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step5-image1.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Save the image as &lt;strong&gt;Ring_Texture_Map&lt;/strong&gt; in the same location as where your Blender file is.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step5-image2.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;You can download the texture here:&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/ring_texture_map.jpeg&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;With the &lt;strong&gt;Top_Shell&lt;/strong&gt; selected, create another material slot by pressing the &lt;strong&gt;+&lt;/strong&gt; button near the list of materials.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step5-image3.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Go into &lt;strong&gt;Edit Mode&lt;/strong&gt;, ensure &lt;strong&gt;Face selection&lt;/strong&gt; is on and select all the faces that make up the &lt;strong&gt;ring&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step5-image4.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;With the faces still selected, select the empty material slot and press the &lt;strong&gt;+ New&lt;/strong&gt; button underneath the list of materials.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step5-image5.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Press the &lt;strong&gt;Assign&lt;/strong&gt; button to assign the plain material to the ring faces.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step5-image6.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Rename the material to &lt;strong&gt;Ring&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step5-image7.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Press the &lt;strong&gt;yellow dot&lt;/strong&gt; that is to the right of the &lt;strong&gt;Base color&lt;/strong&gt; text, and select &lt;strong&gt;Image Texture&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step5-image9.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Press the &lt;strong&gt;Open&lt;/strong&gt; button underneath &lt;strong&gt;Image Texture&lt;/strong&gt; and select the downloaded &lt;strong&gt;Ring_Texture_Map.jpg&lt;/strong&gt; file and press &lt;strong&gt;Open Image&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step5-image10.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Go into &lt;strong&gt;Edit Mode&lt;/strong&gt; and select the ring faces, a shortcut is to press the &lt;strong&gt;Select&lt;/strong&gt; button which is next to the &lt;strong&gt;Assign&lt;/strong&gt; button in the &lt;strong&gt;Material Properties&lt;/strong&gt; tab for the &lt;strong&gt;Ring&lt;/strong&gt; material.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step5-image11.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Switch the &lt;strong&gt;UV Editing&lt;/strong&gt; workspace - here we can adjust the UVs themselves for the selected faces of an object.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step5-image12.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select &lt;strong&gt;all&lt;/strong&gt; of the UV vertices / faces. By either pressing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A&lt;/code&gt; on your keyboard or making a box selection.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step5-image13.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Rotate the UVs by &lt;strong&gt;90˚&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step5-image14.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Repeat the previous steps, but for the &lt;strong&gt;Bottom_Shell&lt;/strong&gt; ring.&lt;/p&gt;
+
+      &lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: Make sure to unwrap the UVs first.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step5-image16.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Also, instead of creating a new material for the ring faces, you can re-use the already made &lt;strong&gt;Ring&lt;/strong&gt; material by pressing the dropdown and selecting the &lt;strong&gt;Ring&lt;/strong&gt; material.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step5-image17.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+
+&lt;/details&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;step-6---material-on-stand&quot;&gt;Step 6 - Material on Stand&lt;/h2&gt;
+
+&lt;h3 id=&quot;video-5&quot;&gt;Video&lt;/h3&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;320px&quot; allowfullscreen=&quot;true&quot; src=&quot;https://sydney.instructuremedia.com/embed/374238f4-2a0c-4959-8622-28fa236232fc&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;walkthrough-written-steps-5&quot;&gt;Walkthrough written steps&lt;/h3&gt;
+
+&lt;details&gt;
+
+  &lt;summary style=&quot;color: #E64626;&quot;&gt;Click here to see the steps.&lt;/summary&gt;
+
+  &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+  &lt;p&gt;Let’s add a basic material to the stand, this should be relatively straight forward 😎.&lt;/p&gt;
+
+  &lt;ol&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select the &lt;strong&gt;Stand&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step6-image1.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Create a new material by pressing the &lt;strong&gt;+ New&lt;/strong&gt; button.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step6-image2.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Rename the material to &lt;strong&gt;Stand&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step6-image3.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Change the &lt;strong&gt;base colour&lt;/strong&gt; to a very light blue.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step6-image4.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+
+&lt;/details&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;step-7---lighting&quot;&gt;Step 7 - Lighting&lt;/h2&gt;
+
+&lt;h3 id=&quot;video-6&quot;&gt;Video&lt;/h3&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;320px&quot; allowfullscreen=&quot;true&quot; src=&quot;https://sydney.instructuremedia.com/embed/6d2951d1-a68c-49be-8936-a629e3b21734&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;walkthrough-written-steps-6&quot;&gt;Walkthrough written steps&lt;/h3&gt;
+
+&lt;details&gt;
+
+  &lt;summary style=&quot;color: #E64626;&quot;&gt;Click here to see the steps.&lt;/summary&gt;
+
+  &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+  &lt;p&gt;Let’s now look into adding lighting to our scene.&lt;/p&gt;
+
+  &lt;ol&gt;
+    &lt;li&gt;
+      &lt;p&gt;Switch the view from &lt;strong&gt;Material Preview&lt;/strong&gt; to the furthest on the right, &lt;strong&gt;Rendered&lt;/strong&gt;. You will notice that everything is quite dull, this is because the only light is within the PokeBall.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step7-image1.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select the &lt;strong&gt;Light&lt;/strong&gt; in your scene. In the inspector, go to the &lt;strong&gt;Object Data Properties&lt;/strong&gt; which is shown as a green outline of a light bulb.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step7-image2.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Move the &lt;strong&gt;light&lt;/strong&gt;, so that it is outside the PokeBall.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step7-image3.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;In the &lt;strong&gt;Object Data Properties&lt;/strong&gt; tab, change the &lt;strong&gt;Type&lt;/strong&gt; from &lt;strong&gt;Point&lt;/strong&gt; to &lt;strong&gt;Sun&lt;/strong&gt;. It will update the lighting in the entire scene.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step7-image4.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Change the &lt;strong&gt;strength&lt;/strong&gt; of the light to &lt;strong&gt;5&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step7-image5.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Drag the &lt;strong&gt;yellow gizmo&lt;/strong&gt; that is near the sun, to change the direction of the sunlight.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step7-image6.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;For a more cartoon look, tick off &lt;strong&gt;Shadows&lt;/strong&gt; in the &lt;strong&gt;Object Data Properties&lt;/strong&gt; tab.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step7-image7.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Optionally, you can tick on &lt;strong&gt;Shadows&lt;/strong&gt; and adjust the &lt;strong&gt;Bias&lt;/strong&gt;, the lower the bias the more shadows appear and the higher the bias, the less shadows appear.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step7-image8.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Select the &lt;strong&gt;Top_Shell&lt;/strong&gt; and go to &lt;strong&gt;Object &amp;gt; Snap &amp;gt; Cursor to Active&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step7-image9.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;&lt;strong&gt;Add &amp;gt; Light &amp;gt; Spot&lt;/strong&gt; to add a spot light in your scene.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step7-image10.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Move the &lt;strong&gt;Spot&lt;/strong&gt; light out on the X-axis, then rotate it on the &lt;strong&gt;Y-axis&lt;/strong&gt; by &lt;strong&gt;90˚&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step7-image11.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;With the &lt;strong&gt;Spot&lt;/strong&gt; light selected, in the &lt;strong&gt;Object Data Properties&lt;/strong&gt; tab, change the &lt;strong&gt;Power&lt;/strong&gt; to &lt;strong&gt;0.03&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step7-image12.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Change the &lt;strong&gt;size&lt;/strong&gt; of the &lt;strong&gt;Spot Shape&lt;/strong&gt; to &lt;strong&gt;38.2˚&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step7-image13.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Reduce the &lt;strong&gt;Specular&lt;/strong&gt; to &lt;strong&gt;0&lt;/strong&gt;, to not receive any light reflection.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step7-image14.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Change the &lt;strong&gt;Colour&lt;/strong&gt; to a lighter colour than the &lt;strong&gt;Lid/Button’s&lt;/strong&gt; colour.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step7-image15.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Rename the &lt;strong&gt;Spot&lt;/strong&gt; light to &lt;strong&gt;Lid_Highlight&lt;/strong&gt; and the &lt;strong&gt;Light&lt;/strong&gt; (sun) to &lt;strong&gt;Sun&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step7-image16.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+
+&lt;/details&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;step-8---rendering&quot;&gt;Step 8 - Rendering&lt;/h2&gt;
+
+&lt;h3 id=&quot;video-7&quot;&gt;Video&lt;/h3&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;320px&quot; allowfullscreen=&quot;true&quot; src=&quot;https://sydney.instructuremedia.com/embed/28b74e74-6d39-48aa-89e0-6635aa10c364&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;walkthrough-written-steps-7&quot;&gt;Walkthrough written steps&lt;/h3&gt;
+
+&lt;details&gt;
+
+  &lt;summary style=&quot;color: #E64626;&quot;&gt;Click here to see the steps.&lt;/summary&gt;
+
+  &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+  &lt;p&gt;The final step! Rendering the scene 📺&lt;/p&gt;
+
+  &lt;ol&gt;
+    &lt;li&gt;
+      &lt;p&gt;Set the cursor to world origin by going to &lt;strong&gt;Object &amp;gt; Snap &amp;gt; Cursor to World Origin&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image1.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Add a &lt;strong&gt;Mesh &amp;gt; Plane&lt;/strong&gt; with a size of &lt;strong&gt;350mm&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image2.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;With the &lt;strong&gt;Plane&lt;/strong&gt; selected, go into &lt;strong&gt;Edit Mode&lt;/strong&gt; and press the &lt;strong&gt;Loop Cut&lt;/strong&gt; tool.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image3.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Hover your cursor until the yellow line is running horizontally through the Plane, &lt;strong&gt;Left-click&lt;/strong&gt; and &lt;strong&gt;hold&lt;/strong&gt;, moving it up towards the top of the plane and then release.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image4.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Go into &lt;strong&gt;Face selection&lt;/strong&gt; and select the cut face.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image5.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;&lt;strong&gt;Extrude&lt;/strong&gt; the face upwards.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image6.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Go into &lt;strong&gt;Edge selection&lt;/strong&gt; and select the cut edge.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image7.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;&lt;strong&gt;Bevel&lt;/strong&gt; the edge with a &lt;strong&gt;width&lt;/strong&gt; of &lt;strong&gt;21.5mm&lt;/strong&gt; and increase the &lt;strong&gt;segments&lt;/strong&gt; to &lt;strong&gt;20&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image8.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;&lt;strong&gt;Scale&lt;/strong&gt; the plane on the &lt;strong&gt;Y-axis&lt;/strong&gt; to roughly &lt;strong&gt;2.5&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image9.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;&lt;strong&gt;Move&lt;/strong&gt; the plane downwards on the &lt;strong&gt;Z-axis&lt;/strong&gt; until the &lt;strong&gt;stand&lt;/strong&gt; is sitting on it, and rename the plane to &lt;strong&gt;Background_Plane&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image10.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Create a material for the &lt;strong&gt;plane&lt;/strong&gt; and give it a dark grey colour.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image11.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Open the &lt;strong&gt;sidebar&lt;/strong&gt; either by pressing the arrow or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;N&lt;/code&gt; on your keyboard, go to the &lt;strong&gt;View&lt;/strong&gt; tab and check &lt;strong&gt;Camera To View&lt;/strong&gt; in the &lt;strong&gt;Lock&lt;/strong&gt; section.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image12.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Set the viewport to the &lt;strong&gt;Camera&lt;/strong&gt; by going to &lt;strong&gt;View &amp;gt; Viewpoint &amp;gt; Camera&lt;/strong&gt; and adjust the view of the camera.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image13.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Adjust the camera’s view.
+&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image13-2.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;At the top, press the &lt;strong&gt;Show Overlays&lt;/strong&gt; button to hide the gizmos, for a preview.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image14.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;To render the scene, go to &lt;strong&gt;Render &amp;gt; Render Image&lt;/strong&gt; at the top main navigation bar. &lt;strong&gt;Note&lt;/strong&gt; the rendering process takes time, depending on your Computer.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image15.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;In the &lt;strong&gt;Blender Render&lt;/strong&gt; window, go to &lt;strong&gt;Image &amp;gt; Save&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image16.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Press the dropdown near &lt;strong&gt;File Format&lt;/strong&gt; and select &lt;strong&gt;JPEG&lt;/strong&gt;, and name your file to &lt;strong&gt;DECO2018_A1D_yourUnikey_render&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image17.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Change the quality to &lt;strong&gt;100%&lt;/strong&gt; and press &lt;strong&gt;Save As Image&lt;/strong&gt;, ensuring that you have selected the same location as to where your Blender file is located.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image18.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;In the &lt;strong&gt;Inspector&lt;/strong&gt; toolbar, select the &lt;strong&gt;Render Properties&lt;/strong&gt; tab that is denoted by the white camera outline.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image19.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;&lt;strong&gt;Check Bloom&lt;/strong&gt; and adjust the parameters as you wish, mainly the &lt;strong&gt;colour&lt;/strong&gt;, &lt;strong&gt;threshold&lt;/strong&gt; and &lt;strong&gt;radius&lt;/strong&gt; for a cinematic-like effect.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image20.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Some additional material properties that you can adjust include:&lt;/p&gt;
+
+      &lt;p&gt;The &lt;strong&gt;Metallic&lt;/strong&gt; material property, adjusts the amount of shininess.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image21.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;The &lt;strong&gt;Specular&lt;/strong&gt; material property, adjusts the amount of reflection.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image22.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;The &lt;strong&gt;Roughness&lt;/strong&gt; material property, adjusts the amount of smoothness.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image23.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;To smooth out an object for rendering purposes, select the object, e.g. the &lt;strong&gt;Top_Shell&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image24.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Go into &lt;strong&gt;Edit Mode&lt;/strong&gt; and have &lt;strong&gt;Face Selection&lt;/strong&gt; on, and select &lt;strong&gt;all&lt;/strong&gt; faces.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image25.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Go to &lt;strong&gt;Mesh &amp;gt; Normals &amp;gt; Smooth Vectors&lt;/strong&gt;.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image26.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+
+      &lt;p&gt;Its now smooth! &lt;strong&gt;Note&lt;/strong&gt;: the bump at the front can be photoshopped 😅.&lt;/p&gt;
+
+      &lt;p&gt;&lt;img src=&quot;/deco1008-tutorial-guides/assets/images/wk10-tutorial/step8-image27.png&quot; alt=&quot;Step 2 - Image 1&quot; /&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+
+&lt;/details&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;extra-step---variation-of-pokeball-with-a1c-open-lid&quot;&gt;Extra Step - Variation of PokeBall with (A1C) open lid&lt;/h2&gt;
+
+&lt;p&gt;Create a variation of your PokeBall (&lt;strong&gt;Please not the standard design&lt;/strong&gt;) and render it with its &lt;strong&gt;lid&lt;/strong&gt; open (LIKE IN A1C).&lt;/p&gt;
+
+&lt;h2 id=&quot;submission&quot;&gt;Submission&lt;/h2&gt;
+
+&lt;p&gt;You will need to submit a &lt;strong&gt;.ZIP&lt;/strong&gt; file, containing:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;DECO2018_A1D_yourUnikey_render.jpeg &amp;lt;— &lt;strong&gt;Heavy Ball&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;DECO2018_A1D_yourUnikey_extra_render.jpeg &amp;lt;— &lt;strong&gt;Your own design / another design that is not the standard red PokeBall&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;That’s all for this week!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://thumbs.gfycat.com/HighPeacefulAsianconstablebutterfly-small.gif&quot; alt=&quot;Magikarp OP&quot; /&gt;&lt;/p&gt;</content><author><name>DECO2018 Team</name></author><summary type="html">This is Week 11’s tutorial where you will learn about materials, textures, lighting and rendering in Blender with your 1B or 1C PokeBall and stand.</summary></entry><entry><title type="html">Week 12 Live Tutorial - Advanced Lighting, Rendering and Post-Processing in Photoshop</title><link href="https://johnantonios.github.io/deco1008-tutorial-guides/2021/09/15/wk12-live-tutorial.html" rel="alternate" type="text/html" title="Week 12 Live Tutorial - Advanced Lighting, Rendering and Post-Processing in Photoshop" /><published>2021-09-15T00:00:00+00:00</published><updated>2021-09-15T00:00:00+00:00</updated><id>https://johnantonios.github.io/deco1008-tutorial-guides/2021/09/15/wk12-live-tutorial</id><content type="html" xml:base="https://johnantonios.github.io/deco1008-tutorial-guides/2021/09/15/wk12-live-tutorial.html">&lt;p&gt;This is Week 12’s live tutorial recorded by Rohann. You will learn advanced lighting and rendering techniques in Blender as well as post-processing in Photoshop!&lt;/p&gt;
+
+&lt;h2 id=&quot;1---overview&quot;&gt;1 - Overview&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;320px&quot; allowfullscreen=&quot;true&quot; src=&quot;https://sydney.instructuremedia.com/embed/c8c452e0-144d-4339-9c14-d38a50d54362&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;2---lights&quot;&gt;2 - Lights&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;320px&quot; allowfullscreen=&quot;true&quot; src=&quot;https://sydney.instructuremedia.com/embed/47a4f98f-b4f9-4290-b1d5-df9cb487937d&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;3---materials-occlusion&quot;&gt;3 - Materials Occlusion&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;320px&quot; allowfullscreen=&quot;true&quot; src=&quot;https://sydney.instructuremedia.com/embed/9467a16d-dc49-4a39-867b-52a55f6757c9&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;4---export-render-photoshop-editing&quot;&gt;4 - Export Render Photoshop Editing&lt;/h2&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;320px&quot; allowfullscreen=&quot;true&quot; src=&quot;https://sydney.instructuremedia.com/embed/44b70da0-34dc-4b37-84da-9d63e0bacfb6&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;That’s all for this week!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.pinimg.com/originals/a3/44/e1/a344e1ead7634a48c1cca2769484c9ca.gif&quot; alt=&quot;Magikarp OP&quot; /&gt;&lt;/p&gt;</content><author><name>DECO2018 Team</name></author><summary type="html">This is Week 12’s live tutorial recorded by Rohann. You will learn advanced lighting and rendering techniques in Blender as well as post-processing in Photoshop!</summary></entry></feed>
