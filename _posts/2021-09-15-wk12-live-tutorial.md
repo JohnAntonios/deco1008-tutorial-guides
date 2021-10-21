@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Week 11 Live Tutorial - Advanced Lighting, Rendering and Post-Processing in Photoshop
+title: Week 12 Live Tutorial - Advanced Lighting, Rendering and Post-Processing in Photoshop
 subtitle: Learning more advanced lighting and rendering techniques in Blender as well as post-processing in Photoshop!
 ---
-This is Week 11's live tutorial recorded by Rohann. You will learn advanced lighting and rendering techniques in Blender as well as post-processing in Photoshop!
+This is Week 12's live tutorial recorded by Rohann. You will learn advanced lighting and rendering techniques in Blender as well as post-processing in Photoshop!
 
 ## 1 - Overview
 
